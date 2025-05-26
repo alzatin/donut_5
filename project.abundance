@@ -25,15 +25,15 @@
             "uniqueID": 1748205798647,
             "ioValues": [
                 {
-                    "name": "x",
-                    "ioValue": 5
-                },
-                {
-                    "name": "y",
+                    "name": "xDist",
                     "ioValue": 0
                 },
                 {
-                    "name": "z",
+                    "name": "yDist",
+                    "ioValue": 5
+                },
+                {
+                    "name": "zDist",
                     "ioValue": 0
                 }
             ],
@@ -45,20 +45,20 @@
         {
             "atomType": "Point",
             "name": "Point",
-            "x": 0.21999999999999997,
-            "y": 0.5030120481927711,
+            "x": 0.22111111111111112,
+            "y": 0.5120481927710844,
             "uniqueID": 1748205805876,
             "ioValues": [
                 {
-                    "name": "x",
+                    "name": "xDist",
+                    "ioValue": 5
+                },
+                {
+                    "name": "yDist",
                     "ioValue": 0
                 },
                 {
-                    "name": "y",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z",
+                    "name": "zDist",
                     "ioValue": 0
                 }
             ],
@@ -70,8 +70,8 @@
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.5655555555555556,
-            "y": 0.3253012048192771,
+            "x": 0.5677777777777778,
+            "y": 0.3403614457831325,
             "uniqueID": 1748205990885,
             "ioValues": [
                 {
@@ -85,7 +85,7 @@
                 {
                     "name": "Shape 5",
                     "ioValue": [
-                        0,
+                        5,
                         0,
                         0
                     ]
@@ -93,8 +93,8 @@
                 {
                     "name": "Shape 6",
                     "ioValue": [
-                        5,
                         0,
+                        5,
                         0
                     ]
                 },
@@ -117,15 +117,15 @@
             "uniqueID": 1748286269840,
             "ioValues": [
                 {
-                    "name": "x",
+                    "name": "xDist",
                     "ioValue": 0
                 },
                 {
-                    "name": "y",
-                    "ioValue": 10
+                    "name": "yDist",
+                    "ioValue": 0
                 },
                 {
-                    "name": "z",
+                    "name": "zDist",
                     "ioValue": 0
                 }
             ],
