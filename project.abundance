@@ -20,8 +20,8 @@
         {
             "atomType": "Point",
             "name": "Point",
-            "x": 0.2644444444444444,
-            "y": 0.2680722891566265,
+            "x": 0.2544444444444445,
+            "y": 0.2740963855421687,
             "uniqueID": 1748205798647,
             "ioValues": [
                 {
@@ -37,41 +37,35 @@
                     "ioValue": 0
                 }
             ],
-            "description": "Creates a sketch point in 3D space.",
-            "xValue": 5,
-            "yValue": 0,
-            "zValue": 0
+            "description": "Creates a sketch point in 3D space."
         },
         {
             "atomType": "Point",
             "name": "Point",
-            "x": 0.22111111111111112,
-            "y": 0.5120481927710844,
+            "x": 0.21888888888888888,
+            "y": 0.5030120481927711,
             "uniqueID": 1748205805876,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 5
+                    "ioValue": 15
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 5
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0
                 }
             ],
-            "description": "Creates a sketch point in 3D space.",
-            "xValue": 0,
-            "yValue": 0,
-            "zValue": 0
+            "description": "Creates a sketch point in 3D space."
         },
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.5677777777777778,
-            "y": 0.3403614457831325,
+            "x": 0.5688888888888889,
+            "y": 0.4066265060240964,
             "uniqueID": 1748205990885,
             "ioValues": [
                 {
@@ -85,8 +79,8 @@
                 {
                     "name": "Shape 5",
                     "ioValue": [
+                        15,
                         5,
-                        0,
                         0
                     ]
                 },
@@ -112,8 +106,8 @@
         {
             "atomType": "Point",
             "name": "Point",
-            "x": 0.3111111111111111,
-            "y": 0.7590361445783133,
+            "x": 0.3088888888888889,
+            "y": 0.753012048192771,
             "uniqueID": 1748286269840,
             "ioValues": [
                 {
@@ -129,10 +123,7 @@
                     "ioValue": 0
                 }
             ],
-            "description": "Creates a point in 3D space.",
-            "xValue": 0,
-            "yValue": 10,
-            "zValue": 0
+            "description": "Creates a point in 3D space."
         },
         {
             "atomType": "Rectangle",
@@ -155,8 +146,8 @@
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.7533333333333333,
-            "y": 0.7078313253012049,
+            "x": 0.7544444444444445,
+            "y": 0.713855421686747,
             "uniqueID": 1748287820349,
             "ioValues": [
                 {
