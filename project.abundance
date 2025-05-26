@@ -23,8 +23,24 @@
             "x": 0.1651376146788991,
             "y": 0.572289156626506,
             "uniqueID": 1748205796434,
-            "ioValues": [],
-            "description": "Creates a sketch point in 3D space."
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Creates a sketch point in 3D space.",
+            "xValue": 0,
+            "yValue": 0,
+            "zValue": 0
         },
         {
             "atomType": "Point",
@@ -32,8 +48,24 @@
             "x": 0.2640163098878695,
             "y": 0.25301204819277107,
             "uniqueID": 1748205798647,
-            "ioValues": [],
-            "description": "Creates a sketch point in 3D space."
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Creates a sketch point in 3D space.",
+            "xValue": 0,
+            "yValue": 0,
+            "zValue": 0
         },
         {
             "atomType": "Point",
@@ -41,40 +73,30 @@
             "x": 0.24260958205912336,
             "y": 0.7710843373493976,
             "uniqueID": 1748205805876,
-            "ioValues": [],
-            "description": "Creates a sketch point in 3D space."
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.48012232415902134,
-            "y": 0.3403614457831325,
-            "uniqueID": 1748205891656,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1748205798647
-                },
-                {
-                    "name": "xDist",
+                    "name": "x",
                     "ioValue": 0
                 },
                 {
-                    "name": "yDist",
-                    "ioValue": 5
+                    "name": "y",
+                    "ioValue": 0
                 },
                 {
-                    "name": "zDist",
+                    "name": "z",
                     "ioValue": 0
                 }
             ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            "description": "Creates a sketch point in 3D space.",
+            "xValue": 0,
+            "yValue": 0,
+            "zValue": 0
         },
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.37614678899082565,
-            "y": 0.5150602409638555,
+            "x": 0.45056065239551474,
+            "y": 0.536144578313253,
             "uniqueID": 1748205900287,
             "ioValues": [
                 {
@@ -125,40 +147,24 @@
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.6605504587155964,
-            "y": 0.4969879518072289,
+            "x": 0.6829765545361876,
+            "y": 0.21084337349397592,
             "uniqueID": 1748205990885,
             "ioValues": [
                 {
-                    "name": "Shape 1",
-                    "ioValue": 1748205891656
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": 1748205900287
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": 1748205904335
-                },
-                {
                     "name": "Shape 4",
+                    "ioValue": 1748205798647
+                },
+                {
+                    "name": "Shape 5",
                     "ioValue": ""
                 },
                 {
-                    "name": "Shape 1",
-                    "ioValue": 1748205891656
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": 1748205900287
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": 1748205904335
-                },
-                {
                     "name": "Shape 4",
+                    "ioValue": 1748205798647
+                },
+                {
+                    "name": "Shape 5",
                     "ioValue": ""
                 }
             ],
@@ -175,10 +181,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
+            "ap2Name": "Shape 4",
+            "ap2Primary": false,
             "ap1ID": 1748205798647,
-            "ap2ID": 1748205891656
+            "ap2ID": 1748205990885
         },
         {
             "ap1Name": "geometry",
@@ -186,27 +192,6 @@
             "ap2Primary": true,
             "ap1ID": 1748205805876,
             "ap2ID": 1748205904335
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 1",
-            "ap2Primary": false,
-            "ap1ID": 1748205891656,
-            "ap2ID": 1748205990885
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 2",
-            "ap2Primary": false,
-            "ap1ID": 1748205900287,
-            "ap2ID": 1748205990885
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 3",
-            "ap2Primary": false,
-            "ap1ID": 1748205904335,
-            "ap2ID": 1748205990885
         }
     ],
     "unitsKey": "Inches",
