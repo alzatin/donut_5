@@ -37,7 +37,10 @@
                     "ioValue": 0
                 }
             ],
-            "description": "Creates a sketch point in 3D space."
+            "description": "Creates a sketch point in 3D space.",
+            "xDist": 0,
+            "yDist": 5,
+            "zDist": 0
         },
         {
             "atomType": "Point",
@@ -52,20 +55,23 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 5
+                    "ioValue": 6
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0
                 }
             ],
-            "description": "Creates a sketch point in 3D space."
+            "description": "Creates a sketch point in 3D space.",
+            "xDist": 15,
+            "yDist": 6,
+            "zDist": 0
         },
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.5828571428571429,
-            "y": 0.1957831325301205,
+            "x": 0.44938440492476056,
+            "y": 0.32228915662650603,
             "uniqueID": 1748205990885,
             "ioValues": [
                 {
@@ -80,7 +86,7 @@
                     "name": "Shape 5",
                     "ioValue": [
                         15,
-                        5,
+                        6,
                         0
                     ]
                 },
@@ -106,8 +112,8 @@
         {
             "atomType": "Point",
             "name": "Point",
-            "x": 0.320952380952381,
-            "y": 0.5090361445783133,
+            "x": 0.29001367989056087,
+            "y": 0.7379518072289156,
             "uniqueID": 1748286269840,
             "ioValues": [
                 {
@@ -123,7 +129,10 @@
                     "ioValue": 0
                 }
             ],
-            "description": "Creates a point in 3D space."
+            "description": "Creates a point in 3D space.",
+            "xDist": 0,
+            "yDist": 0,
+            "zDist": 0
         },
         {
             "atomType": "Circle",
