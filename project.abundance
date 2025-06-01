@@ -18,60 +18,10 @@
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
-            "atomType": "Point",
-            "name": "Point",
-            "x": 0.19013360739979446,
-            "y": 0.25301204819277107,
-            "uniqueID": 1748205798647,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 6
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Creates a sketch point in 3D space.",
-            "xDist": 0,
-            "yDist": 6,
-            "zDist": 0
-        },
-        {
-            "atomType": "Point",
-            "name": "Point",
-            "x": 0.10477941176470588,
-            "y": 0.6024096385542169,
-            "uniqueID": 1748205805876,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 15
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 6
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Creates a sketch point in 3D space.",
-            "xDist": 15,
-            "yDist": 6,
-            "zDist": 0
-        },
-        {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.32476875642343267,
-            "y": 0.4849397590361446,
+            "x": 0.32147742818057456,
+            "y": 0.5030120481927711,
             "uniqueID": 1748205990885,
             "ioValues": [
                 {
@@ -110,35 +60,10 @@
             "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
         },
         {
-            "atomType": "Point",
-            "name": "Point",
-            "x": 0.17882836587872558,
-            "y": 0.8373493975903615,
-            "uniqueID": 1748286269840,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Creates a point in 3D space.",
-            "xDist": 0,
-            "yDist": 0,
-            "zDist": 0
-        },
-        {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.5035971223021583,
-            "y": 0.7740963855421686,
+            "x": 0.42202462380300954,
+            "y": 0.6957831325301205,
             "uniqueID": 1748446964826,
             "ioValues": [
                 {
@@ -169,8 +94,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.644398766700925,
-            "y": 0.3614457831325301,
+            "x": 0.5950752393980848,
+            "y": 0.30120481927710846,
             "uniqueID": 1748446981671,
             "ioValues": [
                 {
@@ -191,36 +116,36 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7168262653898769,
+            "y": 0.6626506024096386,
+            "uniqueID": 1748786936298,
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": 1748446981671
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 6",
-            "ap2Primary": false,
-            "ap1ID": 1748205798647,
-            "ap2ID": 1748205990885
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 5",
-            "ap2Primary": false,
-            "ap1ID": 1748205805876,
-            "ap2ID": 1748205990885
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 8",
-            "ap2Primary": false,
-            "ap1ID": 1748286269840,
-            "ap2ID": 1748205990885
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1748446969094,
             "ap2ID": 1748446981671
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1748446981671,
+            "ap2ID": 1748786936298
         }
     ],
     "unitsKey": "Inches",
