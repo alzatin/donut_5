@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1743265138516,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "name1",
+            "ioValue": 10
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -629,8 +634,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.24647887323943662,
-            "y": 0.6204819277108434,
+            "x": 0.2579505300353357,
+            "y": 0.5481927710843374,
             "uniqueID": "c6c1dd42-40b0-4b67-b98f-940d8d51c3db",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1298,8 +1303,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5140845070422535,
-            "y": 0.7710843373493976,
+            "x": 0.5203180212014135,
+            "y": 0.6867469879518072,
             "uniqueID": "8bbce7ad-4172-458b-8230-2fbf0466e7b1",
             "ioValues": [
                 {
@@ -1312,6 +1317,16 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Input",
+            "name": "name1",
+            "x": 0.04,
+            "y": 0.6837349397590361,
+            "uniqueID": "5dc3977e-c0a0-425d-8183-9a0ce60d78fb",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
