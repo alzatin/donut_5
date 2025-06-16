@@ -17,90 +17,16 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "51871c44-9f5e-4ac9-a4d1-0a25e8df49d6"
+                    "ioValue": "16c8aac8-e0d7-4eca-a664-37cfaa49ec03"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.17852257181942544,
-            "y": 0.5903614457831325,
-            "uniqueID": "6adff177-9135-4d7b-b94e-0b1ece42c8d4",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 1
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.30506155950752395,
-            "y": 0.2680722891566265,
-            "uniqueID": "49393f83-6014-4c3c-9c6b-7b02ab0ab998",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "6adff177-9135-4d7b-b94e-0b1ece42c8d4"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 10
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "ShrinkWrap",
-            "name": "Shrink Wrap",
-            "x": 0.40316901408450706,
-            "y": 0.5933734939759037,
-            "uniqueID": "bc6e8309-960a-4afd-a446-69bb1105ae81",
-            "ioValues": [
-                {
-                    "name": "Shape 1",
-                    "ioValue": "49393f83-6014-4c3c-9c6b-7b02ab0ab998"
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": "6adff177-9135-4d7b-b94e-0b1ece42c8d4"
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": ""
-                },
-                {
-                    "name": "Shape 1",
-                    "ioValue": "49393f83-6014-4c3c-9c6b-7b02ab0ab998"
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": "6adff177-9135-4d7b-b94e-0b1ece42c8d4"
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": ""
-                }
-            ],
-            "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
-        },
-        {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.7746478873239436,
-            "y": 0.5572289156626505,
+            "x": 0.4779929577464789,
+            "y": 0.3102409638554217,
             "uniqueID": "51871c44-9f5e-4ac9-a4d1-0a25e8df49d6",
             "ioValues": [
                 {
@@ -123,36 +49,10 @@
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         },
         {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.4281805745554036,
-            "y": 0.3403614457831325,
-            "uniqueID": "f4a1abe4-413f-4d1f-8965-28b14d94f15a",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "6adff177-9135-4d7b-b94e-0b1ece42c8d4"
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
-        },
-        {
             "atomType": "GitHubMolecule",
             "name": "Rectangle-Rounded",
-            "x": 0.5651408450704225,
-            "y": 0.5060240963855421,
+            "x": 0.12411971830985917,
+            "y": 0.45180722891566266,
             "uniqueID": "21765ab1-ac32-44be-a9b8-9b10b25ec060",
             "ioValues": [
                 {
@@ -707,43 +607,29 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6778169014084506,
+            "y": 0.6506024096385542,
+            "uniqueID": "16c8aac8-e0d7-4eca-a664-37cfaa49ec03",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "51871c44-9f5e-4ac9-a4d1-0a25e8df49d6"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "6adff177-9135-4d7b-b94e-0b1ece42c8d4",
-            "ap2ID": "49393f83-6014-4c3c-9c6b-7b02ab0ab998"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 2",
-            "ap2Primary": false,
-            "ap1ID": "6adff177-9135-4d7b-b94e-0b1ece42c8d4",
-            "ap2ID": "bc6e8309-960a-4afd-a446-69bb1105ae81"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "6adff177-9135-4d7b-b94e-0b1ece42c8d4",
-            "ap2ID": "f4a1abe4-413f-4d1f-8965-28b14d94f15a"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Shape 1",
             "ap2Primary": false,
-            "ap1ID": "49393f83-6014-4c3c-9c6b-7b02ab0ab998",
-            "ap2ID": "bc6e8309-960a-4afd-a446-69bb1105ae81"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
             "ap1ID": "51871c44-9f5e-4ac9-a4d1-0a25e8df49d6",
-            "ap2ID": 1748205793224
+            "ap2ID": "16c8aac8-e0d7-4eca-a664-37cfaa49ec03"
         },
         {
             "ap1Name": "Geometry",
@@ -751,6 +637,13 @@
             "ap2Primary": true,
             "ap1ID": "21765ab1-ac32-44be-a9b8-9b10b25ec060",
             "ap2ID": "51871c44-9f5e-4ac9-a4d1-0a25e8df49d6"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "16c8aac8-e0d7-4eca-a664-37cfaa49ec03",
+            "ap2ID": 1748205793224
         }
     ],
     "unitsKey": "Inches",
