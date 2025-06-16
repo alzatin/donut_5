@@ -60,24 +60,6 @@
             "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.42202462380300954,
-            "y": 0.6957831325301205,
-            "uniqueID": 1748446964826,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new rectangle."
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.40698869475847893,
