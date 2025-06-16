@@ -30,8 +30,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.3644366197183098,
-            "y": 0.2921686746987952,
+            "x": 0.33093202747584544,
+            "y": 0.24120851426799006,
             "uniqueID": "51871c44-9f5e-4ac9-a4d1-0a25e8df49d6",
             "ioValues": [
                 {
@@ -56,8 +56,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Rectangle-Rounded",
-            "x": 0.19806338028169015,
-            "y": 0.3283132530120482,
+            "x": 0.13821897644927536,
+            "y": 0.4106021246898263,
             "uniqueID": "21765ab1-ac32-44be-a9b8-9b10b25ec060",
             "ioValues": [
                 {
@@ -616,8 +616,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7077464788732394,
-            "y": 0.3433734939759036,
+            "x": 0.7648577008928572,
+            "y": 0.3924521169354838,
             "uniqueID": "16c8aac8-e0d7-4eca-a664-37cfaa49ec03",
             "ioValues": [
                 {
@@ -634,8 +634,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.2579505300353357,
-            "y": 0.5481927710843374,
+            "x": 0.2694571358816964,
+            "y": 0.670866935483871,
             "uniqueID": "c6c1dd42-40b0-4b67-b98f-940d8d51c3db",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1285,8 +1285,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.528169014084507,
-            "y": 0.25903614457831325,
+            "x": 0.5559848656400966,
+            "y": 0.2349081110421836,
             "uniqueID": "b2d32a75-f12f-46b9-856d-d9157781ebb1",
             "ioValues": [
                 {
