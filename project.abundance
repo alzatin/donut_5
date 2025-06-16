@@ -34,8 +34,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.43661971830985913,
-            "y": 0.3403614457831325,
+            "x": 0.4357394366197183,
+            "y": 0.3283132530120482,
             "uniqueID": 1748446981671,
             "ioValues": [
                 {
@@ -60,8 +60,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Rectangle-Rounded",
-            "x": 0.13908450704225353,
-            "y": 0.608433734939759,
+            "x": 0.15580985915492956,
+            "y": 0.6265060240963854,
             "uniqueID": "bc1bb077-b633-44b4-9072-7f76e32be7fb",
             "ioValues": [
                 {
@@ -620,8 +620,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.4991197183098592,
-            "y": 0.4246987951807229,
+            "x": 0.5519366197183099,
+            "y": 0.2680722891566265,
             "uniqueID": "01f493c2-645e-402b-8648-438f1aeaa7c0",
             "ioValues": [
                 {
@@ -638,8 +638,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6848591549295775,
-            "y": 0.6325301204819277,
+            "x": 0.6945422535211268,
+            "y": 0.5331325301204819,
             "uniqueID": "43747f12-c24e-46ba-ac3f-9087ab752050",
             "ioValues": [
                 {
@@ -656,8 +656,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6663732394366196,
-            "y": 0.3253012048192771,
+            "x": 0.7376760563380282,
+            "y": 0.19879518072289157,
             "uniqueID": "e0deb86a-1c60-4d55-a583-aba6dfbc6997",
             "ioValues": [
                 {
@@ -674,13 +674,39 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.32922535211267606,
-            "y": 0.641566265060241,
+            "x": 0.28169014084507044,
+            "y": 0.7620481927710844,
             "uniqueID": "368a67ce-aa1f-42e4-82ce-e86c399972e6",
             "ioValues": [
                 {
                     "name": "geometry",
                     "ioValue": "bc1bb077-b633-44b4-9072-7f76e32be7fb"
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 5
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.38028169014084506,
+            "y": 0.4909638554216868,
+            "uniqueID": "bb1916ad-3330-45cd-8616-d18faa9e3d55",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748446969094
                 },
                 {
                     "name": "x-axis degrees",
@@ -696,6 +722,32 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.23327464788732394,
+            "y": 0.8192771084337349,
+            "uniqueID": "b53e8237-ee7b-49d5-92e7-af0ef674ccfa",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "bc1bb077-b633-44b4-9072-7f76e32be7fb"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -705,6 +757,13 @@
             "ap2Primary": true,
             "ap1ID": 1748446969094,
             "ap2ID": 1748446981671
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748446969094,
+            "ap2ID": "bb1916ad-3330-45cd-8616-d18faa9e3d55"
         },
         {
             "ap1Name": "geometry",
@@ -726,6 +785,13 @@
             "ap2Primary": true,
             "ap1ID": "bc1bb077-b633-44b4-9072-7f76e32be7fb",
             "ap2ID": "368a67ce-aa1f-42e4-82ce-e86c399972e6"
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "bc1bb077-b633-44b4-9072-7f76e32be7fb",
+            "ap2ID": "b53e8237-ee7b-49d5-92e7-af0ef674ccfa"
         },
         {
             "ap1Name": "geometry",
