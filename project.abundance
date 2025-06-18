@@ -20,8 +20,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.2739602169981917,
-            "y": 0.5512048192771084,
+            "x": 0.27906976744186046,
+            "y": 0.5451807228915663,
             "uniqueID": "1fc28f94-bded-41ff-bf36-997cc919e7ff",
             "ioValues": [
                 {
@@ -30,9 +30,178 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4261285909712722,
+            "y": 0.31626506024096385,
+            "uniqueID": "4aa639a7-b3b3-4e26-b20b-d31ba334cb99",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Label",
+            "name": "Label",
+            "x": 0.6176470588235294,
+            "y": 0.24096385542168672,
+            "uniqueID": "f12ce8ea-40b7-4ff2-8b69-c9fa6e6cb07b",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "4aa639a7-b3b3-4e26-b20b-d31ba334cb99"
+                },
+                {
+                    "name": "text",
+                    "ioValue": "rad"
+                },
+                {
+                    "name": "length",
+                    "ioValue": 5
+                }
+            ],
+            "description": "Adds a label with text and a line to geometry.",
+            "text": "rad",
+            "length": 5,
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "transformMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.45348837209302323,
+            "y": 0.6656626506024096,
+            "uniqueID": "0b496e8a-ada5-45b0-84c6-3c2adb247221",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Label",
+            "name": "Label",
+            "x": 0.6019151846785226,
+            "y": 0.5090361445783133,
+            "uniqueID": "779d7957-63a7-4b1f-b0c4-e7b88171b846",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "0b496e8a-ada5-45b0-84c6-3c2adb247221"
+                },
+                {
+                    "name": "text",
+                    "ioValue": "rad"
+                },
+                {
+                    "name": "length",
+                    "ioValue": 5
+                }
+            ],
+            "description": "Adds a label with text and a line to geometry.",
+            "text": "rad",
+            "length": 5,
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "transformMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "1fc28f94-bded-41ff-bf36-997cc919e7ff",
+            "ap2ID": "4aa639a7-b3b3-4e26-b20b-d31ba334cb99"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "1fc28f94-bded-41ff-bf36-997cc919e7ff",
+            "ap2ID": "0b496e8a-ada5-45b0-84c6-3c2adb247221"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "4aa639a7-b3b3-4e26-b20b-d31ba334cb99",
+            "ap2ID": "f12ce8ea-40b7-4ff2-8b69-c9fa6e6cb07b"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "0b496e8a-ada5-45b0-84c6-3c2adb247221",
+            "ap2ID": "779d7957-63a7-4b1f-b0c4-e7b88171b846"
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
