@@ -58,7 +58,7 @@
                 },
                 {
                     "name": "dist",
-                    "ioValue": 36
+                    "ioValue": 10
                 },
                 {
                     "name": "height",
@@ -95,8 +95,7 @@
             "uniqueID": "93edab6e-6204-4c33-875d-1b7ef291e2ac",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number",
-            "value": 36
+            "type": "number"
         },
         {
             "atomType": "Input",
@@ -106,8 +105,7 @@
             "uniqueID": "90447340-5aa1-4325-abab-a55c816b6ceb",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number",
-            "value": 21
+            "type": "number"
         }
     ],
     "allConnectors": [
