@@ -45,6 +45,20 @@
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "len/5"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.40846366145354185,
+            "y": 0.5512048192771084,
+            "uniqueID": "0a7c6d60-d523-484d-9d84-7b4ce2932235",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [],
