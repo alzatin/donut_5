@@ -4,20 +4,7 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1743265138516,
-    "ioValues": [
-        {
-            "name": "name0 (1)",
-            "ioValue": 10
-        },
-        {
-            "name": "name0 (2)",
-            "ioValue": 10
-        },
-        {
-            "name": "name0 (3)",
-            "ioValue": 10
-        }
-    ],
+    "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -81,26 +68,6 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Input",
-            "name": "name0 (1)",
-            "x": 0.0231,
-            "y": 0.6475903614457831,
-            "uniqueID": "28420466-37d2-4865-8e54-4340c96fae53",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
-            "atomType": "Input",
-            "name": "name0 (2)",
-            "x": 0.0231,
-            "y": 0.3765060240963855,
-            "uniqueID": "7a284722-9b20-43c5-961e-4c87314e57cd",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.6356945722171113,
@@ -137,57 +104,11 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Input",
-            "name": "name0 (3)",
-            "x": 0.0231,
-            "y": 0.4650602409638555,
-            "uniqueID": "55e3ec59-5570-4a39-a126-4d0a567c3af3",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.6856945722171114,
-            "y": 0.30542168674698794,
-            "uniqueID": "9637e8bb-0932-44bd-9e64-0b14a231768c",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.670653173873045,
             "y": 0.6746987951807228,
             "uniqueID": "efafad04-f436-44b0-8cee-3790e0171dd4",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5053817847286108,
-            "y": 0.45602409638554214,
-            "uniqueID": "9947a953-39dd-424b-9b18-06a71f5026fa",
             "ioValues": [
                 {
                     "name": "geometry",
@@ -215,210 +136,18 @@
             "description": "Creates a new circle."
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "M8-Bolt",
-            "x": 0.5,
-            "y": 0.6,
-            "uniqueID": "5a311702-b079-4a89-942a-2d5be83a1c68",
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.41490340386384544,
+            "y": 0.7289156626506024,
+            "uniqueID": "e5117fcc-f23b-4b4a-9f73-fc1373b13d36",
+            "ioValues": [
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "b4c8d9ec-cf54-47dd-9f69-395b73a8ab44",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "e8fa5425-7dbc-4e93-8e8a-b5ed35857d33"
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.2037037037037037,
-                    "y": 0.5181058495821727,
-                    "uniqueID": "a090925b-7886-4b9e-a8f5-65ec1f562634",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 8
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.42394179894179895,
-                    "y": 0.6908077994428969,
-                    "uniqueID": "4bd562ac-a657-4fe1-82a7-22e64dd81bea",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "a090925b-7886-4b9e-a8f5-65ec1f562634"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": -20
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 0.08928571428571429,
-                    "y": 0.3064066852367688,
-                    "uniqueID": "50a6aec5-ca63-47b7-840d-b2c6ecad86c8",
-                    "ioValues": [],
-                    "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
-                    "readmeText": "Readme text here",
-                    "global": true
-                },
-                {
-                    "atomType": "RegularPolygon",
-                    "name": "RegularPolygon",
-                    "x": 0.2744708994708995,
-                    "y": 0.3008356545961003,
-                    "uniqueID": "32d34c77-3bd1-4503-813c-04eab8745a79",
-                    "ioValues": [
-                        {
-                            "name": "number of sides",
-                            "ioValue": 6
-                        },
-                        {
-                            "name": "diameter",
-                            "ioValue": 15
-                        }
-                    ],
-                    "description": "Creates a new regular polygon. Corners are on the diameter."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.4232804232804233,
-                    "y": 0.2646239554317549,
-                    "uniqueID": "d0fabbde-d75d-45b5-b773-a80a3de20514",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "32d34c77-3bd1-4503-813c-04eab8745a79"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 4
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Fusion",
-                    "name": "Fusion",
-                    "x": 0.5939153439153438,
-                    "y": 0.36490250696378834,
-                    "uniqueID": "0d507c52-ebac-4b4e-98dc-812e0e879823",
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": "4bd562ac-a657-4fe1-82a7-22e64dd81bea"
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": "d0fabbde-d75d-45b5-b773-a80a3de20514"
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Fusion"
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.6845238095238095,
-                    "y": 0.4512534818941504,
-                    "uniqueID": "e8fa5425-7dbc-4e93-8e8a-b5ed35857d33",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "0d507c52-ebac-4b4e-98dc-812e0e879823"
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 20
+                    "name": "diameter",
+                    "ioValue": 10
                 }
             ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "a090925b-7886-4b9e-a8f5-65ec1f562634",
-                    "ap2ID": "4bd562ac-a657-4fe1-82a7-22e64dd81bea"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": "4bd562ac-a657-4fe1-82a7-22e64dd81bea",
-                    "ap2ID": "0d507c52-ebac-4b4e-98dc-812e0e879823"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "32d34c77-3bd1-4503-813c-04eab8745a79",
-                    "ap2ID": "d0fabbde-d75d-45b5-b773-a80a3de20514"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": "d0fabbde-d75d-45b5-b773-a80a3de20514",
-                    "ap2ID": "0d507c52-ebac-4b4e-98dc-812e0e879823"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "0d507c52-ebac-4b4e-98dc-812e0e879823",
-                    "ap2ID": "e8fa5425-7dbc-4e93-8e8a-b5ed35857d33"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "e8fa5425-7dbc-4e93-8e8a-b5ed35857d33",
-                    "ap2ID": "b4c8d9ec-cf54-47dd-9f69-395b73a8ab44"
-                }
-            ],
-            "parentRepo": {
-                "privateRepo": false,
-                "repoName": "M8-Bolt",
-                "dateCreated": "2025-04-21T04:02:42Z",
-                "readMe": "https://raw.githubusercontent.com/BarbourSmith/M8-Bolt/master/README.md?sanitize=true",
-                "yyyy": 2025,
-                "topMoleculeID": 1745208163159,
-                "githubMoleculesUsed": [],
-                "html_url": "https://github.com/BarbourSmith/M8-Bolt",
-                "topics": [],
-                "parentRepo": null,
-                "forks": 0,
-                "dateModified": "739362",
-                "ranking": 0,
-                "searchField": "m8-bolt barboursmith  ",
-                "owner": "BarbourSmith",
-                "description": "",
-                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/M8-Bolt/master/project.abundance?sanitize=true",
-                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/M8-Bolt/master/project.svg?sanitize=true"
-            },
-            "unitsKey": "MM",
-            "fileTypeVersion": 1,
-            "compiledBom": []
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
