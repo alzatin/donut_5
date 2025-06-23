@@ -32,140 +32,22 @@
             "description": "Creates a new circle."
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5252989880404784,
-            "y": 0.2891566265060241,
-            "uniqueID": "4aa639a7-b3b3-4e26-b20b-d31ba334cb99",
+            "atomType": "Equation",
+            "name": "len/5",
+            "x": 0.5059797608095676,
+            "y": 0.5090361445783133,
+            "uniqueID": "738cb612-fc9a-4ba9-8fc3-5b59e92acd65",
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
+                    "name": "len",
+                    "ioValue": 1
                 }
             ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.45538178472861085,
-            "y": 0.5060240963855421,
-            "uniqueID": "0b496e8a-ada5-45b0-84c6-3c2adb247221",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.6356945722171113,
-            "y": 0.35542168674698793,
-            "uniqueID": "eec48cb6-2d8a-4259-8d2a-60ad7c21c220",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.781048758049678,
-            "y": 0.5512048192771084,
-            "uniqueID": "96fc3ef1-4fa6-471d-9003-1ef14dcdd4cb",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.670653173873045,
-            "y": 0.6746987951807228,
-            "uniqueID": "efafad04-f436-44b0-8cee-3790e0171dd4",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.5584176632934682,
-            "y": 0.6686746987951807,
-            "uniqueID": "2427dc13-f1df-4f78-9924-eec9f4a3434d",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.41490340386384544,
-            "y": 0.7289156626506024,
-            "uniqueID": "e5117fcc-f23b-4b4a-9f73-fc1373b13d36",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "len/5"
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "1fc28f94-bded-41ff-bf36-997cc919e7ff",
-            "ap2ID": "4aa639a7-b3b3-4e26-b20b-d31ba334cb99"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "1fc28f94-bded-41ff-bf36-997cc919e7ff",
-            "ap2ID": "0b496e8a-ada5-45b0-84c6-3c2adb247221"
-        }
-    ],
+    "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
