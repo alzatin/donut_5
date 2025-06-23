@@ -58,11 +58,11 @@
                 },
                 {
                     "name": "dist",
-                    "ioValue": 35
+                    "ioValue": 10
                 },
                 {
                     "name": "height",
-                    "ioValue": 20
+                    "ioValue": 10
                 }
             ],
             "description": "Defines a Replicad code block.",
@@ -106,6 +106,24 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.41554702495201534,
+            "y": 0.5180722891566265,
+            "uniqueID": "842a70c3-b73c-46e1-8195-6d5cbc91532b",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new rectangle."
         }
     ],
     "allConnectors": [
