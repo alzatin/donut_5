@@ -7,11 +7,11 @@
     "ioValues": [
         {
             "name": "dist",
-            "ioValue": 36
+            "ioValue": 35
         },
         {
             "name": "height",
-            "ioValue": 21
+            "ioValue": 20
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -48,8 +48,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.6576239476145931,
-            "y": 0.4126506024096385,
+            "x": 0.6211699164345404,
+            "y": 0.41566265060240964,
             "uniqueID": "b1d6fa80-24e1-4b01-b51e-d91a37b6ef9e",
             "ioValues": [
                 {
@@ -58,11 +58,11 @@
                 },
                 {
                     "name": "dist",
-                    "ioValue": 10
+                    "ioValue": 35
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 20
                 }
             ],
             "description": "Defines a Replicad code block.",
