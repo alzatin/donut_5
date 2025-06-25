@@ -253,8 +253,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.6216887417218543,
-            "y": 0.6114457831325302,
+            "x": 0.3658940397350993,
+            "y": 0.4367469879518072,
             "uniqueID": "0c9f64c3-d64a-4926-8cec-74f25ace203a",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
