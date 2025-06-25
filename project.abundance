@@ -235,6 +235,79 @@
                 }
             ],
             "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.3220198675496689,
+            "y": 0.6867469879518072,
+            "uniqueID": "fc329db7-14aa-43ae-8e04-051cc2e9458d",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.6216887417218543,
+            "y": 0.6114457831325302,
+            "uniqueID": "0c9f64c3-d64a-4926-8cec-74f25ace203a",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "cb1f661d-169d-43cc-a9db-e2f309cca73d",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.38990066225165565,
+            "y": 0.7018072289156627,
+            "uniqueID": "6446b79b-96fe-4c22-9931-779d1674389a",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "f3d6f293-b928-4eaf-8c96-18c193fc6054",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.11754966887417219,
+            "y": 0.7108433734939759,
+            "uniqueID": "f822b0c0-5fc9-49db-96e1-73eea826e876",
+            "ioValues": [],
+            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+            "readmeText": "Readme text here",
+            "global": true
         }
     ],
     "allConnectors": [],
