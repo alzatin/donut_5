@@ -16,44 +16,6 @@
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
             "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.3563318777292577,
-            "y": 0.48192771084337344,
-            "uniqueID": "269ef7c3-17c5-4f2a-a18f-3f6d22bc4eca",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Github Molecule",
-            "x": 0.75,
-            "y": 0.8224698795180724,
-            "uniqueID": "729dc187-037b-4ed0-8820-8c2e408f4d3e",
-            "ioValues": [],
-            "description": "Project imported from GitHub",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "f2a235cd-75aa-4fb2-976b-f1158335eb4e",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
         }
     ],
     "allConnectors": [],
