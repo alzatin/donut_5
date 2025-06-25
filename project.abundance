@@ -14,12 +14,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "8ff066c3-43df-4405-b16e-1e4db8f1467c"
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -39,8 +34,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.4490861618798956,
-            "y": 0.5331325301204819,
+            "x": 0.3964912280701754,
+            "y": 0.41867469879518077,
             "uniqueID": "8ff066c3-43df-4405-b16e-1e4db8f1467c",
             "ioValues": [
                 {
@@ -55,6 +50,32 @@
                 "costUSD": 0,
                 "source": "www.example.com"
             }
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.593859649122807,
+            "y": 0.5150602409638555,
+            "uniqueID": "33980682-84d7-458b-958c-3acb281d4867",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "8ff066c3-43df-4405-b16e-1e4db8f1467c"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -67,10 +88,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": "8ff066c3-43df-4405-b16e-1e4db8f1467c",
-            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
+            "ap2ID": "33980682-84d7-458b-958c-3acb281d4867"
         }
     ],
     "unitsKey": "Inches",
