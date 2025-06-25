@@ -4,28 +4,7 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1743265138516,
-    "ioValues": [
-        {
-            "name": "dist",
-            "ioValue": 35
-        },
-        {
-            "name": "height",
-            "ioValue": 20
-        },
-        {
-            "name": "dist (1)",
-            "ioValue": 10
-        },
-        {
-            "name": "name (1)",
-            "ioValue": 10
-        },
-        {
-            "name": "namethisisareallylongnametotestellips",
-            "ioValue": 10
-        }
-    ],
+    "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -35,172 +14,15 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "b1d6fa80-24e1-4b01-b51e-d91a37b6ef9e"
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.24471021159153633,
-            "y": 0.18072289156626506,
-            "uniqueID": "1fc28f94-bded-41ff-bf36-997cc919e7ff",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.6655142610198791,
-            "y": 0.18072289156626506,
-            "uniqueID": "b1d6fa80-24e1-4b01-b51e-d91a37b6ef9e",
-            "ioValues": [
-                {
-                    "name": "inputShape",
-                    "ioValue": "b0bd592c-1366-4172-92fd-c13f5c1ec1fe"
-                },
-                {
-                    "name": "dist",
-                    "ioValue": 10
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Defines a Replicad code block.",
-            "codeVersion": 1,
-            "code": " \n      //Inputs:[inputShape, dist, height]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n      \n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let movedShape = importedShape.geometry[0].clone().translate([dist,0,0])\n      \n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      //return shape1\n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      //return shape2\n      \n      //If we want to return both shapes at once, we can create an assembly with them\n      let anAssembly = {\n        geometry: [shape1, shape2], \n        tags: [\"aNewTag\"],\n        color: '#A3CF5B',\n        plane: newPlane,\n        bom: []\n      }\n      \n      //And we can return that in the same way\n      return anAssembly\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.3751080380293863,
-            "y": 0.1325301204819277,
-            "uniqueID": "b0bd592c-1366-4172-92fd-c13f5c1ec1fe",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "1fc28f94-bded-41ff-bf36-997cc919e7ff"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Input",
-            "name": "dist",
-            "x": 0.019799999999999998,
-            "y": 0.5,
-            "uniqueID": "93edab6e-6204-4c33-875d-1b7ef291e2ac",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
-            "atomType": "Input",
-            "name": "height",
-            "x": 0.019799999999999998,
-            "y": 0.6837349397590361,
-            "uniqueID": "90447340-5aa1-4325-abab-a55c816b6ceb",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.41554702495201534,
-            "y": 0.5180722891566265,
-            "uniqueID": "842a70c3-b73c-46e1-8195-6d5cbc91532b",
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new rectangle."
-        },
-        {
-            "atomType": "Input",
-            "name": "dist (1)",
-            "x": 0.019799999999999998,
-            "y": 0.2680722891566265,
-            "uniqueID": "a041f310-efc3-4213-a015-8c7974a2f66a",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
-            "atomType": "Input",
-            "name": "name (1)",
-            "x": 0.019799999999999998,
-            "y": 0.4006024096385542,
-            "uniqueID": "4aaa4784-9675-4670-a1fc-63550a0b04ff",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
-            "atomType": "Input",
-            "name": "namethisisareallylongnametotestellips",
-            "x": 0.019799999999999998,
-            "y": 0.8373493975903615,
-            "uniqueID": "e24d2ccc-8653-453c-8556-db02219be864",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.6006914433880727,
-            "y": 0.6927710843373494,
-            "uniqueID": "d82a114d-d8c7-440c-9593-1773d02e126c",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.3076923076923077,
-            "y": 0.7289156626506024,
-            "uniqueID": "2bde02ee-8511-4761-8c37-5f4271b527ee",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.3915298184961106,
-            "y": 0.7319277108433735,
-            "uniqueID": "bf205528-e2e5-426e-98be-2a3ba211c5e2",
+            "x": 0.19852941176470587,
+            "y": 0.569277108433735,
+            "uniqueID": "7da5df58-7d3e-4b67-bba6-ac742a4fbccc",
             "ioValues": [
                 {
                     "name": "diameter",
@@ -210,50 +32,7 @@
             "description": "Creates a new circle."
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "1fc28f94-bded-41ff-bf36-997cc919e7ff",
-            "ap2ID": "b0bd592c-1366-4172-92fd-c13f5c1ec1fe"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "b1d6fa80-24e1-4b01-b51e-d91a37b6ef9e",
-            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "inputShape",
-            "ap2Primary": false,
-            "ap1ID": "b0bd592c-1366-4172-92fd-c13f5c1ec1fe",
-            "ap2ID": "b1d6fa80-24e1-4b01-b51e-d91a37b6ef9e"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "dist",
-            "ap2Primary": false,
-            "ap1ID": "93edab6e-6204-4c33-875d-1b7ef291e2ac",
-            "ap2ID": "b1d6fa80-24e1-4b01-b51e-d91a37b6ef9e"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "height",
-            "ap2Primary": false,
-            "ap1ID": "90447340-5aa1-4325-abab-a55c816b6ceb",
-            "ap2ID": "b1d6fa80-24e1-4b01-b51e-d91a37b6ef9e"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "diameter",
-            "ap2Primary": false,
-            "ap1ID": "4aaa4784-9675-4670-a1fc-63550a0b04ff",
-            "ap2ID": "2bde02ee-8511-4761-8c37-5f4271b527ee"
-        }
-    ],
+    "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
