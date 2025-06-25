@@ -30,6 +30,211 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "First-Try",
+            "x": 0.31890874882408277,
+            "y": 0.46686746987951805,
+            "uniqueID": "49121fc9-f539-4c5d-80f9-80afefe09584",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "1226314d-bc33-4f29-9a55-91901f63def9",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.12447698744769875,
+                    "y": 0.23543123543123542,
+                    "uniqueID": "ca790c5f-52e1-46e5-bb40-968b136bc17a",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 35
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.28085774058577406,
+                    "y": 0.23076923076923078,
+                    "uniqueID": "b5547e1d-4d25-4abb-b779-5c8716d9ef7b",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "ca790c5f-52e1-46e5-bb40-968b136bc17a"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 75
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 0.13389121338912133,
+                    "y": 0.5594405594405594,
+                    "uniqueID": "837ec180-26be-411a-96df-19804702149f",
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 8
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 60
+                        }
+                    ],
+                    "description": "Creates a new regular polygon. Corners are on the diameter."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.24633891213389122,
+                    "y": 0.5897435897435898,
+                    "uniqueID": "f38a8dae-16e6-4327-a52a-670c57d7dd28",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "837ec180-26be-411a-96df-19804702149f"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 25
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.35198744769874474,
+                    "y": 0.6013986013986014,
+                    "uniqueID": "86b2ba61-20c6-4c1f-8eb0-3ae37726c680",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "f38a8dae-16e6-4327-a52a-670c57d7dd28"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 75
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Intersection",
+                    "name": "Intersection",
+                    "x": 0.4293933054393305,
+                    "y": 0.35431235431235436,
+                    "uniqueID": "0614f2ae-3b72-4f41-9dae-1f41013f907d",
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": "b5547e1d-4d25-4abb-b779-5c8716d9ef7b"
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        }
+                    ],
+                    "description": "The space shared by two shapes."
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "ca790c5f-52e1-46e5-bb40-968b136bc17a",
+                    "ap2ID": "b5547e1d-4d25-4abb-b779-5c8716d9ef7b"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": "b5547e1d-4d25-4abb-b779-5c8716d9ef7b",
+                    "ap2ID": "0614f2ae-3b72-4f41-9dae-1f41013f907d"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "837ec180-26be-411a-96df-19804702149f",
+                    "ap2ID": "f38a8dae-16e6-4327-a52a-670c57d7dd28"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "f38a8dae-16e6-4327-a52a-670c57d7dd28",
+                    "ap2ID": "86b2ba61-20c6-4c1f-8eb0-3ae37726c680"
+                }
+            ],
+            "parentRepo": {
+                "privateRepo": false,
+                "repoName": "First-Try",
+                "dateCreated": "2025-04-20T23:44:06Z",
+                "readMe": "https://raw.githubusercontent.com/0c-1/First-Try/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": 1745192646750,
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/0c-1/First-Try",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739361",
+                "ranking": 0,
+                "searchField": "first-try 0c-1 i have no idea what i'm doing ",
+                "owner": "0c-1",
+                "description": "I have no idea what I'm doing",
+                "contentURL": "https://raw.githubusercontent.com/0c-1/First-Try/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/0c-1/First-Try/master/project.svg?sanitize=true",
+                "isLocal": false
+            },
+            "unitsKey": "Inches",
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.49200376293508935,
+            "y": 0.4246987951807229,
+            "uniqueID": "43ecf11d-1d58-4935-8d93-0cb32248acdd",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
         }
     ],
     "allConnectors": [],
