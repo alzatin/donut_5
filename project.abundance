@@ -102,7 +102,7 @@
         {
             "atomType": "Input",
             "name": "dist",
-            "x": 0.0231,
+            "x": 0.019799999999999998,
             "y": 0.5,
             "uniqueID": "93edab6e-6204-4c33-875d-1b7ef291e2ac",
             "ioValues": [],
@@ -112,7 +112,7 @@
         {
             "atomType": "Input",
             "name": "height",
-            "x": 0.0231,
+            "x": 0.019799999999999998,
             "y": 0.6837349397590361,
             "uniqueID": "90447340-5aa1-4325-abab-a55c816b6ceb",
             "ioValues": [],
@@ -140,7 +140,7 @@
         {
             "atomType": "Input",
             "name": "dist (1)",
-            "x": 0.0231,
+            "x": 0.019799999999999998,
             "y": 0.2680722891566265,
             "uniqueID": "a041f310-efc3-4213-a015-8c7974a2f66a",
             "ioValues": [],
@@ -150,7 +150,7 @@
         {
             "atomType": "Input",
             "name": "name (1)",
-            "x": 0.0231,
+            "x": 0.019799999999999998,
             "y": 0.4006024096385542,
             "uniqueID": "4aaa4784-9675-4670-a1fc-63550a0b04ff",
             "ioValues": [],
@@ -160,8 +160,8 @@
         {
             "atomType": "Input",
             "name": "namethisisareallylongnametotestellips",
-            "x": 0.0231,
-            "y": 0.8313253012048193,
+            "x": 0.019799999999999998,
+            "y": 0.8373493975903615,
             "uniqueID": "e24d2ccc-8653-453c-8556-db02219be864",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
