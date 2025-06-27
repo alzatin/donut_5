@@ -150,33 +150,21 @@
             "description": "Creates a new circle."
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5301310043668123,
-            "y": 0.5481927710843374,
-            "uniqueID": "6093de8e-89ca-40d4-a029-ba17e6220107",
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.588646288209607,
+            "y": 0.6566265060240964,
+            "uniqueID": "90835b59-1d14-461d-bc7e-65e18b61d4ab",
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "0b042212-2c3d-4291-b4fa-567aaac859d6"
-                },
-                {
-                    "name": "height",
+                    "name": "diameter",
                     "ioValue": 10
                 }
             ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
+            "description": "Creates a new circle."
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "0b042212-2c3d-4291-b4fa-567aaac859d6",
-            "ap2ID": "6093de8e-89ca-40d4-a029-ba17e6220107"
-        }
-    ],
+    "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
