@@ -25,8 +25,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.41778074866310155,
-            "y": 0.2168674698795181,
+            "x": 0.42018537590113286,
+            "y": 0.22891566265060243,
             "uniqueID": "5adfaf16-f092-44fc-ab4a-773efb5e1d87",
             "ioValues": [
                 {
@@ -77,8 +77,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6477272727272728,
-            "y": 0.46987951807228917,
+            "x": 0.721936148300721,
+            "y": 0.3644578313253012,
             "uniqueID": "fa50c679-f568-469d-a689-818227a0f2a3",
             "ioValues": [
                 {
@@ -95,8 +95,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.25585429314830876,
-            "y": 0.4427710843373494,
+            "x": 0.2533470648815654,
+            "y": 0.4246987951807229,
             "uniqueID": "b7a4b246-f4c2-47cd-9a4c-46a9a722056e",
             "ioValues": [
                 {
@@ -472,6 +472,19 @@
     ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [
+        {
+            "BOMitemName": "#6 Wood Screw",
+            "numberNeeded": 2,
+            "costUSD": 0.2,
+            "source": "www.example.com"
+        },
+        {
+            "BOMitemName": "name",
+            "numberNeeded": 2,
+            "costUSD": 0,
+            "source": "www.example.com"
+        }
+    ],
     "filetypeVersion": 1
 }
