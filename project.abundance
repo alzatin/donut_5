@@ -51,8 +51,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4004010695187166,
-            "y": 0.6566265060240964,
+            "x": 0.46072374227714036,
+            "y": 0.3734939759036145,
             "uniqueID": "cb0282cd-885e-463c-ae1a-e2dfd70c6589",
             "ioValues": [
                 {
@@ -821,6 +821,20 @@
                     "source": "www.example.com"
                 }
             ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.12797881729920565,
+            "y": 0.7228915662650602,
+            "uniqueID": "ecb9db82-a51f-434d-8ae1-a83252afc7df",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 9
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
