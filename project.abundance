@@ -73,9 +73,9 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Maslow-M",
-            "x": 0.5092322643343051,
-            "y": 0.608433734939759,
-            "uniqueID": "11f2ee7a-69d2-4d49-8b0f-6ed5d92619a5",
+            "x": 0.500485908649174,
+            "y": 0.5,
+            "uniqueID": "28ee2e25-51d7-454e-8511-a1407bb9bcb0",
             "ioValues": [
                 {
                     "name": "Size",
@@ -90,40 +90,72 @@
                     "name": "Output",
                     "x": 0.98,
                     "y": 0.5,
-                    "uniqueID": "9c24b39e-758d-40c7-9601-c067d2bd865c",
+                    "uniqueID": "1790f7f4-10f2-45bc-aa90-b6632839cd54",
                     "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Import",
-                    "name": "Import",
-                    "x": 0.2923280423280423,
-                    "y": 0.4162011173184358,
-                    "uniqueID": "7dee2c3a-5cf8-4eef-a02c-3351abb4d2f7",
-                    "ioValues": [],
-                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-                    "fileName": "MakerCAM Project.svg",
-                    "type": "SVG",
-                    "SVGwidth": 10
                 },
                 {
                     "atomType": "Input",
                     "name": "Size",
                     "x": 0.025384615384615384,
                     "y": 0.7374301675977654,
-                    "uniqueID": "b3eb3874-92ac-401d-ac53-30dcde5232a5",
+                    "uniqueID": "c1fdf458-1628-4f2f-9557-2c7290d64068",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "New Molecule",
+                    "x": 0.3423280423280423,
+                    "y": 0.3662011173184358,
+                    "uniqueID": "c6e4cf2c-ad93-4f17-916c-11af9de32d88",
+                    "ioValues": [],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "fbb926c3-24a4-42aa-b2ab-bfacf8c3e7cc",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Import",
+                            "name": "Import",
+                            "x": 0.3423280423280423,
+                            "y": 0.3662011173184358,
+                            "uniqueID": "732e8c9e-50a3-49bc-b72b-91fd0f432f26",
+                            "ioValues": [],
+                            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                            "fileName": "MakerCAM Project.svg",
+                            "type": "SVG",
+                            "SVGwidth": 10
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "732e8c9e-50a3-49bc-b72b-91fd0f432f26",
+                            "ap2ID": "fbb926c3-24a4-42aa-b2ab-bfacf8c3e7cc"
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "Geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": "7dee2c3a-5cf8-4eef-a02c-3351abb4d2f7",
-                    "ap2ID": "9c24b39e-758d-40c7-9601-c067d2bd865c"
+                    "ap1ID": "c6e4cf2c-ad93-4f17-916c-11af9de32d88",
+                    "ap2ID": "1790f7f4-10f2-45bc-aa90-b6632839cd54"
                 }
             ],
             "parentRepo": {
