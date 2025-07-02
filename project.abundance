@@ -75,7 +75,7 @@
             "name": "Maslow-M",
             "x": 0.500485908649174,
             "y": 0.5,
-            "uniqueID": "28ee2e25-51d7-454e-8511-a1407bb9bcb0",
+            "uniqueID": "15e3c04c-94c9-4d0b-b437-520a0968e995",
             "ioValues": [
                 {
                     "name": "Size",
@@ -90,8 +90,13 @@
                     "name": "Output",
                     "x": 0.98,
                     "y": 0.5,
-                    "uniqueID": "1790f7f4-10f2-45bc-aa90-b6632839cd54",
-                    "ioValues": [],
+                    "uniqueID": "e0a77f8d-64a5-4f3f-8e9f-66238676d2a4",
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "551102a1-6d04-4d72-8abb-a5f95637460a"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -99,7 +104,7 @@
                     "name": "Size",
                     "x": 0.025384615384615384,
                     "y": 0.7374301675977654,
-                    "uniqueID": "c1fdf458-1628-4f2f-9557-2c7290d64068",
+                    "uniqueID": "54888a43-359b-4c1d-a11a-32c8044cf0d9",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
@@ -109,7 +114,7 @@
                     "name": "New Molecule",
                     "x": 0.3423280423280423,
                     "y": 0.3662011173184358,
-                    "uniqueID": "c6e4cf2c-ad93-4f17-916c-11af9de32d88",
+                    "uniqueID": "551102a1-6d04-4d72-8abb-a5f95637460a",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
@@ -120,20 +125,39 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "fbb926c3-24a4-42aa-b2ab-bfacf8c3e7cc",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "58b98dec-4155-4c8a-8895-9b2c59103eda"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Import",
                             "name": "Import",
-                            "x": 0.3423280423280423,
-                            "y": 0.3662011173184358,
+                            "x": 0.358600583090379,
+                            "y": 0.3704819277108434,
                             "uniqueID": "732e8c9e-50a3-49bc-b72b-91fd0f432f26",
                             "ioValues": [],
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                             "fileName": "MakerCAM Project.svg",
                             "type": "SVG",
-                            "SVGwidth": 10
+                            "SVGwidth": 9
+                        },
+                        {
+                            "atomType": "Import",
+                            "name": "Import",
+                            "x": 0.3497797356828194,
+                            "y": 0.7048192771084337,
+                            "uniqueID": "58b98dec-4155-4c8a-8895-9b2c59103eda",
+                            "ioValues": [],
+                            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                            "fileName": "fork.svg",
+                            "type": "SVG",
+                            "SVGwidth": 10,
+                            "repoOwner": "alzatin",
+                            "repoName": "Maslow-M"
                         }
                     ],
                     "allConnectors": [
@@ -141,7 +165,7 @@
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": "732e8c9e-50a3-49bc-b72b-91fd0f432f26",
+                            "ap1ID": "58b98dec-4155-4c8a-8895-9b2c59103eda",
                             "ap2ID": "fbb926c3-24a4-42aa-b2ab-bfacf8c3e7cc"
                         }
                     ],
@@ -154,8 +178,8 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": "c6e4cf2c-ad93-4f17-916c-11af9de32d88",
-                    "ap2ID": "1790f7f4-10f2-45bc-aa90-b6632839cd54"
+                    "ap1ID": "551102a1-6d04-4d72-8abb-a5f95637460a",
+                    "ap2ID": "e0a77f8d-64a5-4f3f-8e9f-66238676d2a4"
                 }
             ],
             "parentRepo": {
