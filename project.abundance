@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1743265138516,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "name (1)",
+            "ioValue": 10
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -428,8 +433,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.6722418358340689,
-            "y": 0.5900602409638553,
+            "x": 0.6702702702702703,
+            "y": 0.6144578313253012,
             "uniqueID": "95fb0e97-9f88-4d40-aff6-452f3f3f592c",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -835,6 +840,26 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Input",
+            "name": "name (1)",
+            "x": 0.025384615384615384,
+            "y": 0.5,
+            "uniqueID": "c455ef63-dcb2-4b37-a1ec-af39df6881fd",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "name (2)",
+            "x": 0.025384615384615384,
+            "y": 0.45,
+            "uniqueID": "0c16c458-2505-4a1d-822d-9c4bafec38e0",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
