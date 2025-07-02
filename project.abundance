@@ -6,15 +6,15 @@
     "uniqueID": 1743265138516,
     "ioValues": [
         {
+            "name": "Input (1)",
+            "ioValue": 10
+        },
+        {
             "name": "Input (2)",
             "ioValue": 10
         },
         {
-            "name": "Input (4)",
-            "ioValue": 10
-        },
-        {
-            "name": "Input (3)",
+            "name": "Input (1)",
             "ioValue": 10
         },
         {
@@ -36,20 +36,20 @@
         },
         {
             "atomType": "Input",
-            "name": "Input (2)",
+            "name": "Input (1)",
             "x": 0.025384615384615384,
-            "y": 0.4759036144578313,
-            "uniqueID": "61f1d7ec-1540-438c-8aff-4296c25ae88f",
+            "y": 0.5,
+            "uniqueID": "4ee092b7-3259-4ce1-833c-fa1267970404",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
         },
         {
             "atomType": "Input",
-            "name": "Input (4)",
+            "name": "Input (2)",
             "x": 0.025384615384615384,
-            "y": 0.7560240963855422,
-            "uniqueID": "875c4672-dc2f-4656-bc6a-1dae58d68018",
+            "y": 0.7078313253012049,
+            "uniqueID": "49c2cd9d-df6c-45d5-aa98-5ac70b5e76db",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
@@ -58,115 +58,21 @@
             "atomType": "Input",
             "name": "Input (3)",
             "x": 0.025384615384615384,
-            "y": 0.3614457831325301,
-            "uniqueID": "c204a61f-30f0-4a97-8ded-32850c01a7eb",
+            "y": 0.3192771084337349,
+            "uniqueID": "e4031892-cf35-4240-befd-da810292a56f",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
         },
         {
             "atomType": "Input",
-            "name": "Input (1)",
+            "name": "Input (3)",
             "x": 0.025384615384615384,
-            "y": 0.6144578313253012,
-            "uniqueID": "88fbb293-54a9-413a-96be-245cb8310833",
+            "y": 0.8674698795180724,
+            "uniqueID": "de3f3de7-d07c-4b42-ad14-c3accf272273",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
-        },
-        {
-            "atomType": "Molecule",
-            "name": "New Molecule",
-            "x": 0.48317757009345796,
-            "y": 0.4816265060240963,
-            "uniqueID": "cba61445-e7b5-457a-8125-7755987e8d1e",
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "1cfd0d51-b8ce-453f-8b6a-417502a7e3ca",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.39579439252336446,
-                    "y": 0.43795180722891563,
-                    "uniqueID": "c403db14-7eeb-4013-93a0-7fd58d2e7394",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.5705607476635515,
-                    "y": 0.525301204819277,
-                    "uniqueID": "c85a568b-ee3d-4a82-96d3-f1cb88467067",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
-        },
-        {
-            "atomType": "Molecule",
-            "name": "New Molecule",
-            "x": 0.344392523364486,
-            "y": 0.4981927710843374,
-            "uniqueID": "410daba0-d87d-450f-867b-04c1088fd130",
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "1827bdbc-cf77-405a-a125-ed9b9aa371f1",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.344392523364486,
-                    "y": 0.4981927710843374,
-                    "uniqueID": "a7b9b2d0-d10b-4f89-a270-b39c0cbfc470",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
         }
     ],
     "allConnectors": [],
