@@ -87,9 +87,9 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.42329778506972926,
-            "y": 0.641566265060241,
-            "uniqueID": "0495b31e-1127-465c-bfc3-496b127f12ff",
+            "x": 0.391304347826087,
+            "y": 0.6144578313253012,
+            "uniqueID": "fc54ab67-b431-49c6-bf6e-2055fb9445ac",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "adidas.svg",
