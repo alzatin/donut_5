@@ -97,6 +97,20 @@
             "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.5012305168170632,
+            "y": 0.5542168674698795,
+            "uniqueID": "9c3eb336-c955-41aa-a8fe-076cdb627f5e",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "SVG_units_inches (1).svg",
+            "type": "SVG",
+            "SVGwidth": 10,
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [],
