@@ -78,7 +78,7 @@
             "uniqueID": "59f7547f-a123-433e-8ccb-510efc2eca37",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "stand_svg.svg",
+            "fileName": "adidas.svg",
             "type": "SVG",
             "SVGwidth": 10,
             "repoOwner": "alzatin",
