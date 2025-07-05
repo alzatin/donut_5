@@ -87,8 +87,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.4495488105004101,
-            "y": 0.608433734939759,
+            "x": 0.4479081214109926,
+            "y": 0.6475903614457831,
             "uniqueID": "12f32f64-425d-42fa-a330-c72158d3223d",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -115,8 +115,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.6259228876127974,
-            "y": 0.4789156626506024,
+            "x": 0.5881870385561936,
+            "y": 0.46686746987951805,
             "uniqueID": "9977ea5c-6171-4311-9d03-2ccdcb40456c",
             "ioValues": [
                 {
@@ -133,7 +133,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "5c3cea39-a014-4f1e-b10e-8b593bb14331",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "31b622ac-91ff-413e-ac37-8719f52e9151"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -172,6 +177,13 @@
                     "ap2Primary": true,
                     "ap1ID": "05be1219-4c03-4935-a6ac-2ae59d7db2e0",
                     "ap2ID": "31b622ac-91ff-413e-ac37-8719f52e9151"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "31b622ac-91ff-413e-ac37-8719f52e9151",
+                    "ap2ID": "5c3cea39-a014-4f1e-b10e-8b593bb14331"
                 }
             ],
             "fileTypeVersion": 1,
