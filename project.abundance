@@ -73,132 +73,19 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.30598851517637404,
-            "y": 0.46686746987951805,
-            "uniqueID": "69766305-a6ac-49b3-8870-e8e6e1d88a84",
+            "x": 0.42083675143560295,
+            "y": 0.5843373493975904,
+            "uniqueID": "10d34ada-bdfb-4de1-9ae4-31bba6303e56",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas.svg",
+            "fileName": "stand_svg_copy1.svg",
             "type": "SVG",
             "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.4479081214109926,
-            "y": 0.6475903614457831,
-            "uniqueID": "12f32f64-425d-42fa-a330-c72158d3223d",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas_copy.svg",
-            "type": "SVG",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.4364232977850697,
-            "y": 0.3253012048192771,
-            "uniqueID": "fd293d47-4351-4405-8117-2c81fea8e879",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas_copy1.svg",
-            "type": "SVG",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.5881870385561936,
-            "y": 0.46686746987951805,
-            "uniqueID": "9977ea5c-6171-4311-9d03-2ccdcb40456c",
-            "ioValues": [
-                {
-                    "name": "Input (1)",
-                    "ioValue": "12f32f64-425d-42fa-a330-c72158d3223d"
-                }
-            ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "5c3cea39-a014-4f1e-b10e-8b593bb14331",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "31b622ac-91ff-413e-ac37-8719f52e9151"
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Input (1)",
-                    "x": 0.025384615384615384,
-                    "y": 0.5,
-                    "uniqueID": "05be1219-4c03-4935-a6ac-2ae59d7db2e0",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "geometry"
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.29614438063986875,
-                    "y": 0.4427710843373494,
-                    "uniqueID": "31b622ac-91ff-413e-ac37-8719f52e9151",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "12f32f64-425d-42fa-a330-c72158d3223d"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "05be1219-4c03-4935-a6ac-2ae59d7db2e0",
-                    "ap2ID": "31b622ac-91ff-413e-ac37-8719f52e9151"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "31b622ac-91ff-413e-ac37-8719f52e9151",
-                    "ap2ID": "5c3cea39-a014-4f1e-b10e-8b593bb14331"
-                }
-            ],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Input (1)",
-            "ap2Primary": false,
-            "ap1ID": "12f32f64-425d-42fa-a330-c72158d3223d",
-            "ap2ID": "9977ea5c-6171-4311-9d03-2ccdcb40456c"
-        }
-    ],
+    "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [
