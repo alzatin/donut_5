@@ -73,9 +73,9 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.43898443898443895,
-            "y": 0.572289156626506,
-            "uniqueID": "2b2fb12f-3550-4cb4-83a9-ee282312b906",
+            "x": 0.407108239095315,
+            "y": 0.5451807228915663,
+            "uniqueID": "e3bef0cd-a779-4069-8281-e0aefbc1b794",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "SVG_units_inches (1)_copy1.svg",
