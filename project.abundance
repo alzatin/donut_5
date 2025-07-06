@@ -83,6 +83,20 @@
             "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.3051681706316653,
+            "y": 0.3765060240963855,
+            "uniqueID": "21942a33-4127-4cee-b9b1-5e15d4add085",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "adidas.svg",
+            "type": "SVG",
+            "SVGwidth": 10,
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [],
