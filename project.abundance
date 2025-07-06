@@ -73,8 +73,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.42083675143560295,
-            "y": 0.5843373493975904,
+            "x": 0.4133709981167608,
+            "y": 0.5873493975903614,
             "uniqueID": "10d34ada-bdfb-4de1-9ae4-31bba6303e56",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -101,9 +101,9 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.5753295668549906,
-            "y": 0.463855421686747,
-            "uniqueID": "93f99a04-fe9e-400b-b9b0-29152da0f247",
+            "x": 0.6129943502824858,
+            "y": 0.5512048192771084,
+            "uniqueID": "acd3d51c-5a96-4783-adcb-7e77c94b15aa",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "adidas_copy1.svg",
