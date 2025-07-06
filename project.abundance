@@ -69,34 +69,6 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.30533117932148623,
-            "y": 0.4759036144578313,
-            "uniqueID": "e3bef0cd-a779-4069-8281-e0aefbc1b794",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "SVG_units_inches (1)_copy1.svg",
-            "type": "SVG",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.5096930533117933,
-            "y": 0.5120481927710844,
-            "uniqueID": "736f1ceb-58c7-41d5-a037-4cafdd6a602e",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas_copy5.svg",
-            "type": "SVG",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [],
