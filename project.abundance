@@ -73,8 +73,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.30875912408759126,
-            "y": 0.4149253731343283,
+            "x": 0.31166150670794635,
+            "y": 0.4,
             "uniqueID": "667b8435-a25c-4a10-be93-61f33db7d03a",
             "ioValues": [
                 {
@@ -83,34 +83,6 @@
                 }
             ],
             "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.45098039215686275,
-            "y": 0.4298507462686567,
-            "uniqueID": "dacbc0bc-c558-4674-894e-1d8c98a5df47",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "crumpbottle_copy3.stl",
-            "type": "STL",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.6295149638802889,
-            "y": 0.6089552238805971,
-            "uniqueID": "3f8af143-c48d-4293-95ba-bedbffe71873",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "crumpbottle_copy4.stl",
-            "type": "STL",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [],
