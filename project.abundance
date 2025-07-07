@@ -33,7 +33,7 @@
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.033,
+            "x": 0.025384615384615384,
             "y": 0.5,
             "uniqueID": "4ee092b7-3259-4ce1-833c-fa1267970404",
             "ioValues": [],
@@ -43,7 +43,7 @@
         {
             "atomType": "Input",
             "name": "Input (2)",
-            "x": 0.033,
+            "x": 0.025384615384615384,
             "y": 0.7078313253012049,
             "uniqueID": "49c2cd9d-df6c-45d5-aa98-5ac70b5e76db",
             "ioValues": [],
@@ -53,7 +53,7 @@
         {
             "atomType": "Input",
             "name": "Input (3)",
-            "x": 0.033,
+            "x": 0.025384615384615384,
             "y": 0.3192771084337349,
             "uniqueID": "e4031892-cf35-4240-befd-da810292a56f",
             "ioValues": [],
@@ -63,7 +63,7 @@
         {
             "atomType": "Input",
             "name": "Input (3)",
-            "x": 0.033,
+            "x": 0.025384615384615384,
             "y": 0.8674698795180724,
             "uniqueID": "de3f3de7-d07c-4b42-ad14-c3accf272273",
             "ioValues": [],
