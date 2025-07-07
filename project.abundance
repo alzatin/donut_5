@@ -106,8 +106,8 @@
             "uniqueID": "c317eed6-5b5c-443f-91c8-dfd2fb23b38c",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "95105A111_Zinc-Plated Steel Heavy-Duty Rivet Nut.STEP",
-            "type": "STEP",
+            "fileName": "chairabunda.stl",
+            "type": "STL",
             "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
