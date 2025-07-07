@@ -83,6 +83,20 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.49279835390946497,
+            "y": 0.5611940298507463,
+            "uniqueID": "dacbc0bc-c558-4674-894e-1d8c98a5df47",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "chairabunda_copy1.stl",
+            "type": "STL",
+            "SVGwidth": 10,
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [],
