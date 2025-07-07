@@ -83,34 +83,6 @@
                 }
             ],
             "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.35596707818930046,
-            "y": 0.7791044776119403,
-            "uniqueID": "6e5e9939-1f3f-44c6-85b5-57e1cc5cc813",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas_copy5.svg",
-            "type": "SVG",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.5915637860082305,
-            "y": 0.617910447761194,
-            "uniqueID": "c317eed6-5b5c-443f-91c8-dfd2fb23b38c",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "chairabunda.stl",
-            "type": "STL",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [],
