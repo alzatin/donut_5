@@ -73,8 +73,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.30656934306569344,
-            "y": 0.5970149253731343,
+            "x": 0.3021897810218978,
+            "y": 0.38805970149253727,
             "uniqueID": "667b8435-a25c-4a10-be93-61f33db7d03a",
             "ioValues": [
                 {
@@ -83,20 +83,6 @@
                 }
             ],
             "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.5817518248175183,
-            "y": 0.6059701492537313,
-            "uniqueID": "596437b7-4432-468b-9b79-cc57b35278c5",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas_copy5.svg",
-            "type": "SVG",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [],
