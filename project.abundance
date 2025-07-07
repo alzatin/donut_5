@@ -73,8 +73,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.3021897810218978,
-            "y": 0.38805970149253727,
+            "x": 0.30875912408759126,
+            "y": 0.4149253731343283,
             "uniqueID": "667b8435-a25c-4a10-be93-61f33db7d03a",
             "ioValues": [
                 {
@@ -83,6 +83,32 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.5399644760213144,
+            "y": 0.3253731343283582,
+            "uniqueID": "b2089127-f0a0-4bfd-9e6b-c014c0d7464c",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "dannyfoot.stl",
+            "type": "STL",
+            "SVGwidth": 10
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.48579040852575495,
+            "y": 0.7104477611940297,
+            "uniqueID": "58fea275-5513-458e-b8c9-6d63af6bf3dd",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "stand_svg_copy1.svg",
+            "type": "SVG",
+            "SVGwidth": 10,
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [],
