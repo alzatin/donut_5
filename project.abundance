@@ -76,24 +76,10 @@
             "type": "number"
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.2640918580375783,
-            "y": 0.3132530120481927,
-            "uniqueID": "667b8435-a25c-4a10-be93-61f33db7d03a",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.5615866388308977,
-            "y": 0.5512048192771084,
+            "x": 0.5991649269311065,
+            "y": 0.5632530120481928,
             "uniqueID": "2572494c-ccaf-411d-9c81-c2e87b1a5e81",
             "ioValues": [
                 {
@@ -102,7 +88,7 @@
                 },
                 {
                     "name": "Number",
-                    "ioValue": 3
+                    "ioValue": 4
                 },
                 {
                     "name": "distX",
@@ -115,11 +101,15 @@
                 {
                     "name": "distZ",
                     "ioValue": 15
+                },
+                {
+                    "name": "all",
+                    "ioValue": 10
                 }
             ],
             "description": "Defines a Replicad code block.",
             "codeVersion": 1,
-            "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n"
+            "code": "//Inputs:[Shape, Number, distX, distY, distZ, all];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n"
         },
         {
             "atomType": "Extrude",
@@ -130,24 +120,35 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "667b8435-a25c-4a10-be93-61f33db7d03a"
+                    "ioValue": "e50e4b07-af6a-4a9b-aec0-bf6f9a76c576"
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 12
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.23173277661795408,
+            "y": 0.3072289156626506,
+            "uniqueID": "e50e4b07-af6a-4a9b-aec0-bf6f9a76c576",
+            "ioValues": [
+                {
+                    "name": "number of sides",
+                    "ioValue": 11
+                },
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new regular polygon. Corners are on the diameter."
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "667b8435-a25c-4a10-be93-61f33db7d03a",
-            "ap2ID": "04b71341-e4c6-46ef-ada6-6ea4991795c8"
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
@@ -161,6 +162,13 @@
             "ap2Primary": false,
             "ap1ID": "04b71341-e4c6-46ef-ada6-6ea4991795c8",
             "ap2ID": "2572494c-ccaf-411d-9c81-c2e87b1a5e81"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "e50e4b07-af6a-4a9b-aec0-bf6f9a76c576",
+            "ap2ID": "04b71341-e4c6-46ef-ada6-6ea4991795c8"
         }
     ],
     "unitsKey": "Inches",
