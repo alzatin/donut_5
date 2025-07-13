@@ -114,7 +114,7 @@
                 },
                 {
                     "name": "distZ",
-                    "ioValue": 15
+                    "ioValue": 5
                 }
             ],
             "description": "Defines a Replicad code block.",
