@@ -78,8 +78,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.5803757828810021,
-            "y": 0.5030120481927711,
+            "x": 0.581419624217119,
+            "y": 0.48192771084337344,
             "uniqueID": "2572494c-ccaf-411d-9c81-c2e87b1a5e81",
             "ioValues": [
                 {
@@ -105,11 +105,15 @@
                 {
                     "name": "all",
                     "ioValue": 10
+                },
+                {
+                    "name": "left",
+                    "ioValue": 5
                 }
             ],
             "description": "Defines a Replicad code block.",
             "codeVersion": 1,
-            "code": "//Inputs:[Shape, Number, distX, distY, distZ, all];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i + 10);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n"
+            "code": "//Inputs:[Shape, Number, distX, distY, distZ, all, left];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i + 10);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n"
         },
         {
             "atomType": "Extrude",
