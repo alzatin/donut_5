@@ -27,13 +27,18 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "2572494c-ccaf-411d-9c81-c2e87b1a5e81"
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.033,
+            "x": 0.024749999999999998,
             "y": 0.5,
             "uniqueID": "4ee092b7-3259-4ce1-833c-fa1267970404",
             "ioValues": [],
@@ -43,7 +48,7 @@
         {
             "atomType": "Input",
             "name": "Input (2)",
-            "x": 0.033,
+            "x": 0.024749999999999998,
             "y": 0.7078313253012049,
             "uniqueID": "49c2cd9d-df6c-45d5-aa98-5ac70b5e76db",
             "ioValues": [],
@@ -53,7 +58,7 @@
         {
             "atomType": "Input",
             "name": "Input (3)",
-            "x": 0.033,
+            "x": 0.024749999999999998,
             "y": 0.3192771084337349,
             "uniqueID": "e4031892-cf35-4240-befd-da810292a56f",
             "ioValues": [],
@@ -63,7 +68,7 @@
         {
             "atomType": "Input",
             "name": "Input (3)",
-            "x": 0.033,
+            "x": 0.024749999999999998,
             "y": 0.8674698795180724,
             "uniqueID": "de3f3de7-d07c-4b42-ad14-c3accf272273",
             "ioValues": [],
@@ -73,8 +78,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.2966698110103607,
-            "y": 0.5398605794005752,
+            "x": 0.2640918580375783,
+            "y": 0.3132530120481927,
             "uniqueID": "667b8435-a25c-4a10-be93-61f33db7d03a",
             "ioValues": [
                 {
@@ -83,24 +88,83 @@
                 }
             ],
             "description": "Creates a new circle."
-        }
-    ],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "compiledBom": [
-        {
-            "BOMitemName": "#6 Wood Screw",
-            "numberNeeded": 2,
-            "costUSD": 0.2,
-            "source": "www.example.com"
         },
         {
-            "BOMitemName": "name",
-            "numberNeeded": 2,
-            "costUSD": 0,
-            "source": "www.example.com"
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.558455114822547,
+            "y": 0.5421686746987951,
+            "uniqueID": "2572494c-ccaf-411d-9c81-c2e87b1a5e81",
+            "ioValues": [
+                {
+                    "name": "Shape",
+                    "ioValue": "04b71341-e4c6-46ef-ada6-6ea4991795c8"
+                },
+                {
+                    "name": "Number",
+                    "ioValue": 2
+                },
+                {
+                    "name": "distX",
+                    "ioValue": 0
+                },
+                {
+                    "name": "distY",
+                    "ioValue": 0
+                },
+                {
+                    "name": "distZ",
+                    "ioValue": 15
+                }
+            ],
+            "description": "Defines a Replicad code block.",
+            "codeVersion": 1,
+            "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n"
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3757828810020877,
+            "y": 0.40963855421686746,
+            "uniqueID": "04b71341-e4c6-46ef-ada6-6ea4991795c8",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "667b8435-a25c-4a10-be93-61f33db7d03a"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "667b8435-a25c-4a10-be93-61f33db7d03a",
+            "ap2ID": "04b71341-e4c6-46ef-ada6-6ea4991795c8"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "2572494c-ccaf-411d-9c81-c2e87b1a5e81",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape",
+            "ap2Primary": false,
+            "ap1ID": "04b71341-e4c6-46ef-ada6-6ea4991795c8",
+            "ap2ID": "2572494c-ccaf-411d-9c81-c2e87b1a5e81"
+        }
+    ],
+    "unitsKey": "Inches",
+    "fileTypeVersion": 1,
+    "compiledBom": [],
     "filetypeVersion": 1
 }
