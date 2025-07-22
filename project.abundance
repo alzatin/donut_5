@@ -38,7 +38,7 @@
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.025384615384615384,
+            "x": 0.0264,
             "y": 0.5,
             "uniqueID": "4ee092b7-3259-4ce1-833c-fa1267970404",
             "ioValues": [],
@@ -48,7 +48,7 @@
         {
             "atomType": "Input",
             "name": "Input (2)",
-            "x": 0.025384615384615384,
+            "x": 0.0264,
             "y": 0.7078313253012049,
             "uniqueID": "49c2cd9d-df6c-45d5-aa98-5ac70b5e76db",
             "ioValues": [],
@@ -58,7 +58,7 @@
         {
             "atomType": "Input",
             "name": "Input (3)",
-            "x": 0.025384615384615384,
+            "x": 0.0264,
             "y": 0.3192771084337349,
             "uniqueID": "e4031892-cf35-4240-befd-da810292a56f",
             "ioValues": [],
@@ -68,7 +68,7 @@
         {
             "atomType": "Input",
             "name": "Input (3)",
-            "x": 0.025384615384615384,
+            "x": 0.0264,
             "y": 0.8674698795180724,
             "uniqueID": "de3f3de7-d07c-4b42-ad14-c3accf272273",
             "ioValues": [],
@@ -78,8 +78,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.4481927710843374,
-            "y": 0.2439759036144578,
+            "x": 0.43953294412010013,
+            "y": 0.3704819277108434,
             "uniqueID": "2572494c-ccaf-411d-9c81-c2e87b1a5e81",
             "ioValues": [
                 {
@@ -217,7 +217,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.025384615384615384,
+                    "x": 0.0264,
                     "y": 0.32869080779944293,
                     "uniqueID": "fdb34a64-c6a8-4515-8f5d-654555005f05",
                     "ioValues": [],
@@ -227,7 +227,7 @@
                 {
                     "atomType": "Input",
                     "name": "Geometry",
-                    "x": 0.025384615384615384,
+                    "x": 0.0264,
                     "y": 0.9108635097493036,
                     "uniqueID": "a9dd1bef-b834-4db0-848f-b55152bec9ed",
                     "ioValues": [],
@@ -269,7 +269,7 @@
                 {
                     "atomType": "Input",
                     "name": "distX",
-                    "x": 0.025384615384615384,
+                    "x": 0.0264,
                     "y": 0.5,
                     "uniqueID": "ae2ecb4e-0d53-42fe-9471-8d1b4476630d",
                     "ioValues": [],
@@ -279,7 +279,7 @@
                 {
                     "atomType": "Input",
                     "name": "distY",
-                    "x": 0.025384615384615384,
+                    "x": 0.0264,
                     "y": 0.6174698795180722,
                     "uniqueID": "83721c02-907e-4621-a9e8-bf2941d549fa",
                     "ioValues": [],
@@ -289,7 +289,7 @@
                 {
                     "atomType": "Input",
                     "name": "distZ",
-                    "x": 0.025384615384615384,
+                    "x": 0.0264,
                     "y": 0.7650602409638555,
                     "uniqueID": "d0f9761e-49ee-4cf1-860b-037c457a7750",
                     "ioValues": [],
@@ -492,7 +492,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.025384615384615384,
+                    "x": 0.0264,
                     "y": 0.4246987951807229,
                     "uniqueID": "0ace70c6-30ac-4030-abe6-e88a0ac62330",
                     "ioValues": [],
@@ -502,7 +502,7 @@
                 {
                     "atomType": "Input",
                     "name": "Angle",
-                    "x": 0.025384615384615384,
+                    "x": 0.0264,
                     "y": 0.5602409638554217,
                     "uniqueID": "eafb40db-12f2-4b50-b320-6b502a852654",
                     "ioValues": [],
@@ -512,7 +512,7 @@
                 {
                     "atomType": "Input",
                     "name": "Shape",
-                    "x": 0.025384615384615384,
+                    "x": 0.0264,
                     "y": 0.8222891566265061,
                     "uniqueID": "c02be09c-dccc-43a9-b393-7f3a6f919869",
                     "ioValues": [],
