@@ -42,7 +42,7 @@
         {
             "atomType": "Input",
             "name": "height",
-            "x": 0.033,
+            "x": 0.0264,
             "y": 0.5,
             "uniqueID": "4ee092b7-3259-4ce1-833c-fa1267970404",
             "ioValues": [],
@@ -52,7 +52,7 @@
         {
             "atomType": "Input",
             "name": "x",
-            "x": 0.033,
+            "x": 0.0264,
             "y": 0.6867469879518072,
             "uniqueID": "49c2cd9d-df6c-45d5-aa98-5ac70b5e76db",
             "ioValues": [],
@@ -62,7 +62,7 @@
         {
             "atomType": "Input",
             "name": "Input (3)",
-            "x": 0.033,
+            "x": 0.0264,
             "y": 0.3192771084337349,
             "uniqueID": "e4031892-cf35-4240-befd-da810292a56f",
             "ioValues": [],
@@ -72,7 +72,7 @@
         {
             "atomType": "Input",
             "name": "y",
-            "x": 0.033,
+            "x": 0.0264,
             "y": 0.8674698795180724,
             "uniqueID": "de3f3de7-d07c-4b42-ad14-c3accf272273",
             "ioValues": [],
@@ -221,7 +221,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.033,
+                    "x": 0.0264,
                     "y": 0.32869080779944293,
                     "uniqueID": "fdb34a64-c6a8-4515-8f5d-654555005f05",
                     "ioValues": [],
@@ -231,7 +231,7 @@
                 {
                     "atomType": "Input",
                     "name": "Geometry",
-                    "x": 0.033,
+                    "x": 0.0264,
                     "y": 0.9108635097493036,
                     "uniqueID": "a9dd1bef-b834-4db0-848f-b55152bec9ed",
                     "ioValues": [],
@@ -273,7 +273,7 @@
                 {
                     "atomType": "Input",
                     "name": "distX",
-                    "x": 0.033,
+                    "x": 0.0264,
                     "y": 0.5,
                     "uniqueID": "ae2ecb4e-0d53-42fe-9471-8d1b4476630d",
                     "ioValues": [],
@@ -283,7 +283,7 @@
                 {
                     "atomType": "Input",
                     "name": "distY",
-                    "x": 0.033,
+                    "x": 0.0264,
                     "y": 0.6174698795180722,
                     "uniqueID": "83721c02-907e-4621-a9e8-bf2941d549fa",
                     "ioValues": [],
@@ -293,7 +293,7 @@
                 {
                     "atomType": "Input",
                     "name": "distZ",
-                    "x": 0.033,
+                    "x": 0.0264,
                     "y": 0.7650602409638555,
                     "uniqueID": "d0f9761e-49ee-4cf1-860b-037c457a7750",
                     "ioValues": [],
@@ -496,7 +496,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.033,
+                    "x": 0.0264,
                     "y": 0.4246987951807229,
                     "uniqueID": "0ace70c6-30ac-4030-abe6-e88a0ac62330",
                     "ioValues": [],
@@ -506,7 +506,7 @@
                 {
                     "atomType": "Input",
                     "name": "Angle",
-                    "x": 0.033,
+                    "x": 0.0264,
                     "y": 0.5602409638554217,
                     "uniqueID": "eafb40db-12f2-4b50-b320-6b502a852654",
                     "ioValues": [],
@@ -516,7 +516,7 @@
                 {
                     "atomType": "Input",
                     "name": "Shape",
-                    "x": 0.033,
+                    "x": 0.0264,
                     "y": 0.8222891566265061,
                     "uniqueID": "c02be09c-dccc-43a9-b393-7f3a6f919869",
                     "ioValues": [],
@@ -644,20 +644,6 @@
             "description": "Defines a Replicad code block.",
             "codeVersion": 1,
             "code": " \n      //Inputs:[x,y, height]\n     \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(x,y)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n      \n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.416551724137931,
-            "y": 0.7471264367816093,
-            "uniqueID": "46763f99-4705-4f6f-b3e9-f8bc410bf3bd",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas_copy7.svg",
-            "type": "SVG",
-            "SVGwidth": 10,
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
