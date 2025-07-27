@@ -646,24 +646,112 @@
             "code": " \n      //Inputs:[x,y, height]\n     \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(x,y)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n      \n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
         },
         {
-            "atomType": "Text",
-            "name": "Text",
-            "x": 0.4565508021390375,
-            "y": 0.5783132530120482,
-            "uniqueID": "a675f069-4d5f-4d67-995a-1bf5e26c62fa",
+            "atomType": "Tag",
+            "name": "",
+            "x": 0.5025641025641026,
+            "y": 0.6094986807387862,
+            "uniqueID": "ee34efe8-c461-4e36-85e9-33f927a40c21",
             "ioValues": [
                 {
-                    "name": "Font Size",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Text",
-                    "ioValue": "Lorem Ipsum"
+                    "name": "geometry",
+                    "ioValue": ""
                 }
             ],
-            "description": "Creates a new text sketch.",
-            "fontFamily": "ANTON",
-            "selectedFontIndex": 0
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "",
+            "x": 0.5025641025641026,
+            "y": 0.6094986807387862,
+            "uniqueID": "3187fd01-0dbf-4c5e-a9ee-e669c088bab9",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "",
+            "x": 0.5435897435897437,
+            "y": 0.6754617414248021,
+            "uniqueID": "564cd353-45dc-4375-9ec7-17fb61e4fc13",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "",
+            "x": 0.6153846153846154,
+            "y": 0.633245382585752,
+            "uniqueID": "a6b0093d-7e5e-43b7-a83c-ddba97f4f470",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "",
+            "x": 0.45384615384615384,
+            "y": 0.6992084432717679,
+            "uniqueID": "9fe4039e-a52b-4c1c-94c7-5ba0b0884972",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.5692307692307692,
+            "y": 0.7203166226912929,
+            "uniqueID": "b0b983c5-853c-4431-9da9-e07ae038d349",
+            "ioValues": [
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 48
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 0.25
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         }
     ],
     "allConnectors": [
