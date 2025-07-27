@@ -648,9 +648,9 @@
         {
             "atomType": "Tag",
             "name": "",
-            "x": 0.5307692307692308,
-            "y": 0.6569920844327176,
-            "uniqueID": "d954a137-a91b-4bc7-9c17-fe68c3cdae20",
+            "x": 0.525,
+            "y": 0.6456456456456456,
+            "uniqueID": "d20b11ad-0bce-41cd-b2ce-03084174a760",
             "ioValues": [
                 {
                     "name": "geometry",
@@ -661,6 +661,21 @@
             "tags": [
                 ""
             ]
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.7111111111111111,
+            "y": 0.6636636636636637,
+            "uniqueID": "83171587-e296-4645-aa1d-cd17d558e596",
+            "ioValues": [],
+            "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+            }
         }
     ],
     "allConnectors": [
