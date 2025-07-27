@@ -82,8 +82,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.460387323943662,
-            "y": 0.1355421686746988,
+            "x": 0.3898163606010017,
+            "y": 0.22289156626506024,
             "uniqueID": "2572494c-ccaf-411d-9c81-c2e87b1a5e81",
             "ioValues": [
                 {
@@ -158,8 +158,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.642570281124498,
-            "y": 0.28313253012048195,
+            "x": 0.5859766277128547,
+            "y": 0.25301204819277107,
             "uniqueID": "432bf30a-16c9-4837-8d29-d403f02a6a9d",
             "ioValues": [
                 {
@@ -373,8 +373,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Radial-Pattern",
-            "x": 0.7403169014084507,
-            "y": 0.4006024096385542,
+            "x": 0.682804674457429,
+            "y": 0.4789156626506024,
             "uniqueID": "9c095d1d-794a-478c-b36f-258d8154c228",
             "ioValues": [
                 {
@@ -598,8 +598,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5431338028169014,
-            "y": 0.3795180722891566,
+            "x": 0.5759599332220368,
+            "y": 0.3734939759036145,
             "uniqueID": "9b0fa97a-b0b0-437c-9406-36f269ad79e8",
             "ioValues": [
                 {
@@ -624,8 +624,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.4275862068965517,
-            "y": 0.3074712643678161,
+            "x": 0.3889816360601001,
+            "y": 0.4457831325301205,
             "uniqueID": "9593dd2a-bec9-4027-9151-757962cddb95",
             "ioValues": [
                 {
@@ -644,26 +644,6 @@
             "description": "Defines a Replicad code block.",
             "codeVersion": 1,
             "code": " \n      //Inputs:[x,y, height]\n     \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(x,y)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n      \n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
-        },
-        {
-            "atomType": "Text",
-            "name": "Text",
-            "x": 0.40555555555555556,
-            "y": 0.6216216216216216,
-            "uniqueID": "2679c82c-a360-4ce0-8c78-5ae865858dc1",
-            "ioValues": [
-                {
-                    "name": "Font Size",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Text",
-                    "ioValue": "Lorem Ipsum"
-                }
-            ],
-            "description": "Creates a new text sketch.",
-            "fontFamily": "ANTON",
-            "selectedFontIndex": 0
         }
     ],
     "allConnectors": [
