@@ -644,6 +644,203 @@
             "description": "Defines a Replicad code block.",
             "codeVersion": 1,
             "code": " \n      //Inputs:[x,y, height]\n     \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(x,y)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n      \n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Maslow-M",
+            "x": 0.5,
+            "y": 0.6,
+            "uniqueID": "f62bdd2e-80e9-4d86-8ee2-44aed3813e46",
+            "ioValues": [
+                {
+                    "name": "Size",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "06d509ad-6922-46f4-98c3-c700342c9f10",
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "bf67fb81-0164-43cc-aae1-f143151afdec"
+                        }
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Size",
+                    "x": 0.0264,
+                    "y": 0.7374301675977654,
+                    "uniqueID": "b5714392-1873-4a49-86c1-d7eca976ba96",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Maslow m ",
+                    "x": 0.4033149171270718,
+                    "y": 0.3373493975903614,
+                    "uniqueID": "bf67fb81-0164-43cc-aae1-f143151afdec",
+                    "ioValues": [
+                        {
+                            "name": "Size",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "fbb926c3-24a4-42aa-b2ab-bfacf8c3e7cc",
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "58b98dec-4155-4c8a-8895-9b2c59103eda"
+                                }
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Import",
+                            "name": "Import",
+                            "x": 0.3453038674033149,
+                            "y": 0.5331325301204819,
+                            "uniqueID": "58b98dec-4155-4c8a-8895-9b2c59103eda",
+                            "ioValues": [],
+                            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                            "fileName": "Maslow Logo With R.svg",
+                            "type": "SVG",
+                            "SVGwidth": 10,
+                            "repoOwner": "alzatin",
+                            "repoName": "Maslow-M"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Size",
+                            "x": 0.0264,
+                            "y": 0.3373493975903614,
+                            "uniqueID": "de74ec46-dfff-43e7-8ec5-9d20ccc631c6",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        },
+                        {
+                            "atomType": "Import",
+                            "name": "Import",
+                            "x": 0.5681399631675875,
+                            "y": 0.39759036144578314,
+                            "uniqueID": "fdc52c7e-6edb-4e91-b633-70b6b5adc1e1",
+                            "ioValues": [],
+                            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                            "fileName": null,
+                            "type": null,
+                            "SVGwidth": 10
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "58b98dec-4155-4c8a-8895-9b2c59103eda",
+                            "ap2ID": "fbb926c3-24a4-42aa-b2ab-bfacf8c3e7cc"
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Size",
+                    "ap2Primary": false,
+                    "ap1ID": "b5714392-1873-4a49-86c1-d7eca976ba96",
+                    "ap2ID": "bf67fb81-0164-43cc-aae1-f143151afdec"
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "bf67fb81-0164-43cc-aae1-f143151afdec",
+                    "ap2ID": "06d509ad-6922-46f4-98c3-c700342c9f10"
+                }
+            ],
+            "parentRepo": {
+                "lastFoundGit": "2025-08-07T15:47:14.584Z",
+                "privateRepo": false,
+                "repoName": "Maslow-M",
+                "dateCreated": "2025-06-18T22:46:57Z",
+                "readMe": "https://raw.githubusercontent.com/alzatin/Maslow-M/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "b8ee3a55-1a3e-4671-9953-7f2e8695f621",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/alzatin/Maslow-M",
+                "topics": [],
+                "parentRepo": "BarbourSmith/Maslow-M",
+                "forks": 0,
+                "dateModified": "739470",
+                "ranking": 0,
+                "searchField": "maslow-m alzatin the maslow m logo ",
+                "owner": "alzatin",
+                "description": "The Maslow M Logo",
+                "contentURL": "https://raw.githubusercontent.com/alzatin/Maslow-M/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/alzatin/Maslow-M/master/project.svg?sanitize=true",
+                "isLocal": false
+            },
+            "unitsKey": "MM",
+            "fileTypeVersion": 1,
+            "compiledBom": []
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.6151012891344383,
+            "y": 0.75,
+            "uniqueID": "bc20371e-086a-4bc4-a9b3-a9e3a2fefc1c",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "f62bdd2e-80e9-4d86-8ee2-44aed3813e46"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + y",
+            "x": 0.3766114180478821,
+            "y": 0.6566265060240964,
+            "uniqueID": "0fa4ec86-c9a3-4091-9a2b-15754dc7989d",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + y"
         }
     ],
     "allConnectors": [
@@ -709,6 +906,13 @@
             "ap2Primary": false,
             "ap1ID": "9593dd2a-bec9-4027-9151-757962cddb95",
             "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "f62bdd2e-80e9-4d86-8ee2-44aed3813e46",
+            "ap2ID": "bc20371e-086a-4bc4-a9b3-a9e3a2fefc1c"
         }
     ],
     "unitsKey": "Inches",
