@@ -825,18 +825,13 @@
         },
         {
             "atomType": "Equation",
-            "name": "cos(y)",
-            "x": 0.3154701718907988,
-            "y": 0.6626506024096386,
+            "name": "ceil(4.5)",
+            "x": 0.30940343781597573,
+            "y": 0.6867469879518072,
             "uniqueID": "0fa4ec86-c9a3-4091-9a2b-15754dc7989d",
-            "ioValues": [
-                {
-                    "name": "y",
-                    "ioValue": 2
-                }
-            ],
+            "ioValues": [],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "cos(y)"
+            "currentEquation": "ceil(4.5)"
         },
         {
             "atomType": "Import",
@@ -855,13 +850,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.4641051567239636,
-            "y": 0.6957831325301205,
+            "x": 0.4711830131445905,
+            "y": 0.713855421686747,
             "uniqueID": "36622cdf-141e-4d74-bb07-e79e0055ae3c",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": -0.4161468365471424
+                    "ioValue": 5
                 }
             ],
             "description": "Creates a new circle."
