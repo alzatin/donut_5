@@ -887,7 +887,12 @@
             "x": 0.48574445617740225,
             "y": 0.7439759036144579,
             "uniqueID": "bce46768-6a4f-460c-b426-d6e62904d428",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "SVG Width",
+                    "ioValue": 5
+                }
+            ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "Maslow Logo With R_copy1.svg",
             "type": "SVG",
