@@ -624,8 +624,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.39029322548028306,
-            "y": 0.4337349397590362,
+            "x": 0.3889816360601001,
+            "y": 0.4457831325301205,
             "uniqueID": "9593dd2a-bec9-4027-9151-757962cddb95",
             "ioValues": [
                 {
@@ -719,11 +719,15 @@
                             "x": 0.3453038674033149,
                             "y": 0.5331325301204819,
                             "uniqueID": "58b98dec-4155-4c8a-8895-9b2c59103eda",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "SVG Width",
+                                    "ioValue": 5
+                                }
+                            ],
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                             "fileName": "Maslow Logo With R.svg",
                             "type": "SVG",
-                            "SVGwidth": 10,
                             "repoOwner": "alzatin",
                             "repoName": "Maslow-M"
                         },
@@ -746,8 +750,7 @@
                             "ioValues": [],
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                             "fileName": null,
-                            "type": null,
-                            "SVGwidth": 10
+                            "type": null
                         }
                     ],
                     "allConnectors": [
@@ -825,41 +828,111 @@
         },
         {
             "atomType": "Equation",
-            "name": "ceil(4.5)",
-            "x": 0.30940343781597573,
-            "y": 0.6867469879518072,
+            "name": "x + y",
+            "x": 0.3751263902932255,
+            "y": 0.6626506024096386,
             "uniqueID": "0fa4ec86-c9a3-4091-9a2b-15754dc7989d",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                }
+            ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "ceil(4.5)"
+            "currentEquation": "x + y"
         },
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.5985844287158746,
-            "y": 0.7409638554216867,
-            "uniqueID": "1db90d12-c565-4c48-a769-ff237348cae7",
+            "x": 0.5982241953385128,
+            "y": 0.6656626506024096,
+            "uniqueID": "bdb993c9-e4d6-4ca0-be20-86417401ce92",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "0.svg",
+            "fileName": "adidas_copy7.svg",
             "type": "SVG",
-            "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.4711830131445905,
-            "y": 0.713855421686747,
-            "uniqueID": "36622cdf-141e-4d74-bb07-e79e0055ae3c",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 5
-                }
-            ],
-            "description": "Creates a new circle."
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.6992230854605993,
+            "y": 0.6957831325301205,
+            "uniqueID": "936e6bf1-6ea1-4390-acbd-929142e96ef0",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Maslow Logo With R_copy1.svg",
+            "type": "SVG",
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
@@ -932,13 +1005,6 @@
             "ap2Primary": true,
             "ap1ID": "f62bdd2e-80e9-4d86-8ee2-44aed3813e46",
             "ap2ID": "bc20371e-086a-4bc4-a9b3-a9e3a2fefc1c"
-        },
-        {
-            "ap1Name": "result",
-            "ap2Name": "diameter",
-            "ap2Primary": false,
-            "ap1ID": "0fa4ec86-c9a3-4091-9a2b-15754dc7989d",
-            "ap2ID": "36622cdf-141e-4d74-bb07-e79e0055ae3c"
         }
     ],
     "unitsKey": "Inches",
