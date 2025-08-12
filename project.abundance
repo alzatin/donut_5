@@ -666,7 +666,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "06d509ad-6922-46f4-98c3-c700342c9f10",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "bf67fb81-0164-43cc-aae1-f143151afdec"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -700,7 +705,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "fbb926c3-24a4-42aa-b2ab-bfacf8c3e7cc",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "58b98dec-4155-4c8a-8895-9b2c59103eda"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -901,12 +911,17 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.6021897810218978,
-            "y": 0.6987951807228915,
-            "uniqueID": "d81f2bad-26db-4385-99da-b1d922c569cd",
-            "ioValues": [],
+            "x": 0.5702554744525548,
+            "y": 0.7048192771084337,
+            "uniqueID": "7d213d02-776b-4542-98a3-8be326e2261c",
+            "ioValues": [
+                {
+                    "name": "SVG Width",
+                    "ioValue": 30
+                }
+            ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Maslow Logo With R_copy1.svg",
+            "fileName": "Maslow Logo With R.svg",
             "type": "SVG",
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
@@ -926,6 +941,13 @@
             "ap2Primary": false,
             "ap1ID": "49c2cd9d-df6c-45d5-aa98-5ac70b5e76db",
             "ap2ID": "9593dd2a-bec9-4027-9151-757962cddb95"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "SVG Width",
+            "ap2Primary": false,
+            "ap1ID": "e4031892-cf35-4240-befd-da810292a56f",
+            "ap2ID": "7d213d02-776b-4542-98a3-8be326e2261c"
         },
         {
             "ap1Name": "number or geometry",
