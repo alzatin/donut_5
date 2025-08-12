@@ -15,7 +15,7 @@
         },
         {
             "name": "Input (3)",
-            "ioValue": 10
+            "ioValue": 30
         },
         {
             "name": "y",
@@ -728,7 +728,6 @@
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                             "fileName": "Maslow Logo With R.svg",
                             "type": "SVG",
-                            "SVGwidth": 10,
                             "repoOwner": "alzatin",
                             "repoName": "Maslow-M"
                         },
@@ -751,8 +750,7 @@
                             "ioValues": [],
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                             "fileName": null,
-                            "type": null,
-                            "SVGwidth": 10
+                            "type": null
                         }
                     ],
                     "allConnectors": [
@@ -925,21 +923,24 @@
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "Maslow Logo With R.svg",
             "type": "SVG",
-            "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
         },
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.551094890510949,
-            "y": 0.7018072289156627,
+            "x": 0.552007299270073,
+            "y": 0.6897590361445783,
             "uniqueID": "abeb90ae-c2e5-4786-9ecf-d4c035e6e829",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "SVG Width",
+                    "ioValue": 30
+                }
+            ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "Maslow Logo With R_copy2.svg",
             "type": "SVG",
-            "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
         }
@@ -958,6 +959,13 @@
             "ap2Primary": false,
             "ap1ID": "49c2cd9d-df6c-45d5-aa98-5ac70b5e76db",
             "ap2ID": "9593dd2a-bec9-4027-9151-757962cddb95"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "SVG Width",
+            "ap2Primary": false,
+            "ap1ID": "e4031892-cf35-4240-befd-da810292a56f",
+            "ap2ID": "abeb90ae-c2e5-4786-9ecf-d4c035e6e829"
         },
         {
             "ap1Name": "number or geometry",
