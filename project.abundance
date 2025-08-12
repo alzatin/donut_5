@@ -42,7 +42,7 @@
         {
             "atomType": "Input",
             "name": "height",
-            "x": 0.0264,
+            "x": 0.025384615384615384,
             "y": 0.5,
             "uniqueID": "4ee092b7-3259-4ce1-833c-fa1267970404",
             "ioValues": [],
@@ -52,7 +52,7 @@
         {
             "atomType": "Input",
             "name": "x",
-            "x": 0.0264,
+            "x": 0.025384615384615384,
             "y": 0.6867469879518072,
             "uniqueID": "49c2cd9d-df6c-45d5-aa98-5ac70b5e76db",
             "ioValues": [],
@@ -62,7 +62,7 @@
         {
             "atomType": "Input",
             "name": "Input (3)",
-            "x": 0.0264,
+            "x": 0.025384615384615384,
             "y": 0.3192771084337349,
             "uniqueID": "e4031892-cf35-4240-befd-da810292a56f",
             "ioValues": [],
@@ -72,7 +72,7 @@
         {
             "atomType": "Input",
             "name": "y",
-            "x": 0.0264,
+            "x": 0.025384615384615384,
             "y": 0.8674698795180724,
             "uniqueID": "de3f3de7-d07c-4b42-ad14-c3accf272273",
             "ioValues": [],
@@ -221,7 +221,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.0264,
+                    "x": 0.025384615384615384,
                     "y": 0.32869080779944293,
                     "uniqueID": "fdb34a64-c6a8-4515-8f5d-654555005f05",
                     "ioValues": [],
@@ -231,7 +231,7 @@
                 {
                     "atomType": "Input",
                     "name": "Geometry",
-                    "x": 0.0264,
+                    "x": 0.025384615384615384,
                     "y": 0.9108635097493036,
                     "uniqueID": "a9dd1bef-b834-4db0-848f-b55152bec9ed",
                     "ioValues": [],
@@ -273,7 +273,7 @@
                 {
                     "atomType": "Input",
                     "name": "distX",
-                    "x": 0.0264,
+                    "x": 0.025384615384615384,
                     "y": 0.5,
                     "uniqueID": "ae2ecb4e-0d53-42fe-9471-8d1b4476630d",
                     "ioValues": [],
@@ -283,7 +283,7 @@
                 {
                     "atomType": "Input",
                     "name": "distY",
-                    "x": 0.0264,
+                    "x": 0.025384615384615384,
                     "y": 0.6174698795180722,
                     "uniqueID": "83721c02-907e-4621-a9e8-bf2941d549fa",
                     "ioValues": [],
@@ -293,7 +293,7 @@
                 {
                     "atomType": "Input",
                     "name": "distZ",
-                    "x": 0.0264,
+                    "x": 0.025384615384615384,
                     "y": 0.7650602409638555,
                     "uniqueID": "d0f9761e-49ee-4cf1-860b-037c457a7750",
                     "ioValues": [],
@@ -496,7 +496,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.0264,
+                    "x": 0.025384615384615384,
                     "y": 0.4246987951807229,
                     "uniqueID": "0ace70c6-30ac-4030-abe6-e88a0ac62330",
                     "ioValues": [],
@@ -506,7 +506,7 @@
                 {
                     "atomType": "Input",
                     "name": "Angle",
-                    "x": 0.0264,
+                    "x": 0.025384615384615384,
                     "y": 0.5602409638554217,
                     "uniqueID": "eafb40db-12f2-4b50-b320-6b502a852654",
                     "ioValues": [],
@@ -516,7 +516,7 @@
                 {
                     "atomType": "Input",
                     "name": "Shape",
-                    "x": 0.0264,
+                    "x": 0.025384615384615384,
                     "y": 0.8222891566265061,
                     "uniqueID": "c02be09c-dccc-43a9-b393-7f3a6f919869",
                     "ioValues": [],
@@ -648,8 +648,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Maslow-M",
-            "x": 0.5,
-            "y": 0.6,
+            "x": 0.751219512195122,
+            "y": 0.29518072289156627,
             "uniqueID": "f62bdd2e-80e9-4d86-8ee2-44aed3813e46",
             "ioValues": [
                 {
@@ -677,7 +677,7 @@
                 {
                     "atomType": "Input",
                     "name": "Size",
-                    "x": 0.0264,
+                    "x": 0.025384615384615384,
                     "y": 0.7374301675977654,
                     "uniqueID": "b5714392-1873-4a49-86c1-d7eca976ba96",
                     "ioValues": [],
@@ -730,7 +730,7 @@
                         {
                             "atomType": "Input",
                             "name": "Size",
-                            "x": 0.0264,
+                            "x": 0.025384615384615384,
                             "y": 0.3373493975903614,
                             "uniqueID": "de74ec46-dfff-43e7-8ec5-9d20ccc631c6",
                             "ioValues": [],
@@ -808,8 +808,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.6151012891344383,
-            "y": 0.75,
+            "x": 0.7239024390243903,
+            "y": 0.6596385542168675,
             "uniqueID": "bc20371e-086a-4bc4-a9b3-a9e3a2fefc1c",
             "ioValues": [
                 {
@@ -837,10 +837,87 @@
                 {
                     "name": "y",
                     "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
+                },
+                {
+                    "ioValue": 1
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "x + y"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.5317073170731708,
+            "y": 0.7771084337349398,
+            "uniqueID": "ffe01768-f6fd-46b5-970c-648c62694169",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Maslow Logo With R.svg",
+            "type": "SVG",
+            "SVGwidth": 10,
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
