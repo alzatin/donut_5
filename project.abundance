@@ -840,69 +840,6 @@
                 {
                     "name": "y",
                     "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
-                },
-                {
-                    "ioValue": 1
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -911,25 +848,17 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.5982241953385128,
-            "y": 0.6656626506024096,
-            "uniqueID": "bdb993c9-e4d6-4ca0-be20-86417401ce92",
-            "ioValues": [],
+            "x": 0.607103218645949,
+            "y": 0.7620481927710844,
+            "uniqueID": "d10765fd-ee5f-44f3-8b16-a9bbb82480bf",
+            "ioValues": [
+                {
+                    "name": "SVG Width",
+                    "ioValue": 5
+                }
+            ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas_copy7.svg",
-            "type": "SVG",
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.6992230854605993,
-            "y": 0.6957831325301205,
-            "uniqueID": "936e6bf1-6ea1-4390-acbd-929142e96ef0",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Maslow Logo With R_copy1.svg",
+            "fileName": "0.svg",
             "type": "SVG",
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
