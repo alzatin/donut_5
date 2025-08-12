@@ -925,6 +925,19 @@
             "type": "SVG",
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.7034671532846715,
+            "y": 0.786144578313253,
+            "uniqueID": "936e6bf1-6ea1-4390-acbd-929142e96ef0",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Maslow Logo With R_copy1.svg",
+            "type": "SVG",
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
