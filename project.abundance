@@ -848,8 +848,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.607103218645949,
-            "y": 0.7620481927710844,
+            "x": 0.604355716878403,
+            "y": 0.7560240963855422,
             "uniqueID": "d10765fd-ee5f-44f3-8b16-a9bbb82480bf",
             "ioValues": [
                 {
@@ -869,7 +869,12 @@
             "x": 0.7232304900181489,
             "y": 0.7560240963855422,
             "uniqueID": "76f67501-43b9-4504-9777-5d65626d3cdf",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "SVG Width",
+                    "ioValue": 5
+                }
+            ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "1.svg",
             "type": "SVG",
