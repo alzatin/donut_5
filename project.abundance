@@ -813,8 +813,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.7239024390243903,
-            "y": 0.6596385542168675,
+            "x": 0.8312195121951219,
+            "y": 0.34939759036144574,
             "uniqueID": "bc20371e-086a-4bc4-a9b3-a9e3a2fefc1c",
             "ioValues": [
                 {
@@ -935,9 +935,28 @@
             "x": 0.5375609756097561,
             "y": 0.8042168674698795,
             "uniqueID": "1caf82b9-ab05-4cb3-b688-7075fef49580",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "SVG Width",
+                    "ioValue": ""
+                }
+            ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "Maslow Logo With R_copy1.svg",
+            "type": "SVG",
+            "SVGwidth": 10,
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.704390243902439,
+            "y": 0.7740963855421686,
+            "uniqueID": "675865a2-8005-4b23-a829-c53b23167e48",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Maslow Logo With R_copy2.svg",
             "type": "SVG",
             "SVGwidth": 10,
             "repoOwner": "alzatin",
