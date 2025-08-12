@@ -719,7 +719,12 @@
                             "x": 0.3453038674033149,
                             "y": 0.5331325301204819,
                             "uniqueID": "58b98dec-4155-4c8a-8895-9b2c59103eda",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "SVG Width",
+                                    "ioValue": ""
+                                }
+                            ],
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                             "fileName": "Maslow Logo With R.svg",
                             "type": "SVG",
@@ -908,12 +913,31 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.526829268292683,
-            "y": 0.7740963855421686,
+            "x": 0.566829268292683,
+            "y": 0.572289156626506,
             "uniqueID": "ffe01768-f6fd-46b5-970c-648c62694169",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "SVG Width",
+                    "ioValue": ""
+                }
+            ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "Maslow Logo With R.svg",
+            "type": "SVG",
+            "SVGwidth": 10,
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.5375609756097561,
+            "y": 0.8042168674698795,
+            "uniqueID": "1caf82b9-ab05-4cb3-b688-7075fef49580",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Maslow Logo With R_copy1.svg",
             "type": "SVG",
             "SVGwidth": 10,
             "repoOwner": "alzatin",
