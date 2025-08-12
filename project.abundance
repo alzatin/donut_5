@@ -911,9 +911,9 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.5702554744525548,
-            "y": 0.7048192771084337,
-            "uniqueID": "7d213d02-776b-4542-98a3-8be326e2261c",
+            "x": 0.5921532846715328,
+            "y": 0.6897590361445783,
+            "uniqueID": "bdb993c9-e4d6-4ca0-be20-86417401ce92",
             "ioValues": [
                 {
                     "name": "SVG Width",
@@ -921,7 +921,7 @@
                 }
             ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Maslow Logo With R.svg",
+            "fileName": "adidas_copy7.svg",
             "type": "SVG",
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
@@ -947,7 +947,7 @@
             "ap2Name": "SVG Width",
             "ap2Primary": false,
             "ap1ID": "e4031892-cf35-4240-befd-da810292a56f",
-            "ap2ID": "7d213d02-776b-4542-98a3-8be326e2261c"
+            "ap2ID": "bdb993c9-e4d6-4ca0-be20-86417401ce92"
         },
         {
             "ap1Name": "number or geometry",
