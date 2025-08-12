@@ -848,8 +848,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.614572333685322,
-            "y": 0.7349397590361446,
+            "x": 0.6124604012671595,
+            "y": 0.7259036144578314,
             "uniqueID": "d10765fd-ee5f-44f3-8b16-a9bbb82480bf",
             "ioValues": [
                 {
@@ -866,8 +866,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.7275607180570222,
-            "y": 0.7650602409638555,
+            "x": 0.7222808870116156,
+            "y": 0.7710843373493976,
             "uniqueID": "76f67501-43b9-4504-9777-5d65626d3cdf",
             "ioValues": [
                 {
@@ -877,6 +877,19 @@
             ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "1.svg",
+            "type": "SVG",
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.48574445617740225,
+            "y": 0.7439759036144579,
+            "uniqueID": "bce46768-6a4f-460c-b426-d6e62904d428",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Maslow Logo With R_copy1.svg",
             "type": "SVG",
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
