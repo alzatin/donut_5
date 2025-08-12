@@ -719,15 +719,11 @@
                             "x": 0.3453038674033149,
                             "y": 0.5331325301204819,
                             "uniqueID": "58b98dec-4155-4c8a-8895-9b2c59103eda",
-                            "ioValues": [
-                                {
-                                    "name": "SVG Width",
-                                    "ioValue": 5
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                             "fileName": "Maslow Logo With R.svg",
                             "type": "SVG",
+                            "SVGwidth": 10,
                             "repoOwner": "alzatin",
                             "repoName": "Maslow-M"
                         },
@@ -750,7 +746,8 @@
                             "ioValues": [],
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                             "fileName": null,
-                            "type": null
+                            "type": null,
+                            "SVGwidth": 10
                         }
                     ],
                     "allConnectors": [
@@ -829,8 +826,8 @@
         {
             "atomType": "Equation",
             "name": "x + y",
-            "x": 0.3766114180478821,
-            "y": 0.6566265060240964,
+            "x": 0.3751263902932255,
+            "y": 0.6626506024096386,
             "uniqueID": "0fa4ec86-c9a3-4091-9a2b-15754dc7989d",
             "ioValues": [
                 {
@@ -914,15 +911,11 @@
             "x": 0.5921532846715328,
             "y": 0.6897590361445783,
             "uniqueID": "bdb993c9-e4d6-4ca0-be20-86417401ce92",
-            "ioValues": [
-                {
-                    "name": "SVG Width",
-                    "ioValue": 30
-                }
-            ],
+            "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "adidas_copy7.svg",
             "type": "SVG",
+            "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
         },
@@ -936,6 +929,7 @@
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "Maslow Logo With R_copy1.svg",
             "type": "SVG",
+            "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
         }
@@ -954,13 +948,6 @@
             "ap2Primary": false,
             "ap1ID": "49c2cd9d-df6c-45d5-aa98-5ac70b5e76db",
             "ap2ID": "9593dd2a-bec9-4027-9151-757962cddb95"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "SVG Width",
-            "ap2Primary": false,
-            "ap1ID": "e4031892-cf35-4240-befd-da810292a56f",
-            "ap2ID": "bdb993c9-e4d6-4ca0-be20-86417401ce92"
         },
         {
             "ap1Name": "number or geometry",
