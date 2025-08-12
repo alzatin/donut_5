@@ -722,7 +722,7 @@
                             "ioValues": [
                                 {
                                     "name": "SVG Width",
-                                    "ioValue": ""
+                                    "ioValue": 5
                                 }
                             ],
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -913,31 +913,31 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.5684306569343066,
-            "y": 0.7710843373493976,
-            "uniqueID": "af3ecfbd-04e9-4bb6-9526-8841ef0df52f",
+            "x": 0.7299270072992701,
+            "y": 0.753012048192771,
+            "uniqueID": "0ac9ccd9-175c-45fd-8b3f-fbf7b18ec69c",
             "ioValues": [
                 {
                     "name": "SVG Width",
-                    "ioValue": ""
+                    "ioValue": 5
                 }
             ],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Maslow Logo With R_copy1.svg",
+            "fileName": "Maslow Logo With R.svg",
             "type": "SVG",
-            "SVGwidth": 30,
+            "SVGwidth": 10,
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
         },
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.7299270072992701,
-            "y": 0.753012048192771,
-            "uniqueID": "0ac9ccd9-175c-45fd-8b3f-fbf7b18ec69c",
+            "x": 0.551094890510949,
+            "y": 0.7018072289156627,
+            "uniqueID": "abeb90ae-c2e5-4786-9ecf-d4c035e6e829",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Maslow Logo With R.svg",
+            "fileName": "Maslow Logo With R_copy2.svg",
             "type": "SVG",
             "SVGwidth": 10,
             "repoOwner": "alzatin",
