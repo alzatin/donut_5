@@ -833,8 +833,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.41372735938989513,
-            "y": 0.753012048192771,
+            "x": 0.4099142040038131,
+            "y": 0.75,
             "uniqueID": "fd671048-a30a-49b1-896e-c27462acf720",
             "ioValues": [
                 {
@@ -876,9 +876,9 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5367016205910391,
-            "y": 0.7228915662650602,
-            "uniqueID": "e0ff954e-6451-45bf-aa56-e4c3f64a4d8e",
+            "x": 0.5624404194470924,
+            "y": 0.680722891566265,
+            "uniqueID": "0892343b-efc6-4cbb-99ea-5ae821feb228",
             "ioValues": [
                 {
                     "name": "geometry",
@@ -886,7 +886,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 7
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -968,7 +968,7 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "fd671048-a30a-49b1-896e-c27462acf720",
-            "ap2ID": "e0ff954e-6451-45bf-aa56-e4c3f64a4d8e"
+            "ap2ID": "0892343b-efc6-4cbb-99ea-5ae821feb228"
         },
         {
             "ap1Name": "result",
