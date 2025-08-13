@@ -833,8 +833,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.41086749285033364,
-            "y": 0.7650602409638555,
+            "x": 0.41372735938989513,
+            "y": 0.753012048192771,
             "uniqueID": "fd671048-a30a-49b1-896e-c27462acf720",
             "ioValues": [
                 {
@@ -850,48 +850,18 @@
             "x": 0.2621544327931363,
             "y": 0.7078313253012049,
             "uniqueID": "c89a6d28-7363-48b4-8d7d-b33abd726868",
-            "ioValues": [],
-            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "height/width"
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.6777883698760725,
-            "y": 0.7439759036144579,
-            "uniqueID": "0d68468d-f2eb-43aa-9fec-8c1f2aa62545",
             "ioValues": [
                 {
                     "name": "height",
-                    "ioValue": 5
-                }
-            ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "fcf6c2f7-9c4d-47e9-9a20-f337add7b37c",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValue": 1
                 },
                 {
-                    "atomType": "Input",
-                    "name": "height",
-                    "x": 0.025384615384615384,
-                    "y": 0.7439759036144579,
-                    "uniqueID": "42fef7c3-f35b-4bdc-bed1-cf57147d12e6",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "geometry"
+                    "name": "width",
+                    "ioValue": 1
                 }
             ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "height/width"
         },
         {
             "atomType": "Input",
@@ -902,6 +872,24 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5367016205910391,
+            "y": 0.7228915662650602,
+            "uniqueID": "e0ff954e-6451-45bf-aa56-e4c3f64a4d8e",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
     "allConnectors": [
@@ -911,13 +899,6 @@
             "ap2Primary": false,
             "ap1ID": "4ee092b7-3259-4ce1-833c-fa1267970404",
             "ap2ID": "9593dd2a-bec9-4027-9151-757962cddb95"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "height",
-            "ap2Primary": false,
-            "ap1ID": "4ee092b7-3259-4ce1-833c-fa1267970404",
-            "ap2ID": "0d68468d-f2eb-43aa-9fec-8c1f2aa62545"
         },
         {
             "ap1Name": "number or geometry",
@@ -981,6 +962,13 @@
             "ap2Primary": true,
             "ap1ID": "f62bdd2e-80e9-4d86-8ee2-44aed3813e46",
             "ap2ID": "bc20371e-086a-4bc4-a9b3-a9e3a2fefc1c"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "fd671048-a30a-49b1-896e-c27462acf720",
+            "ap2ID": "e0ff954e-6451-45bf-aa56-e4c3f64a4d8e"
         },
         {
             "ap1Name": "result",
