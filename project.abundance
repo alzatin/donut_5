@@ -846,58 +846,18 @@
             "currentEquation": "x + y"
         },
         {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.6124604012671595,
-            "y": 0.7259036144578314,
-            "uniqueID": "d10765fd-ee5f-44f3-8b16-a9bbb82480bf",
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.5270629991126886,
+            "y": 0.7951807228915663,
+            "uniqueID": "fd671048-a30a-49b1-896e-c27462acf720",
             "ioValues": [
                 {
-                    "name": "SVG Width",
-                    "ioValue": 5
+                    "name": "diameter",
+                    "ioValue": 10
                 }
             ],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "0.svg",
-            "type": "SVG",
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.7222808870116156,
-            "y": 0.7710843373493976,
-            "uniqueID": "76f67501-43b9-4504-9777-5d65626d3cdf",
-            "ioValues": [
-                {
-                    "name": "SVG Width",
-                    "ioValue": 5
-                }
-            ],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "1.svg",
-            "type": "SVG",
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.48574445617740225,
-            "y": 0.7439759036144579,
-            "uniqueID": "bce46768-6a4f-460c-b426-d6e62904d428",
-            "ioValues": [
-                {
-                    "name": "SVG Width",
-                    "ioValue": 5
-                }
-            ],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Maslow Logo With R_copy1.svg",
-            "type": "SVG",
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
