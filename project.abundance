@@ -162,8 +162,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.5859766277128547,
-            "y": 0.25301204819277107,
+            "x": 0.6158475426278837,
+            "y": 0.19879518072289157,
             "uniqueID": "432bf30a-16c9-4837-8d29-d403f02a6a9d",
             "ioValues": [
                 {
@@ -833,8 +833,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.4099142040038131,
-            "y": 0.75,
+            "x": 0.4533600802407221,
+            "y": 0.5933734939759037,
             "uniqueID": "fd671048-a30a-49b1-896e-c27462acf720",
             "ioValues": [
                 {
@@ -876,8 +876,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5843660629170638,
-            "y": 0.6265060240963854,
+            "x": 0.5917753259779338,
+            "y": 0.5060240963855421,
             "uniqueID": "64eb41e4-7436-4948-a56d-65a1575811ef",
             "ioValues": [
                 {
@@ -894,8 +894,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.784556720686368,
-            "y": 0.7740963855421686,
+            "x": 0.8044132397191576,
+            "y": 0.6566265060240964,
             "uniqueID": "157fa3af-1b38-46f7-9dd8-ef2553ca6284",
             "ioValues": [
                 {
@@ -916,6 +916,72 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.42728184553660986,
+            "y": 0.8885542168674698,
+            "uniqueID": "df1caac5-29fe-44b7-a7e3-c101a2d3e3b0",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.5606820461384152,
+            "y": 0.7921686746987953,
+            "uniqueID": "17d9b9c1-c9df-4753-a162-0d1bc8cfe4b3",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "df1caac5-29fe-44b7-a7e3-c101a2d3e3b0"
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 45
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.6900702106318957,
+            "y": 0.7981927710843374,
+            "uniqueID": "9b0de174-df59-4cd9-bab6-239456a73441",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "17d9b9c1-c9df-4753-a162-0d1bc8cfe4b3"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 10
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -1009,6 +1075,20 @@
             "ap2Primary": true,
             "ap1ID": "64eb41e4-7436-4948-a56d-65a1575811ef",
             "ap2ID": "157fa3af-1b38-46f7-9dd8-ef2553ca6284"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "df1caac5-29fe-44b7-a7e3-c101a2d3e3b0",
+            "ap2ID": "17d9b9c1-c9df-4753-a162-0d1bc8cfe4b3"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "17d9b9c1-c9df-4753-a162-0d1bc8cfe4b3",
+            "ap2ID": "9b0de174-df59-4cd9-bab6-239456a73441"
         }
     ],
     "unitsKey": "Inches",
