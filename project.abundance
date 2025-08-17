@@ -20,13 +20,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.21359223300970875,
-            "y": 0.3313253012048193,
+            "x": 0.2118270079435128,
+            "y": 0.31626506024096385,
             "uniqueID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 90
+                    "ioValue": 30
                 }
             ],
             "description": "Creates a new circle."
@@ -34,17 +34,17 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.20211827007943511,
-            "y": 0.7108433734939759,
+            "x": 0.19593998234774934,
+            "y": 0.7168674698795181,
             "uniqueID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 131
+                    "ioValue": 50
                 },
                 {
                     "name": "y length",
-                    "ioValue": 130
+                    "ioValue": 50
                 }
             ],
             "description": "Creates a new rectangle."
@@ -52,8 +52,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.39276257722859664,
-            "y": 0.6536144578313253,
+            "x": 0.38570167696381286,
+            "y": 0.575301204819277,
             "uniqueID": "2d854a77-eb0a-406c-861d-481c58f84925",
             "ioValues": [
                 {
@@ -62,7 +62,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 9
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -70,8 +70,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.40158870255957635,
-            "y": 0.3253012048192771,
+            "x": 0.40423654015887023,
+            "y": 0.3403614457831325,
             "uniqueID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ioValues": [
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 91
+                    "ioValue": 60
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -88,8 +88,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5635026737967914,
-            "y": 0.5120481927710844,
+            "x": 0.5648720211827009,
+            "y": 0.572289156626506,
             "uniqueID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
             "ioValues": [
                 {
@@ -106,8 +106,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6918449197860962,
-            "y": 0.4367469879518072,
+            "x": 0.6990291262135923,
+            "y": 0.42168674698795183,
             "uniqueID": "a37c3512-984a-40b3-8b00-279948eebbe7",
             "ioValues": [
                 {
@@ -116,11 +116,11 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 1.35
+                    "ioValue": 0.35
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 2
+                    "ioValue": 6
                 },
                 {
                     "name": "Speed",
@@ -128,7 +128,7 @@
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 1.5
+                    "ioValue": 1
                 },
                 {
                     "name": "Part Name",
