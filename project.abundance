@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -106,7 +111,7 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.707742639040349,
+            "x": 0.701388888888889,
             "y": 0.4397590361445783,
             "uniqueID": "a37c3512-984a-40b3-8b00-279948eebbe7",
             "ioValues": [
@@ -116,7 +121,7 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 0.35
+                    "ioValue": 1.35
                 },
                 {
                     "name": "Passes",
@@ -175,9 +180,16 @@
             "ap2Primary": false,
             "ap1ID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
             "ap2ID": "a37c3512-984a-40b3-8b00-279948eebbe7"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
-    "unitsKey": "Inches",
+    "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
