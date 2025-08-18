@@ -31,7 +31,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 30
+                    "ioValue": 5
                 }
             ],
             "description": "Creates a new circle."
@@ -39,17 +39,17 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.19593998234774934,
-            "y": 0.7168674698795181,
+            "x": 0.18948412698412698,
+            "y": 0.7319277108433735,
             "uniqueID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 50
+                    "ioValue": 10
                 },
                 {
                     "name": "y length",
-                    "ioValue": 50
+                    "ioValue": 10
                 }
             ],
             "description": "Creates a new rectangle."
@@ -57,8 +57,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.38604143947655395,
-            "y": 0.5843373493975904,
+            "x": 0.3849206349206349,
+            "y": 0.5873493975903614,
             "uniqueID": "2d854a77-eb0a-406c-861d-481c58f84925",
             "ioValues": [
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 26
+                    "ioValue": 0.75
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -85,7 +85,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 60
+                    "ioValue": 3
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -93,8 +93,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.564484126984127,
-            "y": 0.5783132530120482,
+            "x": 0.5654761904761905,
+            "y": 0.5813253012048193,
             "uniqueID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
             "ioValues": [
                 {
