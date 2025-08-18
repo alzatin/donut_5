@@ -173,6 +173,16 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "test_dev_2"
+        },
+        {
+            "atomType": "Equation",
+            "name": "5",
+            "x": 0.47660427807486627,
+            "y": 0.786144578313253,
+            "uniqueID": "44dc677a-4132-4e5f-b6eb-b37f868ffd1b",
+            "ioValues": [],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "5"
         }
     ],
     "allConnectors": [
