@@ -4,12 +4,7 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1743265138516,
-    "ioValues": [
-        {
-            "name": "love",
-            "ioValue": 10
-        }
-    ],
+    "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -36,7 +31,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 2.5
+                    "ioValue": 10
                 }
             ],
             "description": "Creates a new circle."
@@ -116,8 +111,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7044776119402986,
-            "y": 0.33433734939759036,
+            "x": 0.6974206349206349,
+            "y": 0.3644578313253012,
             "uniqueID": "a37c3512-984a-40b3-8b00-279948eebbe7",
             "ioValues": [
                 {
@@ -178,16 +173,6 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "test_dev_2"
-        },
-        {
-            "atomType": "Input",
-            "name": "love",
-            "x": 0.025384615384615384,
-            "y": 0.5,
-            "uniqueID": "26d0b55e-9031-4d35-8deb-19d35b3ba45f",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
         }
     ],
     "allConnectors": [
