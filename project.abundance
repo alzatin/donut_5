@@ -47,8 +47,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.19402985074626863,
-            "y": 0.7891566265060241,
+            "x": 0.19303482587064677,
+            "y": 0.8102409638554217,
             "uniqueID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
             "ioValues": [
                 {
@@ -58,8 +58,8 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 3,
-                    "currentEquation": "love"
+                    "ioValue": 4.5,
+                    "currentEquation": "love * 1.5"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -78,8 +78,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 0.65,
-                    "currentEquation": null
+                    "ioValue": 1.3,
+                    "currentEquation": "0.65 * 2"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
