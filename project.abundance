@@ -6,7 +6,7 @@
     "uniqueID": 1743265138516,
     "ioValues": [
         {
-            "name": "love",
+            "name": "ply thick",
             "ioValue": 40,
             "currentEquation": null
         }
@@ -47,14 +47,14 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.16588124410933083,
-            "y": 0.5903614457831325,
+            "x": 0.2233741753063148,
+            "y": 0.6536144578313253,
             "uniqueID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 40,
-                    "currentEquation": "love"
+                    "ioValue": null,
+                    "currentEquation": "5 + `ply thick`"
                 },
                 {
                     "name": "y length",
@@ -212,9 +212,9 @@
         },
         {
             "atomType": "Input",
-            "name": "love",
+            "name": "ply thick",
             "x": 0.025384615384615384,
-            "y": 0.4969879518072289,
+            "y": 0.4909638554216868,
             "uniqueID": "bf55dd50-f907-4467-9cea-88b40f224eee",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
