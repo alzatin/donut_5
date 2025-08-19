@@ -7,7 +7,8 @@
     "ioValues": [
         {
             "name": "love",
-            "ioValue": 3
+            "ioValue": 3,
+            "currentEquation": null
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -22,7 +23,8 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
+                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
+                    "currentEquation": null
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -36,7 +38,8 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 1.5
+                    "ioValue": 1.5,
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new circle."
@@ -50,11 +53,13 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 30
+                    "ioValue": 30,
+                    "currentEquation": "30"
                 },
                 {
                     "name": "y length",
-                    "ioValue": 3
+                    "ioValue": 3,
+                    "currentEquation": "love"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -68,11 +73,13 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "50d71ec0-a3eb-4704-9517-69920a1cae12"
+                    "ioValue": "50d71ec0-a3eb-4704-9517-69920a1cae12",
+                    "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": 0.65
+                    "ioValue": 0.65,
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -86,11 +93,13 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "7ea3db64-657c-4b8b-b013-9877599af293"
+                    "ioValue": "7ea3db64-657c-4b8b-b013-9877599af293",
+                    "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": 3
+                    "ioValue": 3,
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -104,11 +113,13 @@
             "ioValues": [
                 {
                     "name": "geometry1",
-                    "ioValue": "2d854a77-eb0a-406c-861d-481c58f84925"
+                    "ioValue": "2d854a77-eb0a-406c-861d-481c58f84925",
+                    "currentEquation": null
                 },
                 {
                     "name": "geometry2",
-                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3"
+                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
+                    "currentEquation": null
                 }
             ],
             "description": "Subtracts shape two from shape one."
@@ -122,27 +133,33 @@
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
+                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
+                    "currentEquation": null
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 0.35
+                    "ioValue": 0.35,
+                    "currentEquation": null
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 5
+                    "ioValue": 5,
+                    "currentEquation": null
                 },
                 {
                     "name": "Speed",
-                    "ioValue": 1500
+                    "ioValue": 1500,
+                    "currentEquation": null
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 0.01
+                    "ioValue": 0.01,
+                    "currentEquation": null
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "test_dev_2"
+                    "ioValue": "test_dev_2",
+                    "currentEquation": null
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
@@ -158,19 +175,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
+                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
+                    "currentEquation": null
                 },
                 {
                     "name": "Resolution (dpi)",
-                    "ioValue": 96
+                    "ioValue": 96,
+                    "currentEquation": null
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "test_dev_2"
+                    "ioValue": "test_dev_2",
+                    "currentEquation": null
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "STL"
+                    "ioValue": "STL",
+                    "currentEquation": null
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
