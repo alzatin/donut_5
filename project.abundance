@@ -126,7 +126,7 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 0.35
+                    "ioValue": 1.35
                 },
                 {
                     "name": "Passes",
@@ -138,7 +138,7 @@
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 0.01
+                    "ioValue": 0
                 },
                 {
                     "name": "Part Name",
