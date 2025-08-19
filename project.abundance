@@ -7,8 +7,7 @@
     "ioValues": [
         {
             "name": "love",
-            "ioValue": 3,
-            "currentEquation": null
+            "ioValue": 3
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -23,8 +22,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
-                    "currentEquation": null
+                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -32,14 +30,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.1970149253731343,
-            "y": 0.3795180722891566,
+            "x": 0.2,
+            "y": 0.3614457831325301,
             "uniqueID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 1.5,
-                    "currentEquation": null
+                    "ioValue": 10
                 }
             ],
             "description": "Creates a new circle."
@@ -53,13 +50,11 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 30,
-                    "currentEquation": "30"
+                    "ioValue": 30
                 },
                 {
                     "name": "y length",
-                    "ioValue": 4.5,
-                    "currentEquation": "love * 1.5"
+                    "ioValue": 30
                 }
             ],
             "description": "Creates a new rectangle."
@@ -73,13 +68,11 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "50d71ec0-a3eb-4704-9517-69920a1cae12",
-                    "currentEquation": null
+                    "ioValue": "50d71ec0-a3eb-4704-9517-69920a1cae12"
                 },
                 {
                     "name": "height",
-                    "ioValue": 1.3,
-                    "currentEquation": "0.65 * 2"
+                    "ioValue": 1.3
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -93,13 +86,11 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "7ea3db64-657c-4b8b-b013-9877599af293",
-                    "currentEquation": null
+                    "ioValue": "7ea3db64-657c-4b8b-b013-9877599af293"
                 },
                 {
                     "name": "height",
-                    "ioValue": 3,
-                    "currentEquation": null
+                    "ioValue": 3
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -113,13 +104,11 @@
             "ioValues": [
                 {
                     "name": "geometry1",
-                    "ioValue": "2d854a77-eb0a-406c-861d-481c58f84925",
-                    "currentEquation": null
+                    "ioValue": "2d854a77-eb0a-406c-861d-481c58f84925"
                 },
                 {
                     "name": "geometry2",
-                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
-                    "currentEquation": null
+                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3"
                 }
             ],
             "description": "Subtracts shape two from shape one."
@@ -127,39 +116,33 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7402985074626866,
-            "y": 0.31626506024096385,
+            "x": 0.7353233830845771,
+            "y": 0.3192771084337349,
             "uniqueID": "a37c3512-984a-40b3-8b00-279948eebbe7",
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
-                    "currentEquation": null
+                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 0.35,
-                    "currentEquation": null
+                    "ioValue": 0.35
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 5,
-                    "currentEquation": null
+                    "ioValue": 1
                 },
                 {
                     "name": "Speed",
-                    "ioValue": 1500,
-                    "currentEquation": null
+                    "ioValue": 1500
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 0.01,
-                    "currentEquation": null
+                    "ioValue": 0.01
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "test_dev_2",
-                    "currentEquation": null
+                    "ioValue": "test_dev_2"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
@@ -175,23 +158,19 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
-                    "currentEquation": null
+                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
                 },
                 {
                     "name": "Resolution (dpi)",
-                    "ioValue": 96,
-                    "currentEquation": null
+                    "ioValue": 96
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "test_dev_2",
-                    "currentEquation": null
+                    "ioValue": "test_dev_2"
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "STL",
-                    "currentEquation": null
+                    "ioValue": "STL"
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
