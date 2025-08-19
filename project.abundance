@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "love",
-            "ioValue": 10
+            "ioValue": 20
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -30,13 +30,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.2118270079435128,
-            "y": 0.31626506024096385,
+            "x": 0.21592039800995025,
+            "y": 0.3102409638554217,
             "uniqueID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 30
                 }
             ],
             "description": "Creates a new circle."
