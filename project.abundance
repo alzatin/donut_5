@@ -44,8 +44,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.18208955223880596,
-            "y": 0.7680722891566265,
+            "x": 0.18706467661691542,
+            "y": 0.7801204819277108,
             "uniqueID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
             "ioValues": [
                 {
@@ -54,7 +54,7 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 3.3333333333333335
+                    "ioValue": 3
                 }
             ],
             "description": "Creates a new rectangle."
