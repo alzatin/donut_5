@@ -30,13 +30,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.21592039800995025,
-            "y": 0.3102409638554217,
+            "x": 0.2208955223880597,
+            "y": 0.31626506024096385,
             "uniqueID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 30
+                    "ioValue": 7
                 }
             ],
             "description": "Creates a new circle."
@@ -116,8 +116,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6974206349206349,
-            "y": 0.3644578313253012,
+            "x": 0.6895522388059702,
+            "y": 0.3855421686746988,
             "uniqueID": "a37c3512-984a-40b3-8b00-279948eebbe7",
             "ioValues": [
                 {
@@ -138,7 +138,7 @@
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 1
+                    "ioValue": 0.01
                 },
                 {
                     "name": "Part Name",
