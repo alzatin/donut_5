@@ -167,13 +167,13 @@
         {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.3166823751178134,
-            "y": 0.6987951807228915,
+            "x": 0.3104026845637584,
+            "y": 0.6957831325301205,
             "uniqueID": "9e17cbaf-3ce7-444c-8404-90dc77b84743",
             "ioValues": [
                 {
                     "name": "Font Size",
-                    "ioValue": "10",
+                    "ioValue": 10,
                     "currentEquation": "10"
                 },
                 {
@@ -189,8 +189,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.476510067114094,
-            "y": 0.5542168674698795,
+            "x": 0.3959731543624161,
+            "y": 0.5060240963855421,
             "uniqueID": "4c78657c-921e-476f-981a-bcbec21a18ed",
             "ioValues": [
                 {
