@@ -189,14 +189,14 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.5004712535344015,
-            "y": 0.6897590361445783,
+            "x": 0.476510067114094,
+            "y": 0.5542168674698795,
             "uniqueID": "4c78657c-921e-476f-981a-bcbec21a18ed",
             "ioValues": [
                 {
                     "name": "Number",
-                    "ioValue": 4,
-                    "currentEquation": "4"
+                    "ioValue": 10,
+                    "currentEquation": "plythick"
                 },
                 {
                     "name": "Geometry",
@@ -291,7 +291,7 @@
                         },
                         {
                             "name": "Number",
-                            "ioValue": 4,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
