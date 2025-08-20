@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "plythick",
-            "ioValue": 39,
+            "ioValue": 10,
             "currentEquation": null
         }
     ],
@@ -53,8 +53,8 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": null,
-                    "currentEquation": "l"
+                    "ioValue": 10,
+                    "currentEquation": "plythick"
                 },
                 {
                     "name": "y length",
