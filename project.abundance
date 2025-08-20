@@ -216,19 +216,6 @@
                 }
             ],
             "description": "The space shared by two shapes."
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.4721960414703111,
-            "y": 0.7710843373493976,
-            "uniqueID": "479c6217-5999-4fe1-a26d-1602c322836e",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas_copy7.svg",
-            "type": "SVG",
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
