@@ -44,8 +44,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.21866163996229973,
-            "y": 0.641566265060241,
+            "x": 0.20655080213903743,
+            "y": 0.7228915662650602,
             "uniqueID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
             "ioValues": [
                 {
@@ -62,8 +62,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4071630537229029,
-            "y": 0.5602409638554217,
+            "x": 0.38235294117647056,
+            "y": 0.48192771084337344,
             "uniqueID": "2d854a77-eb0a-406c-861d-481c58f84925",
             "ioValues": [
                 {
@@ -98,8 +98,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5918944392082941,
-            "y": 0.4487951807228916,
+            "x": 0.5929144385026738,
+            "y": 0.4427710843373494,
             "uniqueID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
             "ioValues": [
                 {
@@ -180,16 +180,6 @@
             "partName": "test_dev_2"
         },
         {
-            "atomType": "Equation",
-            "name": "5",
-            "x": 0.43826578699340246,
-            "y": 0.9066265060240964,
-            "uniqueID": "44dc677a-4132-4e5f-b6eb-b37f868ffd1b",
-            "ioValues": [],
-            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "5"
-        },
-        {
             "atomType": "Input",
             "name": "plythick",
             "x": 0.025384615384615384,
@@ -202,9 +192,9 @@
         {
             "atomType": "Intersection",
             "name": "Intersection",
-            "x": 0.6003770028275213,
-            "y": 0.7078313253012049,
-            "uniqueID": "f3dc0532-9bbc-4c0a-a0a7-69545e7dec41",
+            "x": 0.5260695187165775,
+            "y": 0.6445783132530121,
+            "uniqueID": "b3005bbf-4f3c-42cd-a3fe-98ad71731c4d",
             "ioValues": [
                 {
                     "name": "geometry1",
@@ -212,7 +202,7 @@
                 },
                 {
                     "name": "geometry2",
-                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3"
+                    "ioValue": ""
                 }
             ],
             "description": "The space shared by two shapes."
@@ -245,7 +235,7 @@
             "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": "2d854a77-eb0a-406c-861d-481c58f84925",
-            "ap2ID": "f3dc0532-9bbc-4c0a-a0a7-69545e7dec41"
+            "ap2ID": "b3005bbf-4f3c-42cd-a3fe-98ad71731c4d"
         },
         {
             "ap1Name": "geometry",
@@ -253,13 +243,6 @@
             "ap2Primary": false,
             "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ap2ID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
-            "ap2ID": "f3dc0532-9bbc-4c0a-a0a7-69545e7dec41"
         },
         {
             "ap1Name": "geometry",
