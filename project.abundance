@@ -32,57 +32,17 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.2,
-            "y": 0.3614457831325301,
+            "x": 0.20829406220546656,
+            "y": 0.2469879518072289,
             "uniqueID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ioValues": [
                 {
                     "name": "diameter",
                     "ioValue": 5,
-                    "currentEquation": null
+                    "currentEquation": "5"
                 }
             ],
             "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.20923656927426953,
-            "y": 0.7198795180722891,
-            "uniqueID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10,
-                    "currentEquation": "plythick"
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 30,
-                    "currentEquation": "30"
-                }
-            ],
-            "description": "Creates a new rectangle."
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.3911404335532516,
-            "y": 0.6837349397590361,
-            "uniqueID": "2d854a77-eb0a-406c-861d-481c58f84925",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "50d71ec0-a3eb-4704-9517-69920a1cae12",
-                    "currentEquation": null
-                },
-                {
-                    "name": "height",
-                    "ioValue": 1.5,
-                    "currentEquation": "1.5"
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
             "atomType": "Extrude",
@@ -113,7 +73,7 @@
             "ioValues": [
                 {
                     "name": "geometry1",
-                    "ioValue": "2d854a77-eb0a-406c-861d-481c58f84925",
+                    "ioValue": "",
                     "currentEquation": null
                 },
                 {
@@ -127,8 +87,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7266729500471254,
-            "y": 0.3253012048192771,
+            "x": 0.7803958529688974,
+            "y": 0.2620481927710844,
             "uniqueID": "a37c3512-984a-40b3-8b00-279948eebbe7",
             "ioValues": [
                 {
@@ -169,8 +129,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7701492537313432,
-            "y": 0.6656626506024096,
+            "x": 0.7860508953817154,
+            "y": 0.7108433734939759,
             "uniqueID": "051c888d-229c-489b-9231-9af68f7cc91b",
             "ioValues": [
                 {
@@ -211,24 +171,26 @@
             "type": "number"
         },
         {
-            "atomType": "Intersection",
-            "name": "Intersection",
-            "x": 0.5598491988689915,
-            "y": 0.6566265060240964,
-            "uniqueID": "b3005bbf-4f3c-42cd-a3fe-98ad71731c4d",
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.2893496701225259,
+            "y": 0.6114457831325302,
+            "uniqueID": "9e17cbaf-3ce7-444c-8404-90dc77b84743",
             "ioValues": [
                 {
-                    "name": "geometry1",
-                    "ioValue": "2d854a77-eb0a-406c-861d-481c58f84925",
+                    "name": "Font Size",
+                    "ioValue": 10,
                     "currentEquation": null
                 },
                 {
-                    "name": "geometry2",
-                    "ioValue": "",
+                    "name": "Text",
+                    "ioValue": "Lorem Ipsum",
                     "currentEquation": null
                 }
             ],
-            "description": "The space shared by two shapes."
+            "description": "Creates a new text sketch.",
+            "fontFamily": "ANTON",
+            "selectedFontIndex": 0
         }
     ],
     "allConnectors": [
@@ -238,27 +200,6 @@
             "ap2Primary": true,
             "ap1ID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ap2ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
-            "ap2ID": "2d854a77-eb0a-406c-861d-481c58f84925"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": "2d854a77-eb0a-406c-861d-481c58f84925",
-            "ap2ID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": "2d854a77-eb0a-406c-861d-481c58f84925",
-            "ap2ID": "b3005bbf-4f3c-42cd-a3fe-98ad71731c4d"
         },
         {
             "ap1Name": "geometry",
