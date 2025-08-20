@@ -62,8 +62,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.40775401069518713,
-            "y": 0.5090361445783133,
+            "x": 0.409048067860509,
+            "y": 0.5512048192771084,
             "uniqueID": "2d854a77-eb0a-406c-861d-481c58f84925",
             "ioValues": [
                 {
@@ -180,6 +180,16 @@
             "partName": "test_dev_2"
         },
         {
+            "atomType": "Equation",
+            "name": "5",
+            "x": 0.43826578699340246,
+            "y": 0.9066265060240964,
+            "uniqueID": "44dc677a-4132-4e5f-b6eb-b37f868ffd1b",
+            "ioValues": [],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "5"
+        },
+        {
             "atomType": "Input",
             "name": "plythick",
             "x": 0.025384615384615384,
@@ -192,9 +202,9 @@
         {
             "atomType": "Intersection",
             "name": "Intersection",
-            "x": 0.5514705882352942,
-            "y": 0.8283132530120482,
-            "uniqueID": "c0063d3f-6c15-42b4-a0fa-87f20ed0edec",
+            "x": 0.5928369462770972,
+            "y": 0.6746987951807228,
+            "uniqueID": "f3dc0532-9bbc-4c0a-a0a7-69545e7dec41",
             "ioValues": [
                 {
                     "name": "geometry1",
@@ -202,10 +212,23 @@
                 },
                 {
                     "name": "geometry2",
-                    "ioValue": "50d71ec0-a3eb-4704-9517-69920a1cae12"
+                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3"
                 }
             ],
             "description": "The space shared by two shapes."
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.4721960414703111,
+            "y": 0.7710843373493976,
+            "uniqueID": "479c6217-5999-4fe1-a26d-1602c322836e",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "adidas_copy7.svg",
+            "type": "SVG",
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
@@ -225,13 +248,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
-            "ap2ID": "c0063d3f-6c15-42b4-a0fa-87f20ed0edec"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": "2d854a77-eb0a-406c-861d-481c58f84925",
@@ -242,7 +258,7 @@
             "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": "2d854a77-eb0a-406c-861d-481c58f84925",
-            "ap2ID": "c0063d3f-6c15-42b4-a0fa-87f20ed0edec"
+            "ap2ID": "f3dc0532-9bbc-4c0a-a0a7-69545e7dec41"
         },
         {
             "ap1Name": "geometry",
@@ -250,6 +266,13 @@
             "ap2Primary": false,
             "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ap2ID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
+            "ap2ID": "f3dc0532-9bbc-4c0a-a0a7-69545e7dec41"
         },
         {
             "ap1Name": "geometry",
