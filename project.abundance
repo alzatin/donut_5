@@ -47,14 +47,14 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.19698397737983034,
-            "y": 0.6265060240963854,
+            "x": 0.22525918944392084,
+            "y": 0.6024096385542169,
             "uniqueID": "50d71ec0-a3eb-4704-9517-69920a1cae12",
             "ioValues": [
                 {
                     "name": "x length",
                     "ioValue": null,
-                    "currentEquation": "love"
+                    "currentEquation": "loved"
                 },
                 {
                     "name": "y length",
