@@ -20,13 +20,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -173,14 +167,14 @@
         {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.2893496701225259,
-            "y": 0.6114457831325302,
+            "x": 0.3421300659754948,
+            "y": 0.6234939759036144,
             "uniqueID": "9e17cbaf-3ce7-444c-8404-90dc77b84743",
             "ioValues": [
                 {
                     "name": "Font Size",
                     "ioValue": 10,
-                    "currentEquation": null
+                    "currentEquation": "10"
                 },
                 {
                     "name": "Text",
