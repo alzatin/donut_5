@@ -41,8 +41,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.42715231788079466,
-            "y": 0.2560240963855422,
+            "x": 0.5234657039711191,
+            "y": 0.33433734939759036,
             "uniqueID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ioValues": [
                 {
@@ -52,31 +52,11 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 3,
-                    "currentEquation": null
+                    "ioValue": 4,
+                    "currentEquation": "4"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.5929144385026738,
-            "y": 0.4427710843373494,
-            "uniqueID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": "",
-                    "currentEquation": null
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Subtracts shape two from shape one."
         },
         {
             "atomType": "Gcode",
@@ -87,7 +67,7 @@
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
+                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
                     "currentEquation": null
                 },
                 {
@@ -129,7 +109,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
+                    "ioValue": "",
                     "currentEquation": null
                 },
                 {
@@ -189,8 +169,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.3959731543624161,
-            "y": 0.5060240963855421,
+            "x": 0.378158844765343,
+            "y": 0.5783132530120482,
             "uniqueID": "4c78657c-921e-476f-981a-bcbec21a18ed",
             "ioValues": [
                 {
@@ -433,31 +413,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
-            "ap2ID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Geometry",
             "ap2Primary": false,
-            "ap1ID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
+            "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ap2ID": "a37c3512-984a-40b3-8b00-279948eebbe7"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
-            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": "8fafe028-14ee-4265-9ee6-6d90b561d3ce",
-            "ap2ID": "051c888d-229c-489b-9231-9af68f7cc91b"
         }
     ],
     "unitsKey": "MM",
