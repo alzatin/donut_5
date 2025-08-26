@@ -439,6 +439,27 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.67057761732852,
+            "y": 0.6626506024096386,
+            "uniqueID": "84de4da1-6328-4e47-9288-3492d1371df2",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+            "BOMitem": {
+                "BOMitemName": "screw #6",
+                "numberNeeded": "3",
+                "costUSD": ".50",
+                "source": "home depot"
+            }
         }
     ],
     "allConnectors": [
@@ -453,6 +474,12 @@
             "ap2Name": "Geometry",
             "ap1ID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ap2ID": "4c78657c-921e-476f-981a-bcbec21a18ed"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
+            "ap2ID": "84de4da1-6328-4e47-9288-3492d1371df2"
         }
     ],
     "unitsKey": "MM",
