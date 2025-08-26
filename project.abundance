@@ -415,12 +415,12 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.6624548736462094,
-            "y": 0.40963855421686746,
-            "uniqueID": "c1a587eb-7959-4a16-b29f-cf34646b0b49",
+            "x": 0.6597472924187726,
+            "y": 0.7349397590361446,
+            "uniqueID": "d875f1e9-73bb-4442-a34d-acb2de6b8356",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "stand_svg_copy2.svg",
+            "fileName": "adidas_copy7.svg",
             "type": "SVG",
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
@@ -428,12 +428,12 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.6597472924187726,
-            "y": 0.7349397590361446,
-            "uniqueID": "d875f1e9-73bb-4442-a34d-acb2de6b8356",
+            "x": 0.6453068592057761,
+            "y": 0.4789156626506024,
+            "uniqueID": "26c06a5b-3258-4443-87fe-220f93d60559",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "adidas_copy7.svg",
+            "fileName": "SVG_units_inches (1)_copy1.svg",
             "type": "SVG",
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
