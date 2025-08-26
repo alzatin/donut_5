@@ -390,36 +390,6 @@
             "compiledBom": []
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.5975903614457831,
-            "y": 0.6596385542168675,
-            "uniqueID": "cd30ab9a-ec81-432a-ab23-43da7d7def56",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "7ea3db64-657c-4b8b-b013-9877599af293",
-                    "currentEquation": null
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
             "atomType": "Input",
             "name": "x",
             "x": 0.025384615384615384,
@@ -428,6 +398,19 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.49638554216867464,
+            "y": 0.6265060240963854,
+            "uniqueID": "031ea777-963f-4cb9-b844-5f7aea63920e",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "stand_svg_copy1.svg",
+            "type": "SVG",
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
@@ -442,18 +425,6 @@
             "ap2Name": "Geometry",
             "ap1ID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ap2ID": "4c78657c-921e-476f-981a-bcbec21a18ed"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "7ea3db64-657c-4b8b-b013-9877599af293",
-            "ap2ID": "cd30ab9a-ec81-432a-ab23-43da7d7def56"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "xDist",
-            "ap1ID": "64e20c52-a696-4771-96e2-4794abbc8297",
-            "ap2ID": "cd30ab9a-ec81-432a-ab23-43da7d7def56"
         }
     ],
     "unitsKey": "MM",
