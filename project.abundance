@@ -393,7 +393,7 @@
             "atomType": "Input",
             "name": "x",
             "x": 0.025384615384615384,
-            "y": 0.8343373493975904,
+            "y": 0.7409638554216867,
             "uniqueID": "64e20c52-a696-4771-96e2-4794abbc8297",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
