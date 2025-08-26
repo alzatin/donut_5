@@ -411,6 +411,19 @@
             "type": "SVG",
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.6353790613718411,
+            "y": 0.6265060240963854,
+            "uniqueID": "c1a587eb-7959-4a16-b29f-cf34646b0b49",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "stand_svg_copy2.svg",
+            "type": "SVG",
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
