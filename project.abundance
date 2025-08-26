@@ -9,6 +9,11 @@
             "name": "plythick",
             "ioValue": 10,
             "currentEquation": "10"
+        },
+        {
+            "name": "x",
+            "ioValue": 0,
+            "currentEquation": "0"
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -66,11 +71,6 @@
             "uniqueID": "a37c3512-984a-40b3-8b00-279948eebbe7",
             "ioValues": [
                 {
-                    "name": "Geometry",
-                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
-                    "currentEquation": null
-                },
-                {
                     "name": "Tool Size",
                     "ioValue": 1.35,
                     "currentEquation": null
@@ -113,6 +113,11 @@
                     "currentEquation": null
                 },
                 {
+                    "name": "File Type",
+                    "ioValue": "STL",
+                    "currentEquation": null
+                },
+                {
                     "name": "Resolution (dpi)",
                     "ioValue": 96,
                     "currentEquation": null
@@ -120,11 +125,6 @@
                 {
                     "name": "Part Name",
                     "ioValue": "test_dev_2",
-                    "currentEquation": null
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "STL",
                     "currentEquation": null
                 }
             ],
@@ -329,42 +329,36 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Number",
-                    "ap2Primary": false,
                     "ap1ID": "14eeb14b-9983-49fb-8c27-fd46ed2f6986",
                     "ap2ID": "55fe95ff-6c78-40b5-9ddb-e30cc4f6d130"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Shape",
-                    "ap2Primary": false,
                     "ap1ID": "0b2efd97-90aa-4242-a4dc-a65dd906f461",
                     "ap2ID": "55fe95ff-6c78-40b5-9ddb-e30cc4f6d130"
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "output",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": "55fe95ff-6c78-40b5-9ddb-e30cc4f6d130",
                     "ap2ID": "d0024cb4-e379-4bbb-bfd1-fa37c6d0d5cd"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "distX",
-                    "ap2Primary": false,
                     "ap1ID": "06e23fbd-1aee-4847-8c4c-6e078722e1bf",
                     "ap2ID": "55fe95ff-6c78-40b5-9ddb-e30cc4f6d130"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "distY",
-                    "ap2Primary": false,
                     "ap1ID": "6b167a90-4b58-44e9-b3b2-a0995f5b5fa8",
                     "ap2ID": "55fe95ff-6c78-40b5-9ddb-e30cc4f6d130"
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "distZ",
-                    "ap2Primary": false,
                     "ap1ID": "76ecb21f-ca00-41f5-adec-b8b93849d584",
                     "ap2ID": "55fe95ff-6c78-40b5-9ddb-e30cc4f6d130"
                 }
@@ -394,29 +388,72 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5975903614457831,
+            "y": 0.6596385542168675,
+            "uniqueID": "cd30ab9a-ec81-432a-ab23-43da7d7def56",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "7ea3db64-657c-4b8b-b013-9877599af293",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Input",
+            "name": "x",
+            "x": 0.025384615384615384,
+            "y": 0.8343373493975904,
+            "uniqueID": "64e20c52-a696-4771-96e2-4794abbc8297",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ap2ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Geometry",
-            "ap2Primary": false,
             "ap1ID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ap2ID": "4c78657c-921e-476f-981a-bcbec21a18ed"
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Geometry",
-            "ap2Primary": false,
-            "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
-            "ap2ID": "a37c3512-984a-40b3-8b00-279948eebbe7"
+            "ap2Name": "geometry",
+            "ap1ID": "7ea3db64-657c-4b8b-b013-9877599af293",
+            "ap2ID": "cd30ab9a-ec81-432a-ab23-43da7d7def56"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "xDist",
+            "ap1ID": "64e20c52-a696-4771-96e2-4794abbc8297",
+            "ap2ID": "cd30ab9a-ec81-432a-ab23-43da7d7def56"
         }
     ],
     "unitsKey": "MM",
