@@ -51,8 +51,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5462107208872459,
-            "y": 0.27710843373493976,
+            "x": 0.4405080213903743,
+            "y": 0.4427710843373494,
             "uniqueID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ioValues": [
                 {
@@ -62,8 +62,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 36,
-                    "currentEquation": "6"
+                    "ioValue": 3,
+                    "currentEquation": "3"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -174,8 +174,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.3826247689463956,
-            "y": 0.5963855421686747,
+            "x": 0.40775401069518713,
+            "y": 0.1325301204819277,
             "uniqueID": "4c78657c-921e-476f-981a-bcbec21a18ed",
             "ioValues": [
                 {
@@ -434,7 +434,7 @@
             "atomType": "Input",
             "name": "Input (1)",
             "x": 0.025384615384615384,
-            "y": 0.6716867469879517,
+            "y": 0.677710843373494,
             "uniqueID": "54dd5e5f-f26b-491b-a5e4-1efe36cf278a",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -443,8 +443,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.5924214417744916,
-            "y": 0.5843373493975904,
+            "x": 0.6617375231053604,
+            "y": 0.6716867469879517,
             "uniqueID": "25334b36-98b7-4e4f-89da-c568a17a9bf4",
             "ioValues": [
                 {
@@ -468,30 +468,14 @@
             "code": "\n      Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10},\n        {inputName: \"yes\", type: \"boolean\", defaultValue: true}\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Takes the address and gets the shape from the library\n      let importedShape = library[shape]\n\n      //This makes a new copy of the shape and moves it in the X direction\n      let movedShape = importedShape.geometry[0].clone().translate([dist,0,0])\n\n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n\n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n\n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      //return shape1\n\n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape],\n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n\n      //Then we can return our created shape in just the same way\n      //return shape2\n\n      //If we want to return both shapes at once, we can create an assembly with them\n      let anAssembly = {\n        geometry: [shape1, shape2],\n        tags: [\"aNewTag\"],\n        color: '#A3CF5B',\n        plane: newPlane,\n        bom: []\n      }\n\n      //And we can return that in the same way\n      return anAssembly\n\n      /**\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n      If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0]\n      Use any replicad available methods to modify your geometry. Learn more about all of the available methods at\n      https://replicad.xyz/docs/introapp/UserGuide.html\n      Return a replicad object that includes geometry, color, tags and plane.\n\n      Example Code Atom:\n        Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let finalShape = library[shape].geometry[0].clone().translate([x,0,0])\n        return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      */\n      "
         },
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.5767097966728281,
-            "y": 0.9066265060240964,
-            "uniqueID": "65eb77f6-9b32-4c11-8e3d-b1113957833e",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "25334b36-98b7-4e4f-89da-c568a17a9bf4",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Changes the color of the shape.",
-            "selectedColorIndex": 2
-        },
-        {
             "atomType": "Constant",
             "name": "Constant",
-            "x": 0.400184842883549,
-            "y": 0.7951807228915663,
-            "uniqueID": "66dc2a6a-28bf-4b83-88ba-ce6ae4a030c5",
+            "x": 0.34491978609625673,
+            "y": 0.783132530120482,
+            "uniqueID": "93603f51-5d92-4544-a73a-363ac16778c7",
             "ioValues": [],
             "description": "Defines a mathematical constant.",
-            "value": 36
+            "value": 1
         }
     ],
     "allConnectors": [
@@ -514,15 +498,9 @@
             "ap2ID": "25334b36-98b7-4e4f-89da-c568a17a9bf4"
         },
         {
-            "ap1Name": "output",
-            "ap2Name": "geometry",
-            "ap1ID": "25334b36-98b7-4e4f-89da-c568a17a9bf4",
-            "ap2ID": "65eb77f6-9b32-4c11-8e3d-b1113957833e"
-        },
-        {
             "ap1Name": "number",
             "ap2Name": "height",
-            "ap1ID": "66dc2a6a-28bf-4b83-88ba-ce6ae4a030c5",
+            "ap1ID": "93603f51-5d92-4544-a73a-363ac16778c7",
             "ap2ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3"
         }
     ],
