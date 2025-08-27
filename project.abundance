@@ -51,8 +51,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5258780036968577,
-            "y": 0.3765060240963855,
+            "x": 0.5462107208872459,
+            "y": 0.27710843373493976,
             "uniqueID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ioValues": [
                 {
@@ -62,8 +62,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 5,
-                    "currentEquation": null
+                    "ioValue": 36,
+                    "currentEquation": "6"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -434,7 +434,7 @@
             "atomType": "Input",
             "name": "Input (1)",
             "x": 0.025384615384615384,
-            "y": 0.677710843373494,
+            "y": 0.6716867469879517,
             "uniqueID": "54dd5e5f-f26b-491b-a5e4-1efe36cf278a",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -486,12 +486,12 @@
         {
             "atomType": "Constant",
             "name": "Constant",
-            "x": 0.40665434380776344,
-            "y": 0.8072289156626505,
+            "x": 0.400184842883549,
+            "y": 0.7951807228915663,
             "uniqueID": "66dc2a6a-28bf-4b83-88ba-ce6ae4a030c5",
             "ioValues": [],
             "description": "Defines a mathematical constant.",
-            "value": 5
+            "value": 36
         }
     ],
     "allConnectors": [
