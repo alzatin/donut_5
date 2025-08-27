@@ -16,7 +16,7 @@
             "currentEquation": "0"
         },
         {
-            "name": "Input (1)",
+            "name": "test",
             "ioValue": 10,
             "currentEquation": "10"
         }
@@ -104,40 +104,6 @@
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "test_dev_2",
             "sortDirection": "Left"
-        },
-        {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.7860508953817154,
-            "y": 0.7108433734939759,
-            "uniqueID": "051c888d-229c-489b-9231-9af68f7cc91b",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "",
-                    "currentEquation": null
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "STL",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "test_dev_2",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": "STL",
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "test_dev_2"
         },
         {
             "atomType": "Input",
@@ -405,83 +371,14 @@
             "type": "number"
         },
         {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.5092421441774492,
-            "y": 0.5993975903614458,
-            "uniqueID": "59a29df2-291a-406c-951e-ba2fd414e2cb",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "stand_svg_copy3.svg",
-            "type": "SVG",
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.6534195933456562,
-            "y": 0.3132530120481927,
-            "uniqueID": "d25b31dc-6551-4628-92d6-7549f550aca7",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "stand_svg_copy4.svg",
-            "type": "SVG",
-            "repoOwner": "alzatin",
-            "repoName": "test_dev_2"
-        },
-        {
             "atomType": "Input",
-            "name": "Input (1)",
+            "name": "test",
             "x": 0.025384615384615384,
             "y": 0.6716867469879517,
             "uniqueID": "54dd5e5f-f26b-491b-a5e4-1efe36cf278a",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
-        },
-        {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.688539741219963,
-            "y": 0.45180722891566266,
-            "uniqueID": "25334b36-98b7-4e4f-89da-c568a17a9bf4",
-            "ioValues": [
-                {
-                    "name": "shape",
-                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
-                    "currentEquation": null
-                },
-                {
-                    "name": "dist",
-                    "ioValue": "19",
-                    "currentEquation": null
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Defines a Replicad code block.",
-            "codeVersion": 1,
-            "code": "\n      Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10},\n        {inputName: \"yes\", type: \"boolean\", defaultValue: true}\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Takes the address and gets the shape from the library\n      let importedShape = library[shape]\n\n      //This makes a new copy of the shape and moves it in the X direction\n      let movedShape = importedShape.geometry[0].clone().translate([dist,0,0])\n\n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n\n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n\n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      //return shape1\n\n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape],\n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n\n      //Then we can return our created shape in just the same way\n      //return shape2\n\n      //If we want to return both shapes at once, we can create an assembly with them\n      let anAssembly = {\n        geometry: [shape1, shape2],\n        tags: [\"aNewTag\"],\n        color: '#A3CF5B',\n        plane: newPlane,\n        bom: []\n      }\n\n      //And we can return that in the same way\n      return anAssembly\n\n      /**\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n      If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0]\n      Use any replicad available methods to modify your geometry. Learn more about all of the available methods at\n      https://replicad.xyz/docs/introapp/UserGuide.html\n      Return a replicad object that includes geometry, color, tags and plane.\n\n      Example Code Atom:\n        Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let finalShape = library[shape].geometry[0].clone().translate([x,0,0])\n        return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      */\n      "
-        },
-        {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.7051756007393715,
-            "y": 0.8283132530120482,
-            "uniqueID": "65eb77f6-9b32-4c11-8e3d-b1113957833e",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "25334b36-98b7-4e4f-89da-c568a17a9bf4",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Changes the color of the shape.",
-            "selectedColorIndex": 2
         },
         {
             "atomType": "Constant",
@@ -494,46 +391,68 @@
             "value": 36
         },
         {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.6146025878003697,
-            "y": 0.6897590361445783,
-            "uniqueID": "d50df062-bd0c-409d-b012-55973cec425a",
+            "atomType": "Tag",
+            "name": "lost",
+            "x": 0.5632183908045977,
+            "y": 0.47289156626506024,
+            "uniqueID": "ded5a404-da9b-49fc-baa8-50601efe0ba8",
             "ioValues": [
                 {
                     "name": "geometry",
                     "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
                     "currentEquation": null
-                },
+                }
+            ],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                "lost"
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.6666666666666666,
+            "y": 0.4427710843373494,
+            "uniqueID": "745cb153-8312-4c9f-a764-74d91c03e9f6",
+            "ioValues": [
                 {
-                    "name": "Sheet Width",
-                    "ioValue": 2438,
+                    "name": "geometry",
+                    "ioValue": "ded5a404-da9b-49fc-baa8-50601efe0ba8",
                     "currentEquation": null
                 },
                 {
-                    "name": "Sheet Height",
-                    "ioValue": 1219,
+                    "name": "xDist",
+                    "ioValue": 0,
                     "currentEquation": null
                 },
                 {
-                    "name": "Part Padding",
-                    "ioValue": 10,
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
                     "currentEquation": null
                 }
             ],
-            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": [
-                [
-                    {
-                        "id": 0,
-                        "rotate": 210,
-                        "translate": {
-                            "x": 7.708620360469991,
-                            "y": 7.708620360469991
-                        }
-                    }
-                ]
-            ]
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.831765935214211,
+            "y": 0.42771084337349397,
+            "uniqueID": "afb8068d-634f-4b28-bcc5-ca0998001118",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "745cb153-8312-4c9f-a764-74d91c03e9f6",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extracts geometry containing the specified tag.",
+            "tagIndex": 0
         }
     ],
     "allConnectors": [
@@ -551,21 +470,21 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "shape",
+            "ap2Name": "geometry",
             "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
-            "ap2ID": "25334b36-98b7-4e4f-89da-c568a17a9bf4"
+            "ap2ID": "ded5a404-da9b-49fc-baa8-50601efe0ba8"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
-            "ap2ID": "d50df062-bd0c-409d-b012-55973cec425a"
+            "ap1ID": "ded5a404-da9b-49fc-baa8-50601efe0ba8",
+            "ap2ID": "745cb153-8312-4c9f-a764-74d91c03e9f6"
         },
         {
-            "ap1Name": "output",
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap1ID": "25334b36-98b7-4e4f-89da-c568a17a9bf4",
-            "ap2ID": "65eb77f6-9b32-4c11-8e3d-b1113957833e"
+            "ap1ID": "745cb153-8312-4c9f-a764-74d91c03e9f6",
+            "ap2ID": "afb8068d-634f-4b28-bcc5-ca0998001118"
         }
     ],
     "unitsKey": "MM",
