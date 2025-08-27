@@ -36,8 +36,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.21081081081081082,
-            "y": 0.2740963855421687,
+            "x": 0.20540540540540542,
+            "y": 0.2650602409638554,
             "uniqueID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ioValues": [
                 {
@@ -69,43 +69,6 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.7803958529688974,
-            "y": 0.2620481927710844,
-            "uniqueID": "a37c3512-984a-40b3-8b00-279948eebbe7",
-            "ioValues": [
-                {
-                    "name": "Tool Size",
-                    "ioValue": 1.35,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 1,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 1500,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "test_dev_2",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "test_dev_2",
-            "sortDirection": "Left"
-        },
-        {
             "atomType": "Input",
             "name": "plythick",
             "x": 0.025384615384615384,
@@ -118,8 +81,8 @@
         {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.23663101604278078,
-            "y": 0.6475903614457831,
+            "x": 0.23693693693693693,
+            "y": 0.6626506024096386,
             "uniqueID": "9e17cbaf-3ce7-444c-8404-90dc77b84743",
             "ioValues": [
                 {
