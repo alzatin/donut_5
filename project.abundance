@@ -36,8 +36,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.20829406220546656,
-            "y": 0.2469879518072289,
+            "x": 0.20187165775401067,
+            "y": 0.3855421686746988,
             "uniqueID": "7ea3db64-657c-4b8b-b013-9877599af293",
             "ioValues": [
                 {
@@ -109,7 +109,7 @@
             "atomType": "Input",
             "name": "plythick",
             "x": 0.025384615384615384,
-            "y": 0.5271084337349398,
+            "y": 0.41566265060240964,
             "uniqueID": "bf55dd50-f907-4467-9cea-88b40f224eee",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -473,6 +473,12 @@
             "ap2Name": "geometry",
             "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ap2ID": "ded5a404-da9b-49fc-baa8-50601efe0ba8"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap1ID": "bf55dd50-f907-4467-9cea-88b40f224eee",
+            "ap2ID": "7ea3db64-657c-4b8b-b013-9877599af293"
         },
         {
             "ap1Name": "geometry",
