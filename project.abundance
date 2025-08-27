@@ -51,8 +51,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.544362292051756,
-            "y": 0.2710843373493976,
+            "x": 0.48613678373382624,
+            "y": 0.286144578313253,
             "uniqueID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ioValues": [
                 {
@@ -62,8 +62,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 36,
-                    "currentEquation": "6"
+                    "ioValue": 0.75,
+                    "currentEquation": ".75"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -420,8 +420,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.6404805914972274,
-            "y": 0.4487951807228916,
+            "x": 0.6534195933456562,
+            "y": 0.3132530120481927,
             "uniqueID": "d25b31dc-6551-4628-92d6-7549f550aca7",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -443,8 +443,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.5924214417744916,
-            "y": 0.5843373493975904,
+            "x": 0.688539741219963,
+            "y": 0.45180722891566266,
             "uniqueID": "25334b36-98b7-4e4f-89da-c568a17a9bf4",
             "ioValues": [
                 {
@@ -470,8 +470,8 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.6349353049907579,
-            "y": 0.8614457831325302,
+            "x": 0.7051756007393715,
+            "y": 0.8283132530120482,
             "uniqueID": "65eb77f6-9b32-4c11-8e3d-b1113957833e",
             "ioValues": [
                 {
@@ -485,13 +485,55 @@
         },
         {
             "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.4057301293900185,
-            "y": 0.8072289156626505,
+            "name": "mush",
+            "x": 0.4121996303142329,
+            "y": 0.8042168674698795,
             "uniqueID": "66dc2a6a-28bf-4b83-88ba-ce6ae4a030c5",
             "ioValues": [],
             "description": "Defines a mathematical constant.",
             "value": 36
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.6146025878003697,
+            "y": 0.6897590361445783,
+            "uniqueID": "d50df062-bd0c-409d-b012-55973cec425a",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 2438,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 1219,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": [
+                [
+                    {
+                        "id": 0,
+                        "rotate": 210,
+                        "translate": {
+                            "x": 7.708620360469991,
+                            "y": 7.708620360469991
+                        }
+                    }
+                ]
+            ]
         }
     ],
     "allConnectors": [
@@ -514,16 +556,16 @@
             "ap2ID": "25334b36-98b7-4e4f-89da-c568a17a9bf4"
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
+            "ap2ID": "d50df062-bd0c-409d-b012-55973cec425a"
+        },
+        {
             "ap1Name": "output",
             "ap2Name": "geometry",
             "ap1ID": "25334b36-98b7-4e4f-89da-c568a17a9bf4",
             "ap2ID": "65eb77f6-9b32-4c11-8e3d-b1113957833e"
-        },
-        {
-            "ap1Name": "number",
-            "ap2Name": "height",
-            "ap1ID": "66dc2a6a-28bf-4b83-88ba-ce6ae4a030c5",
-            "ap2ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3"
         }
     ],
     "unitsKey": "MM",
