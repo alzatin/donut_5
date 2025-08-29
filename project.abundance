@@ -19,6 +19,16 @@
             "name": "test",
             "ioValue": 10,
             "currentEquation": "10"
+        },
+        {
+            "name": "Input (1)",
+            "ioValue": 10,
+            "currentEquation": null
+        },
+        {
+            "name": "Input (2)",
+            "ioValue": 10,
+            "currentEquation": null
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -103,8 +113,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.35765765765765767,
-            "y": 0.41867469879518077,
+            "x": 0.34910714285714284,
+            "y": 0.40361445783132527,
             "uniqueID": "4c78657c-921e-476f-981a-bcbec21a18ed",
             "ioValues": [
                 {
@@ -374,8 +384,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6927927927927928,
-            "y": 0.42168674698795183,
+            "x": 0.6910714285714286,
+            "y": 0.4427710843373494,
             "uniqueID": "745cb153-8312-4c9f-a764-74d91c03e9f6",
             "ioValues": [
                 {
@@ -429,6 +439,119 @@
             "type": "SVG",
             "repoOwner": "alzatin",
             "repoName": "test_dev_2"
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.5642857142857143,
+            "y": 0.6566265060240964,
+            "uniqueID": "68bee33f-ec30-4c4e-a7fe-7d6bf093cc06",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "f7207e29-a400-497a-902c-346b99073d58",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 0.4580357142857143,
+                    "y": 0.572289156626506,
+                    "uniqueID": "851c2006-33b7-4c9b-be65-d4ff968de4cb",
+                    "ioValues": [],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "b31459d6-b85e-4049-a00d-e936e073b371",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Input",
+            "name": "Input (1)",
+            "x": 0.025384615384615384,
+            "y": 0.3885542168674699,
+            "uniqueID": "1eab9382-9d03-48d4-8179-48c6778eb890",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "Input (2)",
+            "x": 0.025384615384615384,
+            "y": 0.29518072289156627,
+            "uniqueID": "0a9e243e-2731-47bf-a60a-23585d241274",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.1875,
+            "y": 0.536144578313253,
+            "uniqueID": "c617c75e-ffa8-4ccc-bdd8-dd61f52f96a0",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.29285714285714287,
+            "y": 0.4879518072289156,
+            "uniqueID": "b4903276-5f41-4f0e-b7f2-99143ae96bf4",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.44821428571428573,
+            "y": 0.4367469879518072,
+            "uniqueID": "8d7cbc83-5e25-4929-a003-3a44c96d1e84",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
