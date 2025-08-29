@@ -42,8 +42,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.21029572836801755,
-            "y": 0.3403614457831325,
+            "x": 0.20920043811610078,
+            "y": 0.35240963855421686,
             "uniqueID": "816fbf61-b04c-4468-802e-d4b18fb046df",
             "ioValues": [
                 {
@@ -122,8 +122,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6812705366922234,
-            "y": 0.48192771084337344,
+            "x": 0.6867469879518072,
+            "y": 0.4909638554216868,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -142,8 +142,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.859802847754655,
-            "y": 0.7289156626506024,
+            "x": 0.868565169769989,
+            "y": 0.7168674698795181,
             "uniqueID": "1ee1028d-8e86-46e5-a4bd-395ed336fbe4",
             "ioValues": [
                 {
@@ -176,8 +176,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8400876232201534,
-            "y": 0.25,
+            "x": 0.8378970427163198,
+            "y": 0.22590361445783133,
             "uniqueID": "a7b135d3-e143-4ef6-b157-4e5153aad1e4",
             "ioValues": [
                 {
@@ -187,7 +187,7 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 0.25,
+                    "ioValue": 1,
                     "currentEquation": null
                 },
                 {
@@ -218,8 +218,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.15553121577217963,
-            "y": 0.7319277108433735,
+            "x": 0.15005476451259583,
+            "y": 0.7439759036144579,
             "uniqueID": "4cf90b84-dcb7-4ad3-89fe-affe52e1d56c",
             "ioValues": [
                 {
@@ -253,7 +253,7 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5082146768893757,
+            "x": 0.515881708652793,
             "y": 0.7981927710843374,
             "uniqueID": "41cb5043-32ed-43c2-8d9b-4c8d6bd0cbbc",
             "ioValues": [
@@ -283,8 +283,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6495071193866374,
-            "y": 0.6957831325301205,
+            "x": 0.6549835706462213,
+            "y": 0.6927710843373494,
             "uniqueID": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2",
             "ioValues": [
                 {
@@ -299,48 +299,6 @@
                 }
             ],
             "description": "Subtracts shape two from shape one."
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.7546549835706462,
-            "y": 0.8192771084337349,
-            "uniqueID": "e9be0ba8-30ff-4f25-a09a-15f5c69ed822",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Tool Size",
-                    "ioValue": 0.25,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 1,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 1500,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 0.25,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "test_dev_2",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "test_dev_2",
-            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -406,18 +364,12 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2",
-            "ap2ID": "e9be0ba8-30ff-4f25-a09a-15f5c69ed822"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap1ID": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2",
             "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
-    "unitsKey": "Inches",
+    "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
