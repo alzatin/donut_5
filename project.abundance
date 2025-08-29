@@ -416,6 +416,19 @@
             ],
             "description": "Extracts geometry containing the specified tag.",
             "tagIndex": 0
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.7339285714285715,
+            "y": 0.753012048192771,
+            "uniqueID": "af1bdd79-fb29-4b1a-b2ba-76fbf531bb16",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "stand_svg_copy1.svg",
+            "type": "SVG",
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
