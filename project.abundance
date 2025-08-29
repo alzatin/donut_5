@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Input (1)",
-            "ioValue": "1",
+            "ioValue": "",
             "currentEquation": null
         }
     ],
@@ -23,7 +23,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+                    "ioValue": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2",
                     "currentEquation": null
                 }
             ],
@@ -62,8 +62,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5147864184008762,
-            "y": 0.35843373493975905,
+            "x": 0.5136911281489595,
+            "y": 0.35240963855421686,
             "uniqueID": "b2239e10-993e-446f-ba73-204d4f3f4922",
             "ioValues": [
                 {
@@ -218,14 +218,14 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.15334063526834613,
-            "y": 0.7168674698795181,
+            "x": 0.15553121577217963,
+            "y": 0.7319277108433735,
             "uniqueID": "4cf90b84-dcb7-4ad3-89fe-affe52e1d56c",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 40,
+                    "currentEquation": "40"
                 }
             ],
             "description": "Creates a new circle."
@@ -249,6 +249,98 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5082146768893757,
+            "y": 0.7981927710843374,
+            "uniqueID": "41cb5043-32ed-43c2-8d9b-4c8d6bd0cbbc",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "9d5fd651-f01c-4767-8fb4-42f50cbd2f95",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 5,
+                    "currentEquation": "5"
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.6495071193866374,
+            "y": 0.6957831325301205,
+            "uniqueID": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": "b2239e10-993e-446f-ba73-204d4f3f4922",
+                    "currentEquation": null
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": "41cb5043-32ed-43c2-8d9b-4c8d6bd0cbbc",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.7546549835706462,
+            "y": 0.8192771084337349,
+            "uniqueID": "e9be0ba8-30ff-4f25-a09a-15f5c69ed822",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 0.25,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 0.25,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "test_dev_2",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "test_dev_2",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -263,6 +355,12 @@
             "ap2Name": "geometry1",
             "ap1ID": "b2239e10-993e-446f-ba73-204d4f3f4922",
             "ap2ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap1ID": "b2239e10-993e-446f-ba73-204d4f3f4922",
+            "ap2ID": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2"
         },
         {
             "ap1Name": "geometry",
@@ -290,15 +388,33 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
-            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
+            "ap2Name": "geometry",
+            "ap1ID": "4cf90b84-dcb7-4ad3-89fe-affe52e1d56c",
+            "ap2ID": "9d5fd651-f01c-4767-8fb4-42f50cbd2f95"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap1ID": "4cf90b84-dcb7-4ad3-89fe-affe52e1d56c",
-            "ap2ID": "9d5fd651-f01c-4767-8fb4-42f50cbd2f95"
+            "ap1ID": "9d5fd651-f01c-4767-8fb4-42f50cbd2f95",
+            "ap2ID": "41cb5043-32ed-43c2-8d9b-4c8d6bd0cbbc"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap1ID": "41cb5043-32ed-43c2-8d9b-4c8d6bd0cbbc",
+            "ap2ID": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2",
+            "ap2ID": "e9be0ba8-30ff-4f25-a09a-15f5c69ed822"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "db3f19f4-fab7-49d3-a1f8-c3f6b8575ec2",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
     "unitsKey": "Inches",
