@@ -42,8 +42,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.29244249726177435,
-            "y": 0.41867469879518077,
+            "x": 0.21029572836801755,
+            "y": 0.3403614457831325,
             "uniqueID": "816fbf61-b04c-4468-802e-d4b18fb046df",
             "ioValues": [
                 {
@@ -62,8 +62,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4830230010952902,
-            "y": 0.3855421686746988,
+            "x": 0.5147864184008762,
+            "y": 0.35843373493975905,
             "uniqueID": "b2239e10-993e-446f-ba73-204d4f3f4922",
             "ioValues": [
                 {
@@ -82,8 +82,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.38225629791894855,
-            "y": 0.7801204819277108,
+            "x": 0.34501642935377874,
+            "y": 0.15060240963855423,
             "uniqueID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
             "ioValues": [
                 {
@@ -102,8 +102,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.524644030668127,
-            "y": 0.7018072289156627,
+            "x": 0.6571741511500547,
+            "y": 0.14156626506024098,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -122,8 +122,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6319824753559693,
-            "y": 0.5240963855421688,
+            "x": 0.6812705366922234,
+            "y": 0.48192771084337344,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -142,8 +142,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.8159912376779848,
-            "y": 0.753012048192771,
+            "x": 0.859802847754655,
+            "y": 0.7289156626506024,
             "uniqueID": "1ee1028d-8e86-46e5-a4bd-395ed336fbe4",
             "ioValues": [
                 {
@@ -176,8 +176,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.791894852135816,
-            "y": 0.34939759036144574,
+            "x": 0.8400876232201534,
+            "y": 0.25,
             "uniqueID": "a7b135d3-e143-4ef6-b157-4e5153aad1e4",
             "ioValues": [
                 {
@@ -207,13 +207,48 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "test_dev_2",
+                    "ioValue": "cnc1Pass",
                     "currentEquation": null
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "test_dev_2",
+            "partName": "cnc1Pass",
             "sortDirection": "Left"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.15334063526834613,
+            "y": 0.7168674698795181,
+            "uniqueID": "4cf90b84-dcb7-4ad3-89fe-affe52e1d56c",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.407447973713034,
+            "y": 0.7289156626506024,
+            "uniqueID": "9d5fd651-f01c-4767-8fb4-42f50cbd2f95",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "4cf90b84-dcb7-4ad3-89fe-affe52e1d56c",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
         }
     ],
     "allConnectors": [
@@ -258,6 +293,12 @@
             "ap2Name": "number or geometry",
             "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "4cf90b84-dcb7-4ad3-89fe-affe52e1d56c",
+            "ap2ID": "9d5fd651-f01c-4767-8fb4-42f50cbd2f95"
         }
     ],
     "unitsKey": "Inches",
