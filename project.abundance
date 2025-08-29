@@ -6,27 +6,7 @@
     "uniqueID": 1743265138516,
     "ioValues": [
         {
-            "name": "plythick",
-            "ioValue": 10,
-            "currentEquation": "10"
-        },
-        {
-            "name": "x",
-            "ioValue": 0,
-            "currentEquation": "0"
-        },
-        {
-            "name": "test",
-            "ioValue": 10,
-            "currentEquation": "10"
-        },
-        {
             "name": "Input (1)",
-            "ioValue": 10,
-            "currentEquation": null
-        },
-        {
-            "name": "Input (2)",
             "ioValue": 10,
             "currentEquation": null
         }
@@ -79,16 +59,6 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Input",
-            "name": "plythick",
-            "x": 0.025384615384615384,
-            "y": 0.5271084337349398,
-            "uniqueID": "bf55dd50-f907-4467-9cea-88b40f224eee",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
             "atomType": "Text",
             "name": "Text",
             "x": 0.23693693693693693,
@@ -113,8 +83,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.34910714285714284,
-            "y": 0.40361445783132527,
+            "x": 0.3477859778597786,
+            "y": 0.41566265060240964,
             "uniqueID": "4c78657c-921e-476f-981a-bcbec21a18ed",
             "ioValues": [
                 {
@@ -334,26 +304,6 @@
             "compiledBom": []
         },
         {
-            "atomType": "Input",
-            "name": "x",
-            "x": 0.025384615384615384,
-            "y": 0.8403614457831325,
-            "uniqueID": "64e20c52-a696-4771-96e2-4794abbc8297",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
-            "atomType": "Input",
-            "name": "test",
-            "x": 0.025384615384615384,
-            "y": 0.6716867469879517,
-            "uniqueID": "54dd5e5f-f26b-491b-a5e4-1efe36cf278a",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
             "atomType": "Constant",
             "name": "mush",
             "x": 0.4121996303142329,
@@ -400,7 +350,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 10,
+                    "ioValue": 0,
                     "currentEquation": null
                 },
                 {
@@ -430,8 +380,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.7339285714285715,
-            "y": 0.753012048192771,
+            "x": 0.735239852398524,
+            "y": 0.746987951807229,
             "uniqueID": "af1bdd79-fb29-4b1a-b2ba-76fbf531bb16",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -489,26 +439,6 @@
             "compiledBom": {}
         },
         {
-            "atomType": "Input",
-            "name": "Input (1)",
-            "x": 0.025384615384615384,
-            "y": 0.3885542168674699,
-            "uniqueID": "1eab9382-9d03-48d4-8179-48c6778eb890",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
-            "atomType": "Input",
-            "name": "Input (2)",
-            "x": 0.025384615384615384,
-            "y": 0.29518072289156627,
-            "uniqueID": "0a9e243e-2731-47bf-a60a-23585d241274",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.1875,
@@ -541,17 +471,27 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.44821428571428573,
-            "y": 0.4367469879518072,
+            "x": 0.448339483394834,
+            "y": 0.4457831325301205,
             "uniqueID": "8d7cbc83-5e25-4929-a003-3a44c96d1e84",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 5,
+                    "currentEquation": "5"
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Input",
+            "name": "Input (1)",
+            "x": 0.025384615384615384,
+            "y": 0.5120481927710844,
+            "uniqueID": "0416aba2-6a1d-4c1f-a240-cf1415a78f0a",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
@@ -572,18 +512,6 @@
             "ap2Name": "geometry",
             "ap1ID": "b788223a-5d16-46ab-98ae-524b1b54c0b3",
             "ap2ID": "ded5a404-da9b-49fc-baa8-50601efe0ba8"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "xDist",
-            "ap1ID": "64e20c52-a696-4771-96e2-4794abbc8297",
-            "ap2ID": "745cb153-8312-4c9f-a764-74d91c03e9f6"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "yDist",
-            "ap1ID": "54dd5e5f-f26b-491b-a5e4-1efe36cf278a",
-            "ap2ID": "745cb153-8312-4c9f-a764-74d91c03e9f6"
         },
         {
             "ap1Name": "geometry",
