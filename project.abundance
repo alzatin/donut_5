@@ -20,7 +20,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -74,48 +80,6 @@
             "description": "Extrudes a 2D shape. Input can be negative."
         },
         {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.7995618838992333,
-            "y": 0.4307228915662651,
-            "uniqueID": "854d7b51-b63b-4863-b09c-36e625a30810",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Tool Size",
-                    "ioValue": 0.1,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 1,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 1500,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 5,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "test_dev_2",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "test_dev_2",
-            "sortDirection": "Left"
-        },
-        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.38225629791894855,
@@ -158,8 +122,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6845564074479736,
-            "y": 0.6385542168674698,
+            "x": 0.6319824753559693,
+            "y": 0.5240963855421688,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -178,8 +142,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.8105147864184009,
-            "y": 0.7620481927710844,
+            "x": 0.8159912376779848,
+            "y": 0.753012048192771,
             "uniqueID": "1ee1028d-8e86-46e5-a4bd-395ed336fbe4",
             "ioValues": [
                 {
@@ -208,6 +172,48 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "test_dev_2"
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.791894852135816,
+            "y": 0.34939759036144574,
+            "uniqueID": "a7b135d3-e143-4ef6-b157-4e5153aad1e4",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 0.25,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 0.25,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "test_dev_2",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "test_dev_2",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -239,16 +245,22 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
-            "ap2ID": "854d7b51-b63b-4863-b09c-36e625a30810"
+            "ap2ID": "1ee1028d-8e86-46e5-a4bd-395ed336fbe4"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
-            "ap2ID": "1ee1028d-8e86-46e5-a4bd-395ed336fbe4"
+            "ap2ID": "a7b135d3-e143-4ef6-b157-4e5153aad1e4"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
-    "unitsKey": "MM",
+    "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
