@@ -76,8 +76,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8072289156626505,
-            "y": 0.4337349397590362,
+            "x": 0.7995618838992333,
+            "y": 0.4307228915662651,
             "uniqueID": "854d7b51-b63b-4863-b09c-36e625a30810",
             "ioValues": [
                 {
@@ -87,7 +87,7 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 6.35,
+                    "ioValue": 0.1,
                     "currentEquation": null
                 },
                 {
