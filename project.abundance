@@ -4,7 +4,13 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1743265138516,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Input (1)",
+            "ioValue": "1",
+            "currentEquation": null
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -30,19 +36,19 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.3614457831325301,
-            "y": 0.5813253012048193,
+            "x": 0.29244249726177435,
+            "y": 0.41867469879518077,
             "uniqueID": "816fbf61-b04c-4468-802e-d4b18fb046df",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 100,
+                    "currentEquation": "100"
                 },
                 {
                     "name": "y length",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 100,
+                    "currentEquation": "100"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -50,8 +56,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5191675794085433,
-            "y": 0.5210843373493976,
+            "x": 0.4830230010952902,
+            "y": 0.3855421686746988,
             "uniqueID": "b2239e10-993e-446f-ba73-204d4f3f4922",
             "ioValues": [
                 {
@@ -70,13 +76,13 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6790799561883899,
-            "y": 0.5843373493975904,
+            "x": 0.8072289156626505,
+            "y": 0.4337349397590362,
             "uniqueID": "854d7b51-b63b-4863-b09c-36e625a30810",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "b2239e10-993e-446f-ba73-204d4f3f4922",
+                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
                     "currentEquation": null
                 },
                 {
@@ -108,6 +114,100 @@
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "test_dev_2",
             "sortDirection": "Left"
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.38225629791894855,
+            "y": 0.7801204819277108,
+            "uniqueID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 50,
+                    "currentEquation": "50"
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 50,
+                    "currentEquation": "50"
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.524644030668127,
+            "y": 0.7018072289156627,
+            "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.6845564074479736,
+            "y": 0.6385542168674698,
+            "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": "b2239e10-993e-446f-ba73-204d4f3f4922",
+                    "currentEquation": null
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.8105147864184009,
+            "y": 0.7620481927710844,
+            "uniqueID": "1ee1028d-8e86-46e5-a4bd-395ed336fbe4",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+                    "currentEquation": null
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "test_dev_2",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "test_dev_2"
         }
     ],
     "allConnectors": [
@@ -119,9 +219,33 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
+            "ap2Name": "geometry1",
             "ap1ID": "b2239e10-993e-446f-ba73-204d4f3f4922",
+            "ap2ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
+            "ap2ID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap1ID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
+            "ap2ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ap2ID": "854d7b51-b63b-4863-b09c-36e625a30810"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+            "ap2ID": "1ee1028d-8e86-46e5-a4bd-395ed336fbe4"
         }
     ],
     "unitsKey": "MM",
