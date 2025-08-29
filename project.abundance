@@ -33,7 +33,7 @@
                 {
                     "name": "diameter",
                     "ioValue": 5,
-                    "currentEquation": "5"
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new circle."
@@ -83,8 +83,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.3477859778597786,
-            "y": 0.41566265060240964,
+            "x": 0.4207870837537841,
+            "y": 0.5,
             "uniqueID": "4c78657c-921e-476f-981a-bcbec21a18ed",
             "ioValues": [
                 {
