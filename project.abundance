@@ -316,18 +316,23 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.2153153153153153,
-            "y": 0.7228915662650602,
+            "x": 0.1972972972972973,
+            "y": 0.6265060240963854,
             "uniqueID": "8ed562d6-bca8-449a-905f-9d3737135ed9",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "816fbf61-b04c-4468-802e-d4b18fb046df",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
-            "readMeText": "Readme text her me",
+            "readMeText": "Readme text her memmmmmm",
+            "global": true
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.4306306306306306,
+            "y": 0.7409638554216867,
+            "uniqueID": "f93a6a16-c98f-414b-b43e-08279d4471bc",
+            "ioValues": [],
+            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+            "readMeText": "lol\n",
             "global": true
         }
     ],
@@ -337,12 +342,6 @@
             "ap2Name": "geometry",
             "ap1ID": "816fbf61-b04c-4468-802e-d4b18fb046df",
             "ap2ID": "b2239e10-993e-446f-ba73-204d4f3f4922"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "816fbf61-b04c-4468-802e-d4b18fb046df",
-            "ap2ID": "8ed562d6-bca8-449a-905f-9d3737135ed9"
         },
         {
             "ap1Name": "geometry",
