@@ -73,8 +73,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 11,
+                    "currentEquation": "11"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -102,8 +102,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.44324324324324327,
-            "y": 0.19879518072289157,
+            "x": 0.4477477477477477,
+            "y": 0.20481927710843373,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -113,8 +113,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 19,
-                    "currentEquation": null
+                    "ioValue": 10,
+                    "currentEquation": "10"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -122,8 +122,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.436036036036036,
-            "y": 0.4759036144578313,
+            "x": 0.4396396396396396,
+            "y": 0.48192771084337344,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -142,8 +142,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4918918918918919,
-            "y": 0.8313253012048193,
+            "x": 0.4945945945945946,
+            "y": 0.8463855421686747,
             "uniqueID": "2b38312c-8a70-42dc-9658-c5bda11e9264",
             "ioValues": [
                 {
@@ -172,8 +172,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6612612612612613,
-            "y": 0.5572289156626505,
+            "x": 0.6675675675675676,
+            "y": 0.5512048192771084,
             "uniqueID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
             "ioValues": [
                 {
@@ -191,7 +191,7 @@
             "atomType": "Gcode",
             "name": "Gcode",
             "x": 0.80990990990991,
-            "y": 0.31626506024096385,
+            "y": 0.3132530120481927,
             "uniqueID": "de4553df-d02c-4b0e-977b-bcb45e236bac",
             "ioValues": [
                 {
