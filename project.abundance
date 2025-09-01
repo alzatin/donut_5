@@ -245,7 +245,7 @@
                 {
                     "name": "xDist",
                     "ioValue": 130,
-                    "currentEquation": "130"
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
@@ -263,8 +263,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5936936936936937,
-            "y": 0.572289156626506,
+            "x": 0.5945945945945946,
+            "y": 0.5301204819277108,
             "uniqueID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
             "ioValues": [
                 {
@@ -299,8 +299,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7045045045045045,
-            "y": 0.8192771084337349,
+            "x": 0.6918918918918919,
+            "y": 0.8042168674698795,
             "uniqueID": "adea506a-768a-4cb7-a1aa-63087dc905f5",
             "ioValues": [
                 {
@@ -310,6 +310,7 @@
                 }
             ],
             "description": "Extracts geometry containing the specified tag.",
+            "tag": "mellow",
             "tagIndex": 0
         }
     ],
