@@ -20,7 +20,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "9507bee5-0a33-40fe-8175-459fbaada1a1",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -272,6 +278,12 @@
             "ap2Name": "geometry",
             "ap1ID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
             "ap2ID": "de4553df-d02c-4b0e-977b-bcb45e236bac"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
     "unitsKey": "MM",
