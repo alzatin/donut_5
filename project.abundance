@@ -62,8 +62,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.2585585585585585,
-            "y": 0.41867469879518077,
+            "x": 0.26216216216216215,
+            "y": 0.4066265060240964,
             "uniqueID": "b2239e10-993e-446f-ba73-204d4f3f4922",
             "ioValues": [
                 {
@@ -74,7 +74,7 @@
                 {
                     "name": "height",
                     "ioValue": 11,
-                    "currentEquation": "11"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -114,7 +114,7 @@
                 {
                     "name": "height",
                     "ioValue": 10,
-                    "currentEquation": "10"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -142,8 +142,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4945945945945946,
-            "y": 0.8463855421686747,
+            "x": 0.5,
+            "y": 0.8222891566265061,
             "uniqueID": "2b38312c-8a70-42dc-9658-c5bda11e9264",
             "ioValues": [
                 {
