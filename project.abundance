@@ -176,8 +176,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8214676889375684,
-            "y": 0.25301204819277107,
+            "x": 0.8182683158896289,
+            "y": 0.2680722891566265,
             "uniqueID": "a7b135d3-e143-4ef6-b157-4e5153aad1e4",
             "ioValues": [
                 {
@@ -192,7 +192,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 2,
+                    "ioValue": 3,
                     "currentEquation": null
                 },
                 {
