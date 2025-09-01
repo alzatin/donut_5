@@ -122,8 +122,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5761226725082147,
-            "y": 0.5030120481927711,
+            "x": 0.5396396396396397,
+            "y": 0.30120481927710846,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -174,48 +174,6 @@
             "partName": "test_dev_2"
         },
         {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.8182683158896289,
-            "y": 0.2680722891566265,
-            "uniqueID": "a7b135d3-e143-4ef6-b157-4e5153aad1e4",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "9507bee5-0a33-40fe-8175-459fbaada1a1",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Tool Size",
-                    "ioValue": 0.25,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 3,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 1500,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 0.25,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "cnc1Pass",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "cnc1Pass",
-            "sortDirection": "Left"
-        },
-        {
             "atomType": "Code",
             "name": "Code",
             "x": 0.31653888280394304,
@@ -245,8 +203,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7864184008762323,
-            "y": 0.42771084337349397,
+            "x": 0.8009009009009008,
+            "y": 0.41566265060240964,
             "uniqueID": "5cb52413-68d8-45f2-be2c-5e3b73d9c723",
             "ioValues": [
                 {
@@ -275,8 +233,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5323110624315444,
-            "y": 0.7951807228915663,
+            "x": 0.4648648648648649,
+            "y": 0.5843373493975904,
             "uniqueID": "2b38312c-8a70-42dc-9658-c5bda11e9264",
             "ioValues": [
                 {
@@ -305,8 +263,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6692223439211391,
-            "y": 0.7259036144578314,
+            "x": 0.5936936936936937,
+            "y": 0.572289156626506,
             "uniqueID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
             "ioValues": [
                 {
@@ -314,11 +272,45 @@
                     "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591"
                 },
                 {
-                    "name": "Shape 2",
-                    "ioValue": "2b38312c-8a70-42dc-9658-c5bda11e9264"
+                    "name": "Shape 3",
+                    "ioValue": "d30f740e-192a-48b6-8e7f-62d89f5d2064"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Tag",
+            "name": "mellow",
+            "x": 0.46846846846846846,
+            "y": 0.825301204819277,
+            "uniqueID": "d30f740e-192a-48b6-8e7f-62d89f5d2064",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "2b38312c-8a70-42dc-9658-c5bda11e9264",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                "mellow"
+            ]
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.7045045045045045,
+            "y": 0.8192771084337349,
+            "uniqueID": "adea506a-768a-4cb7-a1aa-63087dc905f5",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "9507bee5-0a33-40fe-8175-459fbaada1a1",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extracts geometry containing the specified tag.",
+            "tagIndex": 0
         }
     ],
     "allConnectors": [
@@ -372,9 +364,9 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 2",
+            "ap2Name": "geometry",
             "ap1ID": "2b38312c-8a70-42dc-9658-c5bda11e9264",
-            "ap2ID": "9507bee5-0a33-40fe-8175-459fbaada1a1"
+            "ap2ID": "d30f740e-192a-48b6-8e7f-62d89f5d2064"
         },
         {
             "ap1Name": "geometry",
@@ -386,7 +378,13 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap1ID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
-            "ap2ID": "a7b135d3-e143-4ef6-b157-4e5153aad1e4"
+            "ap2ID": "adea506a-768a-4cb7-a1aa-63087dc905f5"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 3",
+            "ap1ID": "d30f740e-192a-48b6-8e7f-62d89f5d2064",
+            "ap2ID": "9507bee5-0a33-40fe-8175-459fbaada1a1"
         }
     ],
     "unitsKey": "MM",
