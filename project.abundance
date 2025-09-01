@@ -122,8 +122,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5396396396396397,
-            "y": 0.30120481927710846,
+            "x": 0.4306306306306306,
+            "y": 0.3253012048192771,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -236,8 +236,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6378378378378379,
-            "y": 0.6265060240963854,
+            "x": 0.672972972972973,
+            "y": 0.6686746987951807,
             "uniqueID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
             "ioValues": [
                 {
@@ -272,8 +272,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7315315315315315,
-            "y": 0.7951807228915663,
+            "x": 0.7324324324324325,
+            "y": 0.8072289156626505,
             "uniqueID": "adea506a-768a-4cb7-a1aa-63087dc905f5",
             "ioValues": [
                 {
@@ -289,8 +289,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.43783783783783786,
-            "y": 0.6325301204819277,
+            "x": 0.418018018018018,
+            "y": 0.6144578313253012,
             "uniqueID": "2f467483-1c81-4907-926f-de970e1a8387",
             "ioValues": [
                 {
@@ -301,7 +301,7 @@
             ],
             "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
             "BOMitem": {
-                "BOMitemName": "name",
+                "BOMitemName": "name ",
                 "numberNeeded": 1,
                 "costUSD": "20",
                 "source": "www.example.com"
@@ -390,6 +390,13 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "name ",
+            "numberNeeded": 1,
+            "costUSD": "020",
+            "source": "www.example.com"
+        }
+    ],
     "filetypeVersion": 1
 }
