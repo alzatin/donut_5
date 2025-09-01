@@ -312,6 +312,17 @@
             "description": "Extracts geometry containing the specified tag.",
             "tag": "mellow",
             "tagIndex": 0
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.21081081081081082,
+            "y": 0.7560240963855422,
+            "uniqueID": "8ed562d6-bca8-449a-905f-9d3737135ed9",
+            "ioValues": [],
+            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+            "readMeText": "Readme text her me",
+            "global": true
         }
     ],
     "allConnectors": [
