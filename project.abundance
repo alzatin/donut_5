@@ -206,13 +206,13 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.527927927927928,
-            "y": 0.569277108433735,
+            "x": 0.5342342342342342,
+            "y": 0.6174698795180722,
             "uniqueID": "2b38312c-8a70-42dc-9658-c5bda11e9264",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+                    "ioValue": "2f467483-1c81-4907-926f-de970e1a8387",
                     "currentEquation": null
                 },
                 {
@@ -254,8 +254,8 @@
         {
             "atomType": "Tag",
             "name": "mellow",
-            "x": 0.5414414414414415,
-            "y": 0.8162650602409638,
+            "x": 0.5423423423423424,
+            "y": 0.8222891566265061,
             "uniqueID": "d30f740e-192a-48b6-8e7f-62d89f5d2064",
             "ioValues": [
                 {
@@ -285,6 +285,27 @@
             "description": "Extracts geometry containing the specified tag.",
             "tag": "mellow",
             "tagIndex": 0
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.43783783783783786,
+            "y": 0.6325301204819277,
+            "uniqueID": "2f467483-1c81-4907-926f-de970e1a8387",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": "20",
+                "source": "www.example.com"
+            }
         }
     ],
     "allConnectors": [
@@ -320,15 +341,15 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
-            "ap2ID": "2b38312c-8a70-42dc-9658-c5bda11e9264"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Shape 1",
             "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ap2ID": "9507bee5-0a33-40fe-8175-459fbaada1a1"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+            "ap2ID": "2f467483-1c81-4907-926f-de970e1a8387"
         },
         {
             "ap1Name": "geometry",
@@ -359,6 +380,12 @@
             "ap2Name": "Shape 3",
             "ap1ID": "d30f740e-192a-48b6-8e7f-62d89f5d2064",
             "ap2ID": "9507bee5-0a33-40fe-8175-459fbaada1a1"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "2f467483-1c81-4907-926f-de970e1a8387",
+            "ap2ID": "2b38312c-8a70-42dc-9658-c5bda11e9264"
         }
     ],
     "unitsKey": "MM",
