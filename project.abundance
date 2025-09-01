@@ -228,6 +228,48 @@
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "test_dev_2",
             "sortDirection": "Left"
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.6324324324324324,
+            "y": 0.23493975903614459,
+            "uniqueID": "ae4bb02f-e04c-4895-b61f-aa615492b15a",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 0.3,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.35,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "test_dev_2",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "test_dev_2",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -266,6 +308,12 @@
             "ap2Name": "geometry",
             "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ap2ID": "2b38312c-8a70-42dc-9658-c5bda11e9264"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
+            "ap2ID": "ae4bb02f-e04c-4895-b61f-aa615492b15a"
         },
         {
             "ap1Name": "geometry",
