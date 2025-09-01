@@ -108,7 +108,7 @@
                 {
                     "name": "height",
                     "ioValue": 19,
-                    "currentEquation": "19"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -166,8 +166,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.645945945945946,
-            "y": 0.4066265060240964,
+            "x": 0.6441441441441441,
+            "y": 0.6385542168674698,
             "uniqueID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
             "ioValues": [
                 {
@@ -226,8 +226,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7936936936936938,
-            "y": 0.4487951807228916,
+            "x": 0.7972972972972973,
+            "y": 0.6475903614457831,
             "uniqueID": "de4553df-d02c-4b0e-977b-bcb45e236bac",
             "ioValues": [
                 {
@@ -242,7 +242,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 2,
+                    "ioValue": 3,
                     "currentEquation": null
                 },
                 {
