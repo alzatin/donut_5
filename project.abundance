@@ -96,8 +96,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.445945945945946,
-            "y": 0.2168674698795181,
+            "x": 0.44324324324324327,
+            "y": 0.19879518072289157,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -107,8 +107,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 19,
+                    "currentEquation": "19"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -116,8 +116,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.43333333333333335,
-            "y": 0.46987951807228917,
+            "x": 0.436036036036036,
+            "y": 0.4759036144578313,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -184,8 +184,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.5936936936936937,
-            "y": 0.23795180722891565,
+            "x": 0.590990990990991,
+            "y": 0.2319277108433735,
             "uniqueID": "fe343ce5-ab6c-4e17-bcc3-ddd94b015d38",
             "ioValues": [
                 {
@@ -226,7 +226,7 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7954954954954955,
+            "x": 0.7936936936936938,
             "y": 0.4487951807228916,
             "uniqueID": "de4553df-d02c-4b0e-977b-bcb45e236bac",
             "ioValues": [
@@ -242,7 +242,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 1,
+                    "ioValue": 2,
                     "currentEquation": null
                 },
                 {
