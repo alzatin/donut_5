@@ -166,8 +166,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6576576576576576,
-            "y": 0.5481927710843374,
+            "x": 0.6612612612612613,
+            "y": 0.5572289156626505,
             "uniqueID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
             "ioValues": [
                 {
@@ -195,7 +195,7 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 6.35,
+                    "ioValue": 0.25,
                     "currentEquation": null
                 },
                 {
