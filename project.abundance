@@ -184,50 +184,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.590990990990991,
-            "y": 0.2319277108433735,
-            "uniqueID": "fe343ce5-ab6c-4e17-bcc3-ddd94b015d38",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Tool Size",
-                    "ioValue": 6.35,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 2,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 1500,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 1.35,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "test_dev_2",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "test_dev_2",
-            "sortDirection": "Left"
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.809009009009009,
-            "y": 0.3253012048192771,
+            "x": 0.80990990990991,
+            "y": 0.31626506024096385,
             "uniqueID": "de4553df-d02c-4b0e-977b-bcb45e236bac",
             "ioValues": [
                 {
@@ -242,7 +200,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 3,
+                    "ioValue": 2,
                     "currentEquation": null
                 },
                 {
@@ -302,12 +260,6 @@
             "ap2Name": "geometry",
             "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ap2ID": "2b38312c-8a70-42dc-9658-c5bda11e9264"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
-            "ap2ID": "fe343ce5-ab6c-4e17-bcc3-ddd94b015d38"
         },
         {
             "ap1Name": "geometry",
