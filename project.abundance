@@ -62,8 +62,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.327027027027027,
-            "y": 0.4066265060240964,
+            "x": 0.30180180180180183,
+            "y": 0.39457831325301207,
             "uniqueID": "b2239e10-993e-446f-ba73-204d4f3f4922",
             "ioValues": [
                 {
@@ -172,33 +172,6 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "test_dev_2"
-        },
-        {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.31653888280394304,
-            "y": 0.7018072289156627,
-            "uniqueID": "f466882f-5dfb-4349-b90e-2c0f44a9ce8e",
-            "ioValues": [
-                {
-                    "name": "dist",
-                    "ioValue": 5,
-                    "currentEquation": null
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10,
-                    "currentEquation": null
-                },
-                {
-                    "name": "doubly",
-                    "ioValue": 20,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Defines a Replicad code block.",
-            "codeVersion": 1,
-            "code": "\n      Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n      {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10},\n        {inputName: \"doubly\", type: \"string\", defaultValue: 30}\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Takes the address and gets the shape from the library\n      let importedShape = library[shape]\n\n      //This makes a new copy of the shape and moves it in the X direction\n      let movedShape = importedShape.geometry[0].clone().translate([dist,0,0])\n\n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n\n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n\n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      //return shape1\n\n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape],\n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n\n      //Then we can return our created shape in just the same way\n      //return shape2\n\n      //If we want to return both shapes at once, we can create an assembly with them\n      let anAssembly = {\n        geometry: [shape1, shape2],\n        tags: [\"aNewTag\"],\n        color: '#A3CF5B',\n        plane: newPlane,\n        bom: []\n      }\n\n      //And we can return that in the same way\n      return anAssembly\n\n      /**\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n      If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0]\n      Use any replicad available methods to modify your geometry. Learn more about all of the available methods at\n      https://replicad.xyz/docs/introapp/UserGuide.html\n      Return a replicad object that includes geometry, color, tags and plane.\n\n      Example Code Atom:\n        Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let finalShape = library[shape].geometry[0].clone().translate([x,0,0])\n        return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      */\n      "
         },
         {
             "atomType": "Move",
@@ -312,28 +285,6 @@
             "description": "Extracts geometry containing the specified tag.",
             "tag": "mellow",
             "tagIndex": 0
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.1972972972972973,
-            "y": 0.6265060240963854,
-            "uniqueID": "8ed562d6-bca8-449a-905f-9d3737135ed9",
-            "ioValues": [],
-            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
-            "readMeText": "Readme text her memmmmmm",
-            "global": true
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.4306306306306306,
-            "y": 0.7409638554216867,
-            "uniqueID": "f93a6a16-c98f-414b-b43e-08279d4471bc",
-            "ioValues": [],
-            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
-            "readMeText": "lol\n",
-            "global": true
         }
     ],
     "allConnectors": [
