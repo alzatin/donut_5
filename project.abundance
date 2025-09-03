@@ -102,8 +102,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.3708542713567839,
-            "y": 0.2650602409638554,
+            "x": 0.36884422110552767,
+            "y": 0.286144578313253,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -122,8 +122,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.42613065326633165,
-            "y": 0.6054216867469879,
+            "x": 0.4834170854271357,
+            "y": 0.4337349397590362,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -232,8 +232,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6324324324324324,
-            "y": 0.23493975903614459,
+            "x": 0.6733668341708543,
+            "y": 0.2891566265060241,
             "uniqueID": "ae4bb02f-e04c-4895-b61f-aa615492b15a",
             "ioValues": [
                 {
@@ -243,8 +243,8 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 0.3,
-                    "currentEquation": null
+                    "ioValue": 1,
+                    "currentEquation": "1"
                 },
                 {
                     "name": "Passes",
