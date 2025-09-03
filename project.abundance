@@ -122,8 +122,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.4834170854271357,
-            "y": 0.4337349397590362,
+            "x": 0.4832881662149955,
+            "y": 0.4397590361445783,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -142,8 +142,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5557788944723618,
-            "y": 0.7379518072289156,
+            "x": 0.6025293586269196,
+            "y": 0.7349397590361446,
             "uniqueID": "2b38312c-8a70-42dc-9658-c5bda11e9264",
             "ioValues": [
                 {
@@ -172,8 +172,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6884422110552765,
-            "y": 0.5783132530120482,
+            "x": 0.7597109304426378,
+            "y": 0.5873493975903614,
             "uniqueID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
             "ioValues": [
                 {
@@ -190,8 +190,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.814070351758794,
-            "y": 0.3042168674698795,
+            "x": 0.884372177055104,
+            "y": 0.33433734939759036,
             "uniqueID": "de4553df-d02c-4b0e-977b-bcb45e236bac",
             "ioValues": [
                 {
@@ -244,7 +244,7 @@
                 {
                     "name": "Tool Size",
                     "ioValue": 1,
-                    "currentEquation": "1"
+                    "currentEquation": null
                 },
                 {
                     "name": "Passes",
@@ -270,15 +270,6 @@
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "test_dev_2",
             "sortDirection": "Left"
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.46432160804020095,
-            "y": 0.6445783132530121,
-            "uniqueID": "d433956d-9723-4eb8-abe0-c4d7187bfef9",
-            "ioValues": [],
-            "description": "Subtracts shape two from shape one."
         }
     ],
     "allConnectors": [
