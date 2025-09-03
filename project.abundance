@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Input (1)",
-            "ioValue": "",
+            "ioValue": "b",
             "currentEquation": null
         }
     ],
@@ -62,8 +62,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.26216216216216215,
-            "y": 0.4066265060240964,
+            "x": 0.29447236180904524,
+            "y": 0.6867469879518072,
             "uniqueID": "b2239e10-993e-446f-ba73-204d4f3f4922",
             "ioValues": [
                 {
@@ -102,8 +102,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4477477477477477,
-            "y": 0.20481927710843373,
+            "x": 0.3708542713567839,
+            "y": 0.2650602409638554,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -122,8 +122,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.4396396396396396,
-            "y": 0.48192771084337344,
+            "x": 0.42613065326633165,
+            "y": 0.6054216867469879,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
