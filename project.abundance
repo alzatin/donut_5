@@ -270,6 +270,15 @@
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "test_dev_2",
             "sortDirection": "Left"
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.46432160804020095,
+            "y": 0.6445783132530121,
+            "uniqueID": "d433956d-9723-4eb8-abe0-c4d7187bfef9",
+            "ioValues": [],
+            "description": "Subtracts shape two from shape one."
         }
     ],
     "allConnectors": [
