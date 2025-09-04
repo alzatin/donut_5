@@ -208,8 +208,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6612466124661246,
-            "y": 0.28313253012048195,
+            "x": 0.6594399277326107,
+            "y": 0.28012048192771083,
             "uniqueID": "ae4bb02f-e04c-4895-b61f-aa615492b15a",
             "ioValues": [
                 {
@@ -220,7 +220,7 @@
                 {
                     "name": "Tool Size",
                     "ioValue": 1,
-                    "currentEquation": null
+                    "currentEquation": "1"
                 },
                 {
                     "name": "Passes",
@@ -350,8 +350,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.8527551942186089,
-            "y": 0.7680722891566265,
+            "x": 0.8428184281842819,
+            "y": 0.7740963855421686,
             "uniqueID": "74e99359-3497-4741-8a31-7eb51cbbb29f",
             "ioValues": [
                 {
