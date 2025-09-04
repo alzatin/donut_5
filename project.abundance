@@ -49,12 +49,12 @@
                 {
                     "name": "x length",
                     "ioValue": 100,
-                    "currentEquation": "100"
+                    "currentEquation": null
                 },
                 {
                     "name": "y length",
                     "ioValue": 100,
-                    "currentEquation": "100"
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new rectangle."
@@ -94,7 +94,7 @@
                 {
                     "name": "height",
                     "ioValue": 45,
-                    "currentEquation": "45"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -220,7 +220,7 @@
                 {
                     "name": "Tool Size",
                     "ioValue": 1,
-                    "currentEquation": "1"
+                    "currentEquation": null
                 },
                 {
                     "name": "Passes",
@@ -282,7 +282,7 @@
                 {
                     "name": "xDist",
                     "ioValue": 277,
-                    "currentEquation": "277"
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
