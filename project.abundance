@@ -202,12 +202,12 @@
                 {
                     "name": "Tool Size",
                     "ioValue": 0.25,
-                    "currentEquation": "0.25"
+                    "currentEquation": null
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 1,
-                    "currentEquation": null
+                    "ioValue": 3,
+                    "currentEquation": "3"
                 },
                 {
                     "name": "Speed",
