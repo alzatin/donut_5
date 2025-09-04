@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Input (1)",
-            "ioValue": "b",
+            "ioValue": "b7",
             "currentEquation": null
         }
     ],
@@ -154,7 +154,7 @@
                 {
                     "name": "xDist",
                     "ioValue": 0,
-                    "currentEquation": "0"
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
@@ -164,7 +164,7 @@
                 {
                     "name": "zDist",
                     "ioValue": -20,
-                    "currentEquation": "-20"
+                    "currentEquation": null
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -203,7 +203,7 @@
                 {
                     "name": "Passes",
                     "ioValue": 4,
-                    "currentEquation": "4"
+                    "currentEquation": null
                 },
                 {
                     "name": "Speed",
@@ -213,7 +213,7 @@
                 {
                     "name": "Cut Through",
                     "ioValue": 0.5,
-                    "currentEquation": "0.5"
+                    "currentEquation": null
                 },
                 {
                     "name": "Part Name",
