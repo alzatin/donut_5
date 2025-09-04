@@ -49,7 +49,7 @@
                 {
                     "name": "x length",
                     "ioValue": 100,
-                    "currentEquation": "100"
+                    "currentEquation": null
                 },
                 {
                     "name": "y length",
@@ -74,7 +74,7 @@
                 {
                     "name": "height",
                     "ioValue": 20,
-                    "currentEquation": "20"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -89,7 +89,7 @@
                 {
                     "name": "x length",
                     "ioValue": 30,
-                    "currentEquation": "30"
+                    "currentEquation": null
                 },
                 {
                     "name": "y length",
@@ -114,7 +114,7 @@
                 {
                     "name": "height",
                     "ioValue": 40,
-                    "currentEquation": "40"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -142,8 +142,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7109304426377597,
-            "y": 0.7228915662650602,
+            "x": 0.6630532971996387,
+            "y": 0.5512048192771084,
             "uniqueID": "2b38312c-8a70-42dc-9658-c5bda11e9264",
             "ioValues": [
                 {
@@ -190,24 +190,24 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.884372177055104,
-            "y": 0.33433734939759036,
+            "x": 0.8789521228545618,
+            "y": 0.3192771084337349,
             "uniqueID": "de4553df-d02c-4b0e-977b-bcb45e236bac",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "9507bee5-0a33-40fe-8175-459fbaada1a1",
+                    "ioValue": "69c43432-c831-4e88-83a3-556979e5112e",
                     "currentEquation": null
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 0.25,
-                    "currentEquation": null
+                    "ioValue": 0.24,
+                    "currentEquation": "0.24"
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 2,
-                    "currentEquation": null
+                    "ioValue": 3,
+                    "currentEquation": "3"
                 },
                 {
                     "name": "Speed",
@@ -216,8 +216,8 @@
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 1.35,
-                    "currentEquation": null
+                    "ioValue": 0.25,
+                    "currentEquation": "0.25"
                 },
                 {
                     "name": "Part Name",
@@ -286,7 +286,7 @@
                 {
                     "name": "height",
                     "ioValue": 30,
-                    "currentEquation": "30"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -306,7 +306,7 @@
                 {
                     "name": "xDist",
                     "ioValue": 20,
-                    "currentEquation": "20"
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
@@ -316,7 +316,7 @@
                 {
                     "name": "zDist",
                     "ioValue": 10,
-                    "currentEquation": "10"
+                    "currentEquation": null
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -356,7 +356,7 @@
                 {
                     "name": "xDist",
                     "ioValue": -20,
-                    "currentEquation": "-20"
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
@@ -470,12 +470,6 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap1ID": "9507bee5-0a33-40fe-8175-459fbaada1a1",
-            "ap2ID": "de4553df-d02c-4b0e-977b-bcb45e236bac"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
             "ap1ID": "c8a10028-9d54-4345-80ea-baf26f1e6b8f",
             "ap2ID": "fa219e99-559f-4ffd-867f-357208b9f726"
         },
@@ -496,6 +490,12 @@
             "ap2Name": "geometry",
             "ap1ID": "69c43432-c831-4e88-83a3-556979e5112e",
             "ap2ID": "74e99359-3497-4741-8a31-7eb51cbbb29f"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "69c43432-c831-4e88-83a3-556979e5112e",
+            "ap2ID": "de4553df-d02c-4b0e-977b-bcb45e236bac"
         },
         {
             "ap1Name": "geometry",
