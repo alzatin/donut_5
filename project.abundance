@@ -166,8 +166,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8473351400180669,
-            "y": 0.2891566265060241,
+            "x": 0.8500451671183378,
+            "y": 0.29819277108433734,
             "uniqueID": "de4553df-d02c-4b0e-977b-bcb45e236bac",
             "ioValues": [
                 {
@@ -177,12 +177,12 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 0.25,
+                    "ioValue": 0.15,
                     "currentEquation": null
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 3,
+                    "ioValue": 4,
                     "currentEquation": null
                 },
                 {
