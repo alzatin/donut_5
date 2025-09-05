@@ -62,7 +62,7 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.16440831074977416,
+            "x": 0.15808491418247517,
             "y": 0.5783132530120482,
             "uniqueID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
             "ioValues": [
@@ -102,8 +102,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.49593495934959353,
-            "y": 0.39759036144578314,
+            "x": 0.5040650406504065,
+            "y": 0.38253012048192775,
             "uniqueID": "b6cdc0a6-4b9f-4871-beca-6ee337156591",
             "ioValues": [
                 {
@@ -208,8 +208,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7407407407407407,
-            "y": 0.3253012048192771,
+            "x": 0.7597109304426378,
+            "y": 0.286144578313253,
             "uniqueID": "ae4bb02f-e04c-4895-b61f-aa615492b15a",
             "ioValues": [
                 {
@@ -219,12 +219,12 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 1,
+                    "ioValue": 0.25,
                     "currentEquation": null
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 1,
+                    "ioValue": 3,
                     "currentEquation": null
                 },
                 {
@@ -468,7 +468,7 @@
             "ap2ID": "b6cdc0a6-4b9f-4871-beca-6ee337156591"
         }
     ],
-    "unitsKey": "MM",
+    "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
