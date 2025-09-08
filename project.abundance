@@ -280,8 +280,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6516314779270633,
-            "y": 0.6204819277108434,
+            "x": 0.6487523992322457,
+            "y": 0.6054216867469879,
             "uniqueID": "69c43432-c831-4e88-83a3-556979e5112e",
             "ioValues": [
                 {
@@ -360,6 +360,21 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "test-forgcode"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.6593090211132439,
+            "y": 0.8373493975903615,
+            "uniqueID": "34d2499f-d850-4816-be76-8b7b0e1a2ed1",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
