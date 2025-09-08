@@ -375,6 +375,21 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.5134357005758158,
+            "y": 0.5963855421686747,
+            "uniqueID": "1cc84d36-6d36-4af5-92d7-a0e93c1d3feb",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
