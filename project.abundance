@@ -230,8 +230,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.33493282149712095,
-            "y": 0.5993975903614458,
+            "x": 0.32917466410748564,
+            "y": 0.6054216867469879,
             "uniqueID": "c8a10028-9d54-4345-80ea-baf26f1e6b8f",
             "ioValues": [
                 {
@@ -392,10 +392,25 @@
             "description": "Creates a new circle."
         },
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.75,
+            "y": 0.8224698795180724,
+            "uniqueID": "04e19d14-a9e4-4b66-a81f-bb9ab1ae668f",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "Hole",
-            "x": 0.1708253358925144,
-            "y": 0.7409638554216867,
+            "x": 0.17178502879078694,
+            "y": 0.7620481927710844,
             "uniqueID": "66dda096-a5b0-40bb-ac2c-0225016773b4",
             "ioValues": [
                 {
@@ -664,21 +679,6 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.75,
-            "y": 0.8224698795180724,
-            "uniqueID": "04e19d14-a9e4-4b66-a81f-bb9ab1ae668f",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
