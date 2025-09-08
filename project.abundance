@@ -250,8 +250,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5134357005758158,
-            "y": 0.8012048192771084,
+            "x": 0.5115163147792706,
+            "y": 0.8102409638554217,
             "uniqueID": "fa219e99-559f-4ffd-867f-357208b9f726",
             "ioValues": [
                 {
@@ -280,8 +280,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6487523992322457,
-            "y": 0.6054216867469879,
+            "x": 0.6516314779270633,
+            "y": 0.5933734939759037,
             "uniqueID": "69c43432-c831-4e88-83a3-556979e5112e",
             "ioValues": [
                 {
@@ -328,11 +328,20 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6333973128598848,
+            "y": 0.7771084337349398,
+            "uniqueID": "d6fe38ac-6e54-4005-9de8-a25afbfd4623",
+            "ioValues": [],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.5134357005758158,
+            "x": 0.5249520153550864,
             "y": 0.5963855421686747,
-            "uniqueID": "1cc84d36-6d36-4af5-92d7-a0e93c1d3feb",
+            "uniqueID": "2f2f6db6-2ca2-4809-b6a6-46ed4012cee7",
             "ioValues": [
                 {
                     "name": "diameter",
@@ -341,31 +350,6 @@
                 }
             ],
             "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.75,
-            "y": 0.8224698795180724,
-            "uniqueID": "b919d227-5d4e-4f2f-b1d5-1c5f57860a8f",
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
