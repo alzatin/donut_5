@@ -42,8 +42,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.1746031746031746,
-            "y": 0.3795180722891566,
+            "x": 0.1743450767841012,
+            "y": 0.3313253012048193,
             "uniqueID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
             "ioValues": [
                 {
@@ -367,6 +367,30 @@
             "x": 0.75,
             "y": 0.8224698795180724,
             "uniqueID": "1151421f-a661-40e1-a16a-5b375aae8c2d",
+            "ioValues": [],
+            "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+            }
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.75,
+            "y": 0.8224698795180724,
+            "uniqueID": "048613bb-a757-4634-b1f0-f37bdac50d24",
+            "ioValues": [],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.75,
+            "y": 0.8224698795180724,
+            "uniqueID": "7105406b-8027-4f1c-9115-2bd9e812a301",
             "ioValues": [],
             "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
             "BOMitem": {
