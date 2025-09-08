@@ -328,15 +328,6 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.6333973128598848,
-            "y": 0.7771084337349398,
-            "uniqueID": "d6fe38ac-6e54-4005-9de8-a25afbfd4623",
-            "ioValues": [],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.5249520153550864,
