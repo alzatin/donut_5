@@ -664,6 +664,21 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.75,
+            "y": 0.8224698795180724,
+            "uniqueID": "04e19d14-a9e4-4b66-a81f-bb9ab1ae668f",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
