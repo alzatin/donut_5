@@ -2946,6 +2946,21 @@
             "unitsKey": "Inches",
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.75,
+            "y": 0.8224698795180724,
+            "uniqueID": "415e89cd-eb36-4cf4-81a4-f3ca798734d9",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
