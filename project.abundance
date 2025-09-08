@@ -230,8 +230,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.32339656729900634,
-            "y": 0.6746987951807228,
+            "x": 0.3215898825654923,
+            "y": 0.6385542168674698,
             "uniqueID": "c8a10028-9d54-4345-80ea-baf26f1e6b8f",
             "ioValues": [
                 {
@@ -360,6 +360,21 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "test-forgcode"
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.75,
+            "y": 0.8224698795180724,
+            "uniqueID": "1151421f-a661-40e1-a16a-5b375aae8c2d",
+            "ioValues": [],
+            "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+            }
         }
     ],
     "allConnectors": [
