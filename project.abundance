@@ -49,12 +49,12 @@
                 {
                     "name": "x length",
                     "ioValue": 10,
-                    "currentEquation": "10"
+                    "currentEquation": null
                 },
                 {
                     "name": "y length",
                     "ioValue": 10,
-                    "currentEquation": "10"
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new rectangle."
@@ -74,7 +74,7 @@
                 {
                     "name": "height",
                     "ioValue": 0.5,
-                    "currentEquation": ".5"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -82,8 +82,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7428023032629558,
-            "y": 0.5843373493975904,
+            "x": 0.7044145873320538,
+            "y": 0.641566265060241,
             "uniqueID": "ae4bb02f-e04c-4895-b61f-aa615492b15a",
             "ioValues": [
                 {
@@ -94,12 +94,12 @@
                 {
                     "name": "Tool Size",
                     "ioValue": 0.25,
-                    "currentEquation": ".25"
+                    "currentEquation": null
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 4,
-                    "currentEquation": null
+                    "ioValue": 2,
+                    "currentEquation": "2"
                 },
                 {
                     "name": "Speed",
@@ -108,8 +108,8 @@
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 1.35,
-                    "currentEquation": null
+                    "ioValue": 0,
+                    "currentEquation": "0"
                 },
                 {
                     "name": "Part Name",
