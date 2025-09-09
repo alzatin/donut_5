@@ -42,8 +42,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.18809980806142035,
-            "y": 0.5090361445783133,
+            "x": 0.20249520153550865,
+            "y": 0.28313253012048195,
             "uniqueID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
             "ioValues": [
                 {
@@ -62,8 +62,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.41458733205374276,
-            "y": 0.3644578313253012,
+            "x": 0.4404990403071017,
+            "y": 0.3102409638554217,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -82,8 +82,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7120921305182342,
-            "y": 0.6506024096385542,
+            "x": 0.8080614203454896,
+            "y": 0.28012048192771083,
             "uniqueID": "ae4bb02f-e04c-4895-b61f-aa615492b15a",
             "ioValues": [
                 {
@@ -93,8 +93,8 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 6.35,
-                    "currentEquation": "6.35"
+                    "ioValue": 0.25,
+                    "currentEquation": ".25"
                 },
                 {
                     "name": "Passes",
@@ -142,7 +142,7 @@
             "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
-    "unitsKey": "MM",
+    "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
