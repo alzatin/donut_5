@@ -49,12 +49,12 @@
                 {
                     "name": "x length",
                     "ioValue": 7,
-                    "currentEquation": "7"
+                    "currentEquation": null
                 },
                 {
                     "name": "y length",
                     "ioValue": 7,
-                    "currentEquation": "7"
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new rectangle."
@@ -62,8 +62,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.43761996161228406,
-            "y": 0.3463855421686747,
+            "x": 0.4404990403071017,
+            "y": 0.35843373493975905,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -74,7 +74,7 @@
                 {
                     "name": "height",
                     "ioValue": 0.25,
-                    "currentEquation": ".25"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -99,7 +99,7 @@
                 {
                     "name": "Passes",
                     "ioValue": 3,
-                    "currentEquation": "3"
+                    "currentEquation": null
                 },
                 {
                     "name": "Speed",
@@ -124,8 +124,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.5921305182341651,
-            "y": 0.746987951807229,
+            "x": 0.6717850287907869,
+            "y": 0.6987951807228915,
             "uniqueID": "9d9a6b45-7e2b-44ac-99cc-c89663f14633",
             "ioValues": [
                 {
@@ -145,7 +145,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "test0909",
+                    "ioValue": "test",
                     "currentEquation": null
                 }
             ],
@@ -153,7 +153,7 @@
             "type": "STL",
             "resolution": 96,
             "importIndex": 0,
-            "partName": "test0909"
+            "partName": "test"
         }
     ],
     "allConnectors": [
