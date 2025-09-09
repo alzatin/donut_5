@@ -154,6 +154,21 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "test-inches-1"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.4088291746641075,
+            "y": 0.6867469879518072,
+            "uniqueID": "b1f6a9d0-7086-4724-a113-26f72ef66c89",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
