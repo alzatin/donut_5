@@ -62,7 +62,7 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.501628664495114,
+            "x": 0.5,
             "y": 0.30120481927710846,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
@@ -73,8 +73,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 0.25,
-                    "currentEquation": null
+                    "ioValue": 0.75,
+                    "currentEquation": "0.75"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -98,8 +98,8 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 3,
-                    "currentEquation": null
+                    "ioValue": 2,
+                    "currentEquation": "2"
                 },
                 {
                     "name": "Speed",
