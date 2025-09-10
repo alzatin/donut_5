@@ -220,8 +220,8 @@
         {
             "atomType": "Molecule",
             "name": "Plate",
-            "x": 0.4797794117647059,
-            "y": 0.6626506024096386,
+            "x": 0.4319852941176471,
+            "y": 0.6355421686746988,
             "uniqueID": "c4e19690-7dc1-484d-babd-b6ee6c70cadd",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
