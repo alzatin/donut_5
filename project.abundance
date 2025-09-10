@@ -154,29 +154,91 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.18602455146364497,
-            "y": 0.7168674698795181,
+            "x": 0.20018885741265344,
+            "y": 0.5873493975903614,
             "uniqueID": "d23fe95b-2ebe-444e-a6a0-26a10f345520",
             "ioValues": [
                 {
                     "name": "diameter",
                     "ioValue": 0.5,
-                    "currentEquation": ".5"
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new circle."
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5703493862134089,
+            "y": 0.463855421686747,
+            "uniqueID": "79673e95-49be-46e3-8e4f-0c4e93388ebf",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
+                    "currentEquation": null
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": "2d4ae212-dcea-48ae-bc8d-aade4df054e9",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.8186968838526911,
+            "y": 0.5542168674698795,
+            "uniqueID": "db39dad1-f93c-46cf-acd8-69a1b2245142",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "79673e95-49be-46e3-8e4f-0c4e93388ebf",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 3,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.2615675165250236,
+            "y": 0.8012048192771084,
+            "uniqueID": "210788eb-d62e-411a-b553-073e845c8506",
+            "ioValues": [
+                {
+                    "name": "Font Size",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Text",
+                    "ioValue": "li",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new text sketch.",
+            "fontFamily": "ROBOTO",
+            "selectedFontIndex": 0
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.4050991501416431,
-            "y": 0.6295180722891566,
+            "x": 0.35127478753541075,
+            "y": 0.5632530120481928,
             "uniqueID": "2d4ae212-dcea-48ae-bc8d-aade4df054e9",
             "ioValues": [
                 {
                     "name": "Number",
                     "ioValue": 3,
-                    "currentEquation": "3"
+                    "currentEquation": null
                 },
                 {
                     "name": "Geometry",
@@ -186,17 +248,17 @@
                 {
                     "name": "distX",
                     "ioValue": 0.7,
-                    "currentEquation": ".7"
+                    "currentEquation": null
                 },
                 {
                     "name": "distY",
                     "ioValue": 0,
-                    "currentEquation": "0"
+                    "currentEquation": null
                 },
                 {
                     "name": "distZ",
                     "ioValue": 0,
-                    "currentEquation": "0"
+                    "currentEquation": null
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -388,46 +450,6 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.56657223796034,
-            "y": 0.5602409638554217,
-            "uniqueID": "79673e95-49be-46e3-8e4f-0c4e93388ebf",
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
-                    "currentEquation": null
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": "2d4ae212-dcea-48ae-bc8d-aade4df054e9",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Subtracts shape two from shape one."
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.7006610009442871,
-            "y": 0.7439759036144579,
-            "uniqueID": "db39dad1-f93c-46cf-acd8-69a1b2245142",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "79673e95-49be-46e3-8e4f-0c4e93388ebf",
-                    "currentEquation": null
-                },
-                {
-                    "name": "height",
-                    "ioValue": 3,
-                    "currentEquation": "3"
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negative."
         }
     ],
     "allConnectors": [
@@ -462,16 +484,16 @@
             "ap2ID": "2d4ae212-dcea-48ae-bc8d-aade4df054e9"
         },
         {
-            "ap1Name": "geometry or number",
-            "ap2Name": "geometry2",
-            "ap1ID": "2d4ae212-dcea-48ae-bc8d-aade4df054e9",
-            "ap2ID": "79673e95-49be-46e3-8e4f-0c4e93388ebf"
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap1ID": "79673e95-49be-46e3-8e4f-0c4e93388ebf",
             "ap2ID": "db39dad1-f93c-46cf-acd8-69a1b2245142"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "geometry2",
+            "ap1ID": "2d4ae212-dcea-48ae-bc8d-aade4df054e9",
+            "ap2ID": "79673e95-49be-46e3-8e4f-0c4e93388ebf"
         }
     ],
     "unitsKey": "Inches",
