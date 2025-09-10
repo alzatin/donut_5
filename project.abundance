@@ -74,7 +74,7 @@
                 {
                     "name": "height",
                     "ioValue": 0.75,
-                    "currentEquation": "0.75"
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -82,8 +82,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7242128121606949,
-            "y": 0.2710843373493976,
+            "x": 0.7251838235294117,
+            "y": 0.286144578313253,
             "uniqueID": "ae4bb02f-e04c-4895-b61f-aa615492b15a",
             "ioValues": [
                 {
@@ -99,7 +99,7 @@
                 {
                     "name": "Passes",
                     "ioValue": 2,
-                    "currentEquation": "2"
+                    "currentEquation": null
                 },
                 {
                     "name": "Speed",
@@ -173,8 +173,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.5711183496199783,
-            "y": 0.783132530120482,
+            "x": 0.6865808823529412,
+            "y": 0.16265060240963855,
             "uniqueID": "db820698-5fd2-4ff2-a88b-0a83624a0be7",
             "ioValues": [
                 {
@@ -216,6 +216,30 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Plate",
+            "x": 0.4797794117647059,
+            "y": 0.6626506024096386,
+            "uniqueID": "c4e19690-7dc1-484d-babd-b6ee6c70cadd",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "3bd50f16-0f63-4066-8ad7-b9fd5e317f0b",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
