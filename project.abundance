@@ -13,12 +13,12 @@
         {
             "name": "Input (2)",
             "ioValue": 3,
-            "currentEquation": "3"
+            "currentEquation": null
         },
         {
             "name": "Input (3)",
             "ioValue": 1,
-            "currentEquation": "1"
+            "currentEquation": null
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -43,7 +43,7 @@
             "atomType": "Input",
             "name": "love",
             "x": 0.025384615384615384,
-            "y": 0.3072289156626506,
+            "y": 0.25,
             "uniqueID": "0416aba2-6a1d-4c1f-a240-cf1415a78f0a",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -154,8 +154,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.28239845261121854,
-            "y": 0.4879518072289156,
+            "x": 0.2872340425531915,
+            "y": 0.4126506024096385,
             "uniqueID": "d23fe95b-2ebe-444e-a6a0-26a10f345520",
             "ioValues": [
                 {
@@ -231,8 +231,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.46131528046421666,
-            "y": 0.7078313253012049,
+            "x": 0.45938104448742745,
+            "y": 0.4307228915662651,
             "uniqueID": "2d4ae212-dcea-48ae-bc8d-aade4df054e9",
             "ioValues": [
                 {
@@ -252,7 +252,7 @@
                 },
                 {
                     "name": "distY",
-                    "ioValue": 0,
+                    "ioValue": 10,
                     "currentEquation": null
                 },
                 {
@@ -343,7 +343,7 @@
                         },
                         {
                             "name": "distY",
-                            "ioValue": 0,
+                            "ioValue": 10,
                             "currentEquation": null
                         },
                         {
@@ -450,6 +450,71 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.37234042553191493,
+            "y": 0.6355421686746988,
+            "uniqueID": "79089054-6c00-4450-8351-88d4aae1419b",
+            "ioValues": [
+                {
+                    "name": "Input (3)",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Input (2)",
+                    "ioValue": 3,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "d36e0239-c846-4e83-b669-043ed7a5d072",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input (3)",
+                    "x": 0.025384615384615384,
+                    "y": 0.5301204819277108,
+                    "uniqueID": "2371b318-205a-4063-a6eb-e3987fc74712",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "geometry"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input (2)",
+                    "x": 0.025384615384615384,
+                    "y": 0.6686746987951807,
+                    "uniqueID": "3ee1b31f-95b3-425b-be1d-23089caabf52",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "geometry"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "love",
+                    "x": 0.025384615384615384,
+                    "y": 0.31626506024096385,
+                    "uniqueID": "48363273-dd63-40ba-be91-1523e9581db6",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "geometry"
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -479,9 +544,21 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "Input (2)",
+            "ap1ID": "f6e9c3e1-8da6-4a1e-8b67-0ceae59f516b",
+            "ap2ID": "79089054-6c00-4450-8351-88d4aae1419b"
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "Font Size",
             "ap1ID": "fd4ac45a-4f5e-41e9-8d10-b9bca7b205d9",
             "ap2ID": "210788eb-d62e-411a-b553-073e845c8506"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Input (3)",
+            "ap1ID": "fd4ac45a-4f5e-41e9-8d10-b9bca7b205d9",
+            "ap2ID": "79089054-6c00-4450-8351-88d4aae1419b"
         },
         {
             "ap1Name": "geometry",
