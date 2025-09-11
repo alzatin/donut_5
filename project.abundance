@@ -53,8 +53,8 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 7,
-                    "currentEquation": null
+                    "ioValue": 5,
+                    "currentEquation": "5"
                 },
                 {
                     "name": "y length",
@@ -140,7 +140,7 @@
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.2872340425531915,
-            "y": 0.4126506024096385,
+            "y": 0.3795180722891566,
             "uniqueID": "d23fe95b-2ebe-444e-a6a0-26a10f345520",
             "ioValues": [
                 {
@@ -194,8 +194,8 @@
         {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.25241779497098643,
-            "y": 0.7801204819277108,
+            "x": 0.24177949709864602,
+            "y": 0.783132530120482,
             "uniqueID": "210788eb-d62e-411a-b553-073e845c8506",
             "ioValues": [
                 {
@@ -205,7 +205,7 @@
                 },
                 {
                     "name": "Text",
-                    "ioValue": "li",
+                    "ioValue": "lidddaa",
                     "currentEquation": null
                 }
             ],
