@@ -12,8 +12,8 @@
         },
         {
             "name": "Input (3)",
-            "ioValue": 1,
-            "currentEquation": null
+            "ioValue": 13,
+            "currentEquation": "13"
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -47,8 +47,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.24274661508704062,
-            "y": 0.28012048192771083,
+            "x": 0.2504835589941973,
+            "y": 0.25,
             "uniqueID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
             "ioValues": [
                 {
@@ -59,7 +59,7 @@
                 {
                     "name": "y length",
                     "ioValue": 7,
-                    "currentEquation": null
+                    "currentEquation": "7"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -67,8 +67,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5306893295561851,
-            "y": 0.14759036144578314,
+            "x": 0.5183752417794971,
+            "y": 0.1716867469879518,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -139,14 +139,14 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.2872340425531915,
-            "y": 0.3795180722891566,
+            "x": 0.316247582205029,
+            "y": 0.5542168674698795,
             "uniqueID": "d23fe95b-2ebe-444e-a6a0-26a10f345520",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 0.5625,
-                    "currentEquation": "love/16"
+                    "ioValue": 0.6923076923076923,
+                    "currentEquation": "love/13"
                 }
             ],
             "description": "Creates a new circle."
@@ -154,8 +154,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5870406189555126,
-            "y": 0.4006024096385542,
+            "x": 0.5880077369439072,
+            "y": 0.42168674698795183,
             "uniqueID": "79673e95-49be-46e3-8e4f-0c4e93388ebf",
             "ioValues": [
                 {
@@ -174,8 +174,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.8186968838526911,
-            "y": 0.5542168674698795,
+            "x": 0.8201160541586073,
+            "y": 0.5632530120481928,
             "uniqueID": "db39dad1-f93c-46cf-acd8-69a1b2245142",
             "ioValues": [
                 {
@@ -194,30 +194,30 @@
         {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.24177949709864602,
-            "y": 0.783132530120482,
+            "x": 0.2398452611218569,
+            "y": 0.825301204819277,
             "uniqueID": "210788eb-d62e-411a-b553-073e845c8506",
             "ioValues": [
                 {
                     "name": "Font Size",
-                    "ioValue": 1,
+                    "ioValue": 13,
                     "currentEquation": null
                 },
                 {
                     "name": "Text",
-                    "ioValue": "lidddaa",
+                    "ioValue": "lido",
                     "currentEquation": null
                 }
             ],
             "description": "Creates a new text sketch.",
-            "fontFamily": "ROBOTO",
-            "selectedFontIndex": 0
+            "fontFamily": "MONSERRAT",
+            "selectedFontIndex": 4
         },
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.45938104448742745,
-            "y": 0.4307228915662651,
+            "x": 0.4758220502901354,
+            "y": 0.6596385542168675,
             "uniqueID": "2d4ae212-dcea-48ae-bc8d-aade4df054e9",
             "ioValues": [
                 {
@@ -450,7 +450,7 @@
                 },
                 {
                     "name": "Input (3)",
-                    "ioValue": 1,
+                    "ioValue": 13,
                     "currentEquation": null
                 }
             ],
@@ -490,6 +490,27 @@
             "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.6789168278529981,
+            "y": 0.6506024096385542,
+            "uniqueID": "ccdb287d-ece5-4b31-84a5-b4e0bb1bbbe3",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + y"
         }
     ],
     "allConnectors": [
