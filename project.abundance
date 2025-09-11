@@ -11,18 +11,8 @@
             "currentEquation": null
         },
         {
-            "name": "Input (2)",
-            "ioValue": 3,
-            "currentEquation": null
-        },
-        {
             "name": "Input (3)",
             "ioValue": 1,
-            "currentEquation": null
-        },
-        {
-            "name": "Input (1)",
-            "ioValue": 10,
             "currentEquation": null
         }
     ],
@@ -135,16 +125,6 @@
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "test_dev_2",
             "sortDirection": "Left"
-        },
-        {
-            "atomType": "Input",
-            "name": "Input (2)",
-            "x": 0.025384615384615384,
-            "y": 0.6265060240963854,
-            "uniqueID": "f6e9c3e1-8da6-4a1e-8b67-0ceae59f516b",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "string"
         },
         {
             "atomType": "Input",
@@ -459,8 +439,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.38878143133462284,
-            "y": 0.6445783132530121,
+            "x": 0.21470019342359767,
+            "y": 0.5,
             "uniqueID": "0fd20d78-1e2f-47cd-a677-f194cb3bcb0a",
             "ioValues": [
                 {
@@ -471,11 +451,6 @@
                 {
                     "name": "Input (3)",
                     "ioValue": 1,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Input (2)",
-                    "ioValue": 3,
                     "currentEquation": null
                 }
             ],
@@ -510,31 +485,11 @@
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Input (2)",
-                    "x": 0.025384615384615384,
-                    "y": 0.3885542168674699,
-                    "uniqueID": "a85a011c-2518-49ec-86c4-0891c495b15c",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "string"
                 }
             ],
             "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
-        },
-        {
-            "atomType": "Input",
-            "name": "Input (1)",
-            "x": 0.025384615384615384,
-            "y": 0.7771084337349398,
-            "uniqueID": "d6938bff-1e27-4f92-a5de-a0ca2676aecb",
-            "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-            "type": "number"
         }
     ],
     "allConnectors": [
@@ -567,12 +522,6 @@
             "ap2Name": "number or geometry",
             "ap1ID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "Input (2)",
-            "ap1ID": "f6e9c3e1-8da6-4a1e-8b67-0ceae59f516b",
-            "ap2ID": "0fd20d78-1e2f-47cd-a677-f194cb3bcb0a"
         },
         {
             "ap1Name": "number or geometry",
