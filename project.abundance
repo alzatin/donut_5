@@ -35,7 +35,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "e832c218-4b59-4595-a6a9-ef8623bbcdd9",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -158,7 +164,7 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5899725274725275,
+            "x": 0.5849227974568574,
             "y": 0.5612903225806452,
             "uniqueID": "79673e95-49be-46e3-8e4f-0c4e93388ebf",
             "ioValues": [
@@ -246,6 +252,26 @@
                 {
                     "name": "geometry",
                     "ioValue": "db39dad1-f93c-46cf-acd8-69a1b2245142",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Item Name",
+                    "ioValue": "New Item",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Number Needed",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cost (USD)",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Source Link",
+                    "ioValue": "",
                     "currentEquation": null
                 }
             ],
@@ -612,6 +638,13 @@
     ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "named",
+            "numberNeeded": "03",
+            "costUSD": 0,
+            "source": "www.example.com"
+        }
+    ],
     "filetypeVersion": 1
 }
