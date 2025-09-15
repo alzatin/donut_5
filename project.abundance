@@ -149,8 +149,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.3076923076923077,
-            "y": 0.5870967741935484,
+            "x": 0.3070054945054945,
+            "y": 0.5967741935483871,
             "uniqueID": "d23fe95b-2ebe-444e-a6a0-26a10f345520",
             "ioValues": [
                 {
@@ -245,10 +245,31 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.3275789797195065,
-            "y": 0.7781639986259993,
+            "x": 0.2506868131868132,
+            "y": 0.8064516129032259,
             "uniqueID": "e832c218-4b59-4595-a6a9-ef8623bbcdd9",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "BOMitemName",
+                    "ioValue": "momo",
+                    "currentEquation": null
+                },
+                {
+                    "name": "numberNeeded",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "costUSD",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "source",
+                    "ioValue": "www.example.com",
+                    "currentEquation": null
+                }
+            ],
             "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
             "BOMitem": {
                 "BOMitemName": "name",
