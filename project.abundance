@@ -13,7 +13,7 @@
         {
             "name": "Input (3)",
             "ioValue": 14,
-            "currentEquation": "14"
+            "currentEquation": null
         },
         {
             "name": "Input (1)",
@@ -47,7 +47,7 @@
         {
             "atomType": "Input",
             "name": "love",
-            "x": 0.05499999999999999,
+            "x": 0.025384615384615384,
             "y": 0.27710843373493976,
             "uniqueID": "0416aba2-6a1d-4c1f-a240-cf1415a78f0a",
             "ioValues": [],
@@ -139,7 +139,7 @@
         {
             "atomType": "Input",
             "name": "Input (3)",
-            "x": 0.05499999999999999,
+            "x": 0.025384615384615384,
             "y": 0.46987951807228917,
             "uniqueID": "fd4ac45a-4f5e-41e9-8d10-b9bca7b205d9",
             "ioValues": [],
@@ -149,8 +149,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.316247582205029,
-            "y": 0.5542168674698795,
+            "x": 0.32074175824175827,
+            "y": 0.5449275362318841,
             "uniqueID": "d23fe95b-2ebe-444e-a6a0-26a10f345520",
             "ioValues": [
                 {
@@ -225,7 +225,7 @@
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.05499999999999999,
+            "x": 0.025384615384615384,
             "y": 1.1610738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
@@ -235,7 +235,7 @@
         {
             "atomType": "Input",
             "name": "Input (2)",
-            "x": 0.05499999999999999,
+            "x": 0.025384615384615384,
             "y": 0.8681186283595923,
             "uniqueID": "88428b90-2cf6-4afb-b4c0-c7ab41097a36",
             "ioValues": [],
@@ -256,6 +256,18 @@
                 "costUSD": 0,
                 "source": "www.example.com"
             }
+        },
+        {
+            "atomType": "Tag",
+            "name": "Remove",
+            "x": 0.5597964376590331,
+            "y": 0.8322147651006712,
+            "uniqueID": "77745bcd-be4d-4042-999d-1316197ada6b",
+            "ioValues": [],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                "Remove"
+            ]
         },
         {
             "atomType": "GitHubMolecule",
@@ -331,7 +343,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.32869080779944293,
                     "uniqueID": "63283963-789d-4baa-8895-8412656a9328",
                     "ioValues": [],
@@ -341,7 +353,7 @@
                 {
                     "atomType": "Input",
                     "name": "Geometry",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.9108635097493036,
                     "uniqueID": "f1e1421a-fd33-4bdd-ab17-bb9147e6eaad",
                     "ioValues": [],
@@ -388,7 +400,7 @@
                 {
                     "atomType": "Input",
                     "name": "distX",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.5,
                     "uniqueID": "dadd3444-f44b-4562-a342-e976f285adc0",
                     "ioValues": [],
@@ -398,7 +410,7 @@
                 {
                     "atomType": "Input",
                     "name": "distY",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.6174698795180722,
                     "uniqueID": "d47c23fd-21f2-40b6-9907-9ee34cc115a0",
                     "ioValues": [],
@@ -408,7 +420,7 @@
                 {
                     "atomType": "Input",
                     "name": "distZ",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.7650602409638555,
                     "uniqueID": "8be75a3e-9bd3-45ff-bb4a-9e1c89c7af73",
                     "ioValues": [],
@@ -513,7 +525,7 @@
                 {
                     "atomType": "Input",
                     "name": "love",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.6445783132530121,
                     "uniqueID": "4e7aa76b-cfc7-4609-bc98-dc2a5b288dc4",
                     "ioValues": [],
@@ -523,7 +535,7 @@
                 {
                     "atomType": "Input",
                     "name": "Input (3)",
-                    "x": 0.05499999999999999,
+                    "x": 0.025384615384615384,
                     "y": 0.5240963855421688,
                     "uniqueID": "03e7412c-dc5e-48cb-b751-a980c48b93af",
                     "ioValues": [],
@@ -1310,7 +1322,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Number",
-                                    "x": 0.05499999999999999,
+                                    "x": 0.025384615384615384,
                                     "y": 0.32869080779944293,
                                     "uniqueID": "0711da77-c69d-4ec5-a683-7a3e76ead287",
                                     "ioValues": [],
@@ -1320,7 +1332,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Dist",
-                                    "x": 0.05499999999999999,
+                                    "x": 0.025384615384615384,
                                     "y": 0.6434540389972144,
                                     "uniqueID": "a4a70f0b-a424-4c4b-9d38-26ae1cadeb65",
                                     "ioValues": [],
@@ -1330,7 +1342,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Geometry",
-                                    "x": 0.05499999999999999,
+                                    "x": 0.025384615384615384,
                                     "y": 0.9108635097493036,
                                     "uniqueID": "e1bbe597-c92e-4b15-9c6b-568480f6b777",
                                     "ioValues": [],
@@ -1812,7 +1824,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Width (X)",
-                                            "x": 0.05499999999999999,
+                                            "x": 0.025384615384615384,
                                             "y": 0.9078212290502793,
                                             "uniqueID": 1748906194681,
                                             "ioValues": [],
@@ -1822,7 +1834,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Length (Y)",
-                                            "x": 0.05499999999999999,
+                                            "x": 0.025384615384615384,
                                             "y": 0.729050279329609,
                                             "uniqueID": 1748906194784,
                                             "ioValues": [],
@@ -1832,7 +1844,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Geometry",
-                                            "x": 0.05499999999999999,
+                                            "x": 0.025384615384615384,
                                             "y": 0.36312849162011174,
                                             "uniqueID": 1748906194216,
                                             "ioValues": [],
@@ -3782,7 +3794,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Width",
-                                            "x": 0.05499999999999999,
+                                            "x": 0.025384615384615384,
                                             "y": 0.2900232018561485,
                                             "uniqueID": "5b848f1f-2851-4359-a350-e54af9bdc2c7",
                                             "ioValues": [],
@@ -3792,7 +3804,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Height",
-                                            "x": 0.05499999999999999,
+                                            "x": 0.025384615384615384,
                                             "y": 0.44083526682134566,
                                             "uniqueID": "ddad8f9f-1815-48d7-a8f8-552fde5f5bc2",
                                             "ioValues": [],
@@ -3802,7 +3814,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Radius",
-                                            "x": 0.05499999999999999,
+                                            "x": 0.025384615384615384,
                                             "y": 0.6334106728538283,
                                             "uniqueID": "6d716b75-9ece-4579-95cd-58fec0cb0f89",
                                             "ioValues": [],
@@ -4503,18 +4515,6 @@
                     "costUSD": 0,
                     "source": "www.example.com"
                 }
-            ]
-        },
-        {
-            "atomType": "Tag",
-            "name": "Remove",
-            "x": 0.5597964376590331,
-            "y": 0.8322147651006712,
-            "uniqueID": "77745bcd-be4d-4042-999d-1316197ada6b",
-            "ioValues": [],
-            "description": "Tags geometry so that it can be extracted later.",
-            "tags": [
-                "Remove"
             ]
         }
     ],
