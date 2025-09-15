@@ -243,6 +243,21 @@
             "type": "number"
         },
         {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.3275789797195065,
+            "y": 0.7781639986259993,
+            "uniqueID": "e832c218-4b59-4595-a6a9-ef8623bbcdd9",
+            "ioValues": [],
+            "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+            }
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
             "x": 0.4758220502901354,
@@ -4489,21 +4504,6 @@
                     "source": "www.example.com"
                 }
             ]
-        },
-        {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.3275789797195065,
-            "y": 0.7781639986259993,
-            "uniqueID": "e832c218-4b59-4595-a6a9-ef8623bbcdd9",
-            "ioValues": [],
-            "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
-            "BOMitem": {
-                "BOMitemName": "name",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
-            }
         }
     ],
     "allConnectors": [
