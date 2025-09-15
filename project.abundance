@@ -35,13 +35,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -184,8 +178,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.8201160541586073,
-            "y": 0.5632530120481928,
+            "x": 0.7247956403269755,
+            "y": 0.49354838709677423,
             "uniqueID": "db39dad1-f93c-46cf-acd8-69a1b2245142",
             "ioValues": [
                 {
@@ -245,35 +239,20 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.2506868131868132,
-            "y": 0.8064516129032259,
+            "x": 0.8937329700272479,
+            "y": 0.7741935483870968,
             "uniqueID": "e832c218-4b59-4595-a6a9-ef8623bbcdd9",
             "ioValues": [
                 {
-                    "name": "BOMitemName",
-                    "ioValue": "momo",
-                    "currentEquation": null
-                },
-                {
-                    "name": "numberNeeded",
-                    "ioValue": 1,
-                    "currentEquation": null
-                },
-                {
-                    "name": "costUSD",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "source",
-                    "ioValue": "www.example.com",
+                    "name": "geometry",
+                    "ioValue": "db39dad1-f93c-46cf-acd8-69a1b2245142",
                     "currentEquation": null
                 }
             ],
             "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
             "BOMitem": {
-                "BOMitemName": "name",
-                "numberNeeded": 1,
+                "BOMitemName": "named",
+                "numberNeeded": "3",
                 "costUSD": 0,
                 "source": "www.example.com"
             }
@@ -595,12 +574,6 @@
             "ap2ID": "ae4bb02f-e04c-4895-b61f-aa615492b15a"
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
-            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
-        },
-        {
             "ap1Name": "number or geometry",
             "ap2Name": "Input (3)",
             "ap1ID": "fd4ac45a-4f5e-41e9-8d10-b9bca7b205d9",
@@ -617,6 +590,18 @@
             "ap2Name": "geometry",
             "ap1ID": "79673e95-49be-46e3-8e4f-0c4e93388ebf",
             "ap2ID": "db39dad1-f93c-46cf-acd8-69a1b2245142"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "db39dad1-f93c-46cf-acd8-69a1b2245142",
+            "ap2ID": "e832c218-4b59-4595-a6a9-ef8623bbcdd9"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "e832c218-4b59-4595-a6a9-ef8623bbcdd9",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         },
         {
             "ap1Name": "geometry or number",
