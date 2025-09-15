@@ -12,8 +12,8 @@
         },
         {
             "name": "Input (3)",
-            "ioValue": 13,
-            "currentEquation": null
+            "ioValue": 14,
+            "currentEquation": "14"
         },
         {
             "name": "Input (1)",
@@ -226,7 +226,7 @@
             "atomType": "Input",
             "name": "Input (1)",
             "x": 0.05499999999999999,
-            "y": 0.8373493975903615,
+            "y": 1.1610738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -494,7 +494,7 @@
                 },
                 {
                     "name": "Input (3)",
-                    "ioValue": 13,
+                    "ioValue": 14,
                     "currentEquation": null
                 }
             ],
@@ -4503,6 +4503,18 @@
                     "costUSD": 0,
                     "source": "www.example.com"
                 }
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "Remove",
+            "x": 0.5597964376590331,
+            "y": 0.8322147651006712,
+            "uniqueID": "77745bcd-be4d-4042-999d-1316197ada6b",
+            "ioValues": [],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                "Remove"
             ]
         }
     ],
