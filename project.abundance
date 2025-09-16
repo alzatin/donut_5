@@ -12,8 +12,8 @@
         },
         {
             "name": "Input (3)",
-            "ioValue": 14,
-            "currentEquation": null
+            "ioValue": null,
+            "currentEquation": "14ccddedd"
         },
         {
             "name": "Input (1)",
