@@ -35,70 +35,24 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Input",
             "name": "love",
             "x": 0.028050000000000002,
-            "y": 0.27710843373493976,
+            "y": 0.4290322580645161,
             "uniqueID": "0416aba2-6a1d-4c1f-a240-cf1415a78f0a",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "geometry"
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.24019607843137253,
-            "y": 0.24838709677419354,
-            "uniqueID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 5,
-                    "currentEquation": null
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 7,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Creates a new rectangle."
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5164835164835164,
-            "y": 0.3064516129032258,
-            "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
-                    "currentEquation": null
-                },
-                {
-                    "name": "height",
-                    "ioValue": 1,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negative."
-        },
-        {
             "atomType": "Input",
             "name": "Input (3)",
             "x": 0.028050000000000002,
-            "y": 0.46987951807228917,
+            "y": 0.6516129032258065,
             "uniqueID": "fd4ac45a-4f5e-41e9-8d10-b9bca7b205d9",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -127,8 +81,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.23725490196078433,
-            "y": 0.6193548387096774,
+            "x": 0.24793956043956045,
+            "y": 0.7,
             "uniqueID": "0536b402-b645-4bc7-8610-9089aba6d3ca",
             "ioValues": [
                 {
@@ -138,20 +92,69 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.4012797074954296,
+            "y": 0.7032258064516129,
+            "uniqueID": "7eb32c26-5e2c-4e3d-b745-5c6a40b59c61",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.573126142595978,
+            "y": 0.5580645161290322,
+            "uniqueID": "2d685ba8-4580-4559-9c33-9aaacbf932ed",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "7eb32c26-5e2c-4e3d-b745-5c6a40b59c61",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.2723948811700183,
+            "y": 0.4161290322580645,
+            "uniqueID": "30a83868-042e-4303-a73b-113e2bbec48c",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10,
+                    "currentEquation": null
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new rectangle."
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap1ID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
-            "ap2ID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
-            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
+            "ap1ID": "7eb32c26-5e2c-4e3d-b745-5c6a40b59c61",
+            "ap2ID": "2d685ba8-4580-4559-9c33-9aaacbf932ed"
         }
     ],
     "unitsKey": "Inches",
