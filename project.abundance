@@ -40,7 +40,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "65d0e82a-24d4-4552-8273-2d04f7d0656a",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -116,8 +122,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.27422303473491777,
-            "y": 0.39677419354838706,
+            "x": 0.34186471663619744,
+            "y": 0.2870967741935484,
             "uniqueID": "30a83868-042e-4303-a73b-113e2bbec48c",
             "ioValues": [
                 {
@@ -136,8 +142,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.676416819012797,
-            "y": 0.3774193548387097,
+            "x": 0.6453382084095064,
+            "y": 0.39677419354838706,
             "uniqueID": "65d0e82a-24d4-4552-8273-2d04f7d0656a",
             "ioValues": [
                 {
@@ -170,6 +176,12 @@
             "ap2Name": "geometry",
             "ap1ID": "30a83868-042e-4303-a73b-113e2bbec48c",
             "ap2ID": "65d0e82a-24d4-4552-8273-2d04f7d0656a"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "65d0e82a-24d4-4552-8273-2d04f7d0656a",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
     "unitsKey": "Inches",
