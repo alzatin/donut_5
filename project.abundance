@@ -13,17 +13,17 @@
         {
             "name": "Input (3)",
             "ioValue": 14,
-            "currentEquation": null
+            "currentEquation": "14"
         },
         {
             "name": "Input (1)",
             "ioValue": 10,
-            "currentEquation": null
+            "currentEquation": "10"
         },
         {
             "name": "Input (2)",
             "ioValue": 10,
-            "currentEquation": null
+            "currentEquation": "10"
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -57,19 +57,19 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.2506811989100817,
-            "y": 0.25161290322580643,
+            "x": 0.24795640326975477,
+            "y": 0.27419354838709675,
             "uniqueID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
             "ioValues": [
                 {
                     "name": "x length",
                     "ioValue": 5,
-                    "currentEquation": null
+                    "currentEquation": "5"
                 },
                 {
                     "name": "y length",
                     "ioValue": 7,
-                    "currentEquation": null
+                    "currentEquation": "7"
                 }
             ],
             "description": "Creates a new rectangle."
@@ -77,8 +77,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.41208791208791207,
-            "y": 0.25161290322580643,
+            "x": 0.40599455040871935,
+            "y": 0.25483870967741934,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -88,8 +88,8 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 0.75,
-                    "currentEquation": null
+                    "ioValue": 0.755,
+                    "currentEquation": "0.755"
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negative."
@@ -97,8 +97,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8309726156751652,
-            "y": 0.3674698795180723,
+            "x": 0.8292461398728429,
+            "y": 0.38064516129032255,
             "uniqueID": "ae4bb02f-e04c-4895-b61f-aa615492b15a",
             "ioValues": [
                 {
@@ -149,14 +149,14 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.31244323342415986,
-            "y": 0.603225806451613,
+            "x": 0.3224341507720254,
+            "y": 0.635483870967742,
             "uniqueID": "d23fe95b-2ebe-444e-a6a0-26a10f345520",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 0.6923076923076923,
-                    "currentEquation": "love/13"
+                    "ioValue": 0.75,
+                    "currentEquation": "love/12"
                 }
             ],
             "description": "Creates a new circle."
@@ -184,8 +184,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.7211625794732062,
-            "y": 0.47419354838709676,
+            "x": 0.745685740236149,
+            "y": 0.5096774193548387,
             "uniqueID": "db39dad1-f93c-46cf-acd8-69a1b2245142",
             "ioValues": [
                 {
@@ -204,19 +204,19 @@
         {
             "atomType": "Equation",
             "name": "Equation",
-            "x": 0.6789168278529981,
-            "y": 0.6506024096385542,
+            "x": 0.742960944595822,
+            "y": 0.7129032258064517,
             "uniqueID": "ccdb287d-ece5-4b31-84a5-b4e0bb1bbbe3",
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 1,
-                    "currentEquation": null
+                    "ioValue": 30,
+                    "currentEquation": "30"
                 },
                 {
                     "name": "y",
-                    "ioValue": 1,
-                    "currentEquation": null
+                    "ioValue": 12,
+                    "currentEquation": "12"
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -286,8 +286,8 @@
         {
             "atomType": "Tag",
             "name": "Remove",
-            "x": 0.5597964376590331,
-            "y": 0.8322147651006712,
+            "x": 0.5658492279745686,
+            "y": 0.8419354838709677,
             "uniqueID": "77745bcd-be4d-4042-999d-1316197ada6b",
             "ioValues": [],
             "description": "Tags geometry so that it can be extracted later.",
@@ -298,8 +298,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.44230769230769235,
-            "y": 0.6935483870967742,
+            "x": 0.44686648501362397,
+            "y": 0.7129032258064517,
             "uniqueID": "2d4ae212-dcea-48ae-bc8d-aade4df054e9",
             "ioValues": [
                 {
