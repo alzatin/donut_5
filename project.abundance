@@ -35,7 +35,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -71,8 +77,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4069028156221617,
-            "y": 0.3,
+            "x": 0.41274509803921566,
+            "y": 0.25483870967741934,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -121,8 +127,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.30196078431372547,
-            "y": 0.6193548387096774,
+            "x": 0.3049019607843137,
+            "y": 0.6516129032258065,
             "uniqueID": "8fd9e872-b7ae-4756-a5f7-1ce2c2dbe0d8",
             "ioValues": [
                 {
@@ -158,6 +164,41 @@
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.34705882352941175,
+                    "y": 0.7161290322580646,
+                    "uniqueID": "cf25025e-b0d7-482c-b8fc-2c85ba7d42d2",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.47647058823529415,
+                    "y": 0.7193548387096774,
+                    "uniqueID": "843c8460-7426-4933-becc-05462a13f07d",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "cf25025e-b0d7-482c-b8fc-2c85ba7d42d2",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negative."
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -329,50 +370,9 @@
                     "unitsKey": "MM",
                     "fileTypeVersion": 1,
                     "compiledBom": []
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.34705882352941175,
-                    "y": 0.7161290322580646,
-                    "uniqueID": "cf25025e-b0d7-482c-b8fc-2c85ba7d42d2",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.41960784313725485,
-                    "y": 0.7322580645161291,
-                    "uniqueID": "843c8460-7426-4933-becc-05462a13f07d",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "cf25025e-b0d7-482c-b8fc-2c85ba7d42d2",
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negative."
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "geometry or number",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "42b04fd6-3a6e-4bc3-be75-b03a4b0881d3",
-                    "ap2ID": "3d17833a-467e-496f-a281-1dc0d2d85ed7"
-                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -384,6 +384,12 @@
                     "ap2Name": "Geometry",
                     "ap1ID": "843c8460-7426-4933-becc-05462a13f07d",
                     "ap2ID": "42b04fd6-3a6e-4bc3-be75-b03a4b0881d3"
+                },
+                {
+                    "ap1Name": "geometry or number",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "42b04fd6-3a6e-4bc3-be75-b03a4b0881d3",
+                    "ap2ID": "3d17833a-467e-496f-a281-1dc0d2d85ed7"
                 }
             ],
             "fileTypeVersion": 1,
@@ -392,8 +398,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.49411764705882355,
-            "y": 0.7548387096774194,
+            "x": 0.4852941176470588,
+            "y": 0.7451612903225806,
             "uniqueID": "59cc28cd-eb9e-4db6-9e1b-e801de878b52",
             "ioValues": [
                 {
@@ -667,17 +673,16 @@
             "ap2Name": "geometry",
             "ap1ID": "c1e1d29f-20cd-4ae7-bd1c-cea4f90cc2e1",
             "ap2ID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": [
-        {
-            "BOMitemName": "named",
-            "numberNeeded": "03",
-            "costUSD": 0,
-            "source": "www.example.com"
-        }
-    ],
+    "compiledBom": [],
     "filetypeVersion": 1
 }
