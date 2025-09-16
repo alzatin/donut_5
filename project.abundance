@@ -13,7 +13,7 @@
         {
             "name": "Input (3)",
             "ioValue": 12,
-            "currentEquation": "12"
+            "currentEquation": null
         },
         {
             "name": "Input (1)",
