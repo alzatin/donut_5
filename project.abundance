@@ -77,8 +77,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.49019607843137253,
-            "y": 0.3903225806451613,
+            "x": 0.41372549019607846,
+            "y": 0.2645161290322581,
             "uniqueID": "5fed3122-e3b8-4c74-9e12-e5821256dd4e",
             "ioValues": [
                 {
@@ -125,10 +125,25 @@
             "type": "number"
         },
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.23725490196078433,
+            "y": 0.6193548387096774,
+            "uniqueID": "0536b402-b645-4bc7-8610-9089aba6d3ca",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.31862745098039214,
-            "y": 0.6483870967741935,
+            "x": 0.34705882352941175,
+            "y": 0.4903225806451613,
             "uniqueID": "8fd9e872-b7ae-4756-a5f7-1ce2c2dbe0d8",
             "ioValues": [
                 {
@@ -936,21 +951,6 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.23725490196078433,
-            "y": 0.6193548387096774,
-            "uniqueID": "0536b402-b645-4bc7-8610-9089aba6d3ca",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
