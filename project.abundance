@@ -43,7 +43,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "65d0e82a-24d4-4552-8273-2d04f7d0656a",
+                    "ioValue": "34482f18-830c-44d3-a92c-3eb6aeb272ce",
                     "currentEquation": null
                 }
             ],
@@ -172,8 +172,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.7595978062157221,
-            "y": 0.2935483870967742,
+            "x": 0.6544789762340036,
+            "y": 0.5064516129032258,
             "uniqueID": "a6db2af6-3d65-42df-94b9-f92f849051c8",
             "ioValues": [
                 {
@@ -231,8 +231,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7440585009140768,
-            "y": 0.603225806451613,
+            "x": 0.7760511882998171,
+            "y": 0.632258064516129,
             "uniqueID": "34482f18-830c-44d3-a92c-3eb6aeb272ce",
             "ioValues": [
                 {
@@ -272,12 +272,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": "65d0e82a-24d4-4552-8273-2d04f7d0656a",
-            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Shape 1",
             "ap1ID": "65d0e82a-24d4-4552-8273-2d04f7d0656a",
             "ap2ID": "a6db2af6-3d65-42df-94b9-f92f849051c8"
@@ -305,6 +299,12 @@
             "ap2Name": "Shape 4",
             "ap1ID": "3ee6af20-07dd-4fa7-a25d-d049aa7b4c72",
             "ap2ID": "34482f18-830c-44d3-a92c-3eb6aeb272ce"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "34482f18-830c-44d3-a92c-3eb6aeb272ce",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
     "unitsKey": "Inches",
