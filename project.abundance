@@ -13,7 +13,7 @@
         {
             "name": "Input (3)",
             "ioValue": 12,
-            "currentEquation": null
+            "currentEquation": "12"
         },
         {
             "name": "Input (1)",
@@ -107,8 +107,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.4040219378427788,
-            "y": 0.8129032258064516,
+            "x": 0.37225274725274726,
+            "y": 0.8516129032258064,
             "uniqueID": "7eb32c26-5e2c-4e3d-b745-5c6a40b59c61",
             "ioValues": [
                 {
@@ -172,8 +172,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.6517857142857143,
-            "y": 0.26129032258064516,
+            "x": 0.6936813186813187,
+            "y": 0.21612903225806454,
             "uniqueID": "a6db2af6-3d65-42df-94b9-f92f849051c8",
             "ioValues": [
                 {
@@ -181,7 +181,7 @@
                     "ioValue": "65d0e82a-24d4-4552-8273-2d04f7d0656a"
                 },
                 {
-                    "name": "Shape 4",
+                    "name": "Shape 5",
                     "ioValue": "6077e9bd-0970-454d-bce6-fd42682c9e59"
                 }
             ],
@@ -191,8 +191,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4855769230769231,
-            "y": 0.5451612903225806,
+            "x": 0.4519230769230769,
+            "y": 0.6419354838709677,
             "uniqueID": "6077e9bd-0970-454d-bce6-fd42682c9e59",
             "ioValues": [
                 {
@@ -211,8 +211,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5693681318681318,
-            "y": 0.7870967741935484,
+            "x": 0.5975274725274725,
+            "y": 0.5838709677419355,
             "uniqueID": "3ee6af20-07dd-4fa7-a25d-d049aa7b4c72",
             "ioValues": [
                 {
@@ -231,10 +231,15 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7815934065934065,
-            "y": 0.6225806451612903,
+            "x": 0.7554945054945055,
+            "y": 0.6516129032258065,
             "uniqueID": "34482f18-830c-44d3-a92c-3eb6aeb272ce",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "3ee6af20-07dd-4fa7-a25d-d049aa7b4c72"
+                }
+            ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
@@ -271,9 +276,15 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 4",
+            "ap2Name": "Shape 5",
             "ap1ID": "6077e9bd-0970-454d-bce6-fd42682c9e59",
             "ap2ID": "a6db2af6-3d65-42df-94b9-f92f849051c8"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap1ID": "3ee6af20-07dd-4fa7-a25d-d049aa7b4c72",
+            "ap2ID": "34482f18-830c-44d3-a92c-3eb6aeb272ce"
         }
     ],
     "unitsKey": "Inches",
