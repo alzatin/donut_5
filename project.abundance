@@ -61,8 +61,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5174757281553398,
-            "y": 0.6870967741935484,
+            "x": 0.5446601941747573,
+            "y": 0.4225806451612903,
             "uniqueID": "7954ce34-a21c-42d7-95ea-200b85995a9c",
             "ioValues": [
                 {
@@ -87,6 +87,26 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.683495145631068,
+            "y": 0.6709677419354838,
+            "uniqueID": "80ee4ed9-63b2-4f7d-a589-e7a5d0ead6ec",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "7954ce34-a21c-42d7-95ea-200b85995a9c",
+                    "currentEquation": null
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negative."
         }
     ],
     "allConnectors": [
@@ -95,6 +115,12 @@
             "ap2Name": "geometry",
             "ap1ID": "1f05528a-e17d-4791-bd4e-8acaa3f3d92f",
             "ap2ID": "7954ce34-a21c-42d7-95ea-200b85995a9c"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "7954ce34-a21c-42d7-95ea-200b85995a9c",
+            "ap2ID": "80ee4ed9-63b2-4f7d-a589-e7a5d0ead6ec"
         }
     ],
     "unitsKey": "Inches",
