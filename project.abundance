@@ -46,8 +46,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.3864077669902912,
-            "y": 0.4903225806451613,
+            "x": 0.36314067611777534,
+            "y": 0.3612903225806452,
             "uniqueID": "1f05528a-e17d-4791-bd4e-8acaa3f3d92f",
             "ioValues": [
                 {
@@ -57,9 +57,46 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.7153762268266085,
+            "y": 0.4870967741935484,
+            "uniqueID": "7954ce34-a21c-42d7-95ea-200b85995a9c",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "1f05528a-e17d-4791-bd4e-8acaa3f3d92f",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "1f05528a-e17d-4791-bd4e-8acaa3f3d92f",
+            "ap2ID": "7954ce34-a21c-42d7-95ea-200b85995a9c"
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [],
