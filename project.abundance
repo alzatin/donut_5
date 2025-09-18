@@ -17,7 +17,7 @@
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.025384615384615384,
+            "x": 0.028050000000000002,
             "y": 1.1610738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
@@ -30,13 +30,19 @@
             "x": 0.9854368932038834,
             "y": 0.467741935483871,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "80ee4ed9-63b2-4f7d-a589-e7a5d0ead6ec",
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.025384615384615384,
+            "x": 0.028050000000000002,
             "y": 1.1950738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
@@ -46,8 +52,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.36314067611777534,
-            "y": 0.3612903225806452,
+            "x": 0.3005050505050505,
+            "y": 0.5645161290322581,
             "uniqueID": "1f05528a-e17d-4791-bd4e-8acaa3f3d92f",
             "ioValues": [
                 {
@@ -61,8 +67,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5446601941747573,
-            "y": 0.4225806451612903,
+            "x": 0.4806397306397306,
+            "y": 0.34838709677419355,
             "uniqueID": "7954ce34-a21c-42d7-95ea-200b85995a9c",
             "ioValues": [
                 {
@@ -91,8 +97,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.7242718446601941,
-            "y": 0.3354838709677419,
+            "x": 0.7196969696969696,
+            "y": 0.6129032258064516,
             "uniqueID": "80ee4ed9-63b2-4f7d-a589-e7a5d0ead6ec",
             "ioValues": [
                 {
@@ -121,6 +127,12 @@
             "ap2Name": "geometry",
             "ap1ID": "7954ce34-a21c-42d7-95ea-200b85995a9c",
             "ap2ID": "80ee4ed9-63b2-4f7d-a589-e7a5d0ead6ec"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "80ee4ed9-63b2-4f7d-a589-e7a5d0ead6ec",
+            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         }
     ],
     "unitsKey": "Inches",
