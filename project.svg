@@ -1,13 +1,12 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-6.000001 -6.000001 192.000002 42.000001999999995" fill="none" stroke="black" stroke-width="0.6%" vector-effect="non-scaling-stroke">
-    <path d="M 25 30 A 5 5 0 0 0 35 30 A 5 5 0 0 0 25 30 Z" />
-    <path d="M 15 20 A 5 5 0 0 0 25 20 A 5 5 0 0 0 15 20 Z" />
-    <path d="M 5 10 A 5 5 0 0 0 15 10 A 5 5 0 0 0 5 10 Z" />
-    <path d="M -5 0 A 5 5 0 0 0 5 0 A 5 5 0 0 0 -5 0 Z" />
-    <path d="M -5 -5 L 5 -5 L 5 5 L -5 5 L -5 -5 Z" />
-    <path d="M 175 -5 L 185 -5 L 185 5 L 175 5 L 175 -5 Z" />
-    <path d="M 145 -5 L 155 -5 L 155 5 L 145 5 L 145 -5 Z" />
-    <path d="M 115 -5 L 125 -5 L 125 5 L 115 5 L 115 -5 Z" />
-    <path d="M 85 -5 L 95 -5 L 95 5 L 85 5 L 85 -5 Z" />
-    <path d="M 55 -5 L 65 -5 L 65 5 L 55 5 L 55 -5 Z" />
-    <path d="M 25 -5 L 35 -5 L 35 5 L 25 5 L 25 -5 Z" />
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-8.500001000000001 -6.000001 197.000002 39.500001999999995" fill="none" stroke="black" stroke-width="0.6%" vector-effect="non-scaling-stroke">
+    <path d="M 27.5 30 A 2.5 2.5 0 0 0 32.5 30 A 2.5 2.5 0 0 0 27.5 30 Z" />
+    <path d="M 17.5 20 A 2.5 2.5 0 0 0 22.5 20 A 2.5 2.5 0 0 0 17.5 20 Z" />
+    <path d="M 7.5 10 A 2.5 2.5 0 0 0 12.5 10 A 2.5 2.5 0 0 0 7.5 10 Z" />
+    <path d="M -7.5 -5 L 7.5 -5 L 7.5 5 L -7.5 5 L -7.5 -5 Z" />
+    <path d="M 172.5 -5 L 187.5 -5 L 187.5 5 L 172.5 5 L 172.5 -5 Z" />
+    <path d="M 142.5 -5 L 157.5 -5 L 157.5 5 L 142.5 5 L 142.5 -5 Z" />
+    <path d="M 112.5 -5 L 127.5 -5 L 127.5 5 L 112.5 5 L 112.5 -5 Z" />
+    <path d="M 82.5 -5 L 97.5 -5 L 97.5 5 L 82.5 5 L 82.5 -5 Z" />
+    <path d="M 52.5 -5 L 67.5 -5 L 67.5 5 L 52.5 5 L 52.5 -5 Z" />
+    <path d="M 22.5 -5 L 37.5 -5 L 37.5 5 L 22.5 5 L 22.5 -5 Z" />
 </svg>
