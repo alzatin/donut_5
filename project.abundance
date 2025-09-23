@@ -16,7 +16,7 @@
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.0264,
+            "x": 0.028050000000000002,
             "y": 1.1610738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
@@ -39,7 +39,7 @@
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.0264,
+            "x": 0.028050000000000002,
             "y": 1.1950738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
@@ -106,6 +106,42 @@
                     "currentEquation": null
                 }
             ]
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.376,
+            "y": 0.8,
+            "uniqueID": "d936fd9e-ae45-41b8-97e7-c6d02c258e11",
+            "ioValues": [],
+            "fileName": null,
+            "type": null
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.6719999999999999,
+            "y": 0.36774193548387096,
+            "uniqueID": "49613ca7-c928-434c-b8d7-fe9f8825bbec",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.5577142857142857,
+            "y": 0.6709677419354838,
+            "uniqueID": "dba64ea3-9e74-40d4-8d5d-67ce1bab3062",
+            "ioValues": [],
+            "fileName": "adidas_copy7.svg",
+            "type": "SVG",
+            "repoOwner": "alzatin",
+            "repoName": "test_dev_2"
         }
     ],
     "allConnectors": [
