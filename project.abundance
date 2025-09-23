@@ -11,17 +11,15 @@
             "currentEquation": null
         }
     ],
-    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.028050000000000002,
+            "x": 0.0264,
             "y": 1.1610738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
         },
         {
@@ -36,24 +34,22 @@
                     "ioValue": "80ee4ed9-63b2-4f7d-a589-e7a5d0ead6ec",
                     "currentEquation": null
                 }
-            ],
-            "description": "Connect geometry here to make it available in the next level up. "
+            ]
         },
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.028050000000000002,
+            "x": 0.0264,
             "y": 1.1950738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
         },
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.3005050505050505,
-            "y": 0.5645161290322581,
+            "x": 0.2393103448275862,
+            "y": 0.5114942528735632,
             "uniqueID": "1f05528a-e17d-4791-bd4e-8acaa3f3d92f",
             "ioValues": [
                 {
@@ -61,14 +57,13 @@
                     "ioValue": 10,
                     "currentEquation": null
                 }
-            ],
-            "description": "Creates a new circle."
+            ]
         },
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.47643442622950816,
-            "y": 0.535483870967742,
+            "x": 0.4344827586206897,
+            "y": 0.4224137931034483,
             "uniqueID": "7954ce34-a21c-42d7-95ea-200b85995a9c",
             "ioValues": [
                 {
@@ -91,8 +86,7 @@
                     "ioValue": 0,
                     "currentEquation": null
                 }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            ]
         },
         {
             "atomType": "Extrude",
@@ -111,8 +105,7 @@
                     "ioValue": 10,
                     "currentEquation": null
                 }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negative."
+            ]
         }
     ],
     "allConnectors": [
