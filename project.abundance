@@ -33,13 +33,7 @@
             "x": 0.9854368932038834,
             "y": 0.467741935483871,
             "uniqueID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "967abd93-f02b-42b3-ac87-2517217c38e1",
-                    "currentEquation": null
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Input",
@@ -85,13 +79,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "248e94d1-518e-4cfe-93b0-d10a80e3874a",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "142ade2e-f38b-4d40-afab-17ce62648af6",
-                            "currentEquation": null
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -135,11 +123,323 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": "19d15c75-c6ad-4ad0-ba85-4929ae4b3b45"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-14",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-15",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-16",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-17",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-18",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-19",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-20",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         },
                         {
                             "name": "Shape 2",
-                            "ioValue": "32c97194-e43f-4edc-8ad9-838e526db7a1"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-29",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-30",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                10
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-31",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                20
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-32",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                30
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         }
                     ]
                 },
@@ -174,11 +474,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "4997919c-3e42-4d18-8b70-286553d0f2b5",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 10,
                             "currentEquation": null
@@ -202,13 +497,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "677d55ec-eff6-46fb-98ca-9cc9dae9aede",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "b6a54533-8842-4067-a023-dd00769040b9",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -254,11 +543,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "b6a54533-8842-4067-a023-dd00769040b9",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "4997919c-3e42-4d18-8b70-286553d0f2b5",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 4,
@@ -388,11 +672,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "14f6fed5-818f-48c0-80e1-5ba522592ced",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 30,
                             "currentEquation": null
@@ -416,13 +695,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "fc5a0378-7ba3-4ced-8675-93940553d551",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "98e01aca-ee4e-4f5e-a306-e677aaa90462",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -468,11 +741,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "98e01aca-ee4e-4f5e-a306-e677aaa90462",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "14f6fed5-818f-48c0-80e1-5ba522592ced",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 7,
@@ -647,7 +915,7 @@
                 {
                     "name": "circleW",
                     "ioValue": 4,
-                    "currentEquation": "4"
+                    "currentEquation": null
                 },
                 {
                     "name": "rectWi",
@@ -663,13 +931,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "87c15c3c-0981-4b88-8f0b-b959f52e04dc",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "3edc8118-2a99-4c54-a780-0418fb8fb3fb",
-                            "currentEquation": null
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -713,11 +975,323 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": "be578288-1541-4954-a643-5f292f8838a9"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-47",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-48",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-49",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-50",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-51",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-52",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-53",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         },
                         {
                             "name": "Shape 2",
-                            "ioValue": "e176a94b-f344-45b4-a95d-e6e45414099c"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-62",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-63",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                10
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-64",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                20
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-65",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                30
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         }
                     ]
                 },
@@ -752,11 +1326,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "77613483-3dea-47d2-a5ef-cfbb5d1a5d22",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 10,
                             "currentEquation": null
@@ -780,13 +1349,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "02872695-82ed-464f-8fdb-cf3793079d36",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "974844f6-1ef9-42f4-8d1d-5d7bc3c81e67",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -832,11 +1395,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "974844f6-1ef9-42f4-8d1d-5d7bc3c81e67",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "77613483-3dea-47d2-a5ef-cfbb5d1a5d22",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 4,
@@ -966,11 +1524,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "c6b30c3d-b557-4265-b6bf-53713d601fbc",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 30,
                             "currentEquation": null
@@ -994,13 +1547,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "a03bfbdb-0a0b-4e6c-aecc-2427503d3c7c",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "7eae3e3c-7df2-436e-bd52-05db44387227",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -1046,11 +1593,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "7eae3e3c-7df2-436e-bd52-05db44387227",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "c6b30c3d-b557-4265-b6bf-53713d601fbc",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 7,
@@ -1225,7 +1767,7 @@
                 {
                     "name": "circleW",
                     "ioValue": 6,
-                    "currentEquation": "6"
+                    "currentEquation": null
                 },
                 {
                     "name": "rectWi",
@@ -1241,13 +1783,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "8fa9e792-304b-4602-a01d-4b21fc95d57b",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "3b2d587c-f830-44fc-ab89-35e0392d9c79",
-                            "currentEquation": null
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -1291,11 +1827,323 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": "9a09188f-2354-4d17-8103-8adb52c02d44"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-80",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-81",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-82",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-83",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-84",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-85",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-86",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         },
                         {
                             "name": "Shape 2",
-                            "ioValue": "1675b7f7-94e4-42b2-9fe8-832d5ec8bd64"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-95",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-96",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                10
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-97",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                20
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-98",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                30
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         }
                     ]
                 },
@@ -1330,11 +2178,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "12d8913a-19ec-400f-a763-a42430896a9a",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 10,
                             "currentEquation": null
@@ -1358,13 +2201,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "69bee29c-ac75-4a9b-9e12-9632bb55fb37",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "984f3add-33b1-446f-8015-b4858214478c",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -1410,11 +2247,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "984f3add-33b1-446f-8015-b4858214478c",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "12d8913a-19ec-400f-a763-a42430896a9a",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 4,
@@ -1544,11 +2376,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "b326e01e-e80a-436d-b98e-26afb3b9dbc1",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 30,
                             "currentEquation": null
@@ -1572,13 +2399,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "2e6ec4cc-e36e-4e34-957b-18f1297cea84",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "db8bd794-ce23-4dca-98d1-c89f4c189625",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -1624,11 +2445,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "db8bd794-ce23-4dca-98d1-c89f4c189625",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "b326e01e-e80a-436d-b98e-26afb3b9dbc1",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 7,
@@ -1803,7 +2619,7 @@
                 {
                     "name": "circleW",
                     "ioValue": 9,
-                    "currentEquation": "9"
+                    "currentEquation": null
                 },
                 {
                     "name": "rectWi",
@@ -1819,13 +2635,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "9cc26d7c-4c2f-4a86-93cb-8b159fcffc81",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "a7ffe6ac-0425-43ad-a360-6e1a3eed05b0",
-                            "currentEquation": null
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -1869,11 +2679,323 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": "acc527bd-7498-4cab-9ae3-d098fe34b12c"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-113",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-114",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-115",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-116",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-117",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-118",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-119",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         },
                         {
                             "name": "Shape 2",
-                            "ioValue": "a659f20f-04af-4825-8f1b-a0027a662aad"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-128",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-129",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                10
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-130",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                20
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-131",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                30
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         }
                     ]
                 },
@@ -1908,11 +3030,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "cb5a07c7-bb39-49e8-a689-e30247728a55",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 10,
                             "currentEquation": null
@@ -1936,13 +3053,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "1f93d5b0-8223-4e06-93d8-d847dbf0af69",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "684cec9f-6cbf-4624-b9d2-28f1434062ef",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -1988,11 +3099,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "684cec9f-6cbf-4624-b9d2-28f1434062ef",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "cb5a07c7-bb39-49e8-a689-e30247728a55",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 4,
@@ -2122,11 +3228,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "fd96c621-a4ce-4ac0-a367-cbf8b53ca6fd",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 30,
                             "currentEquation": null
@@ -2150,13 +3251,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "549250c7-a6d0-4cd9-8558-d498beee6f5b",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "6750d340-1346-4d08-bb35-88c1d621bc08",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -2202,11 +3297,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "6750d340-1346-4d08-bb35-88c1d621bc08",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "fd96c621-a4ce-4ac0-a367-cbf8b53ca6fd",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 7,
@@ -2381,7 +3471,7 @@
                 {
                     "name": "circleW",
                     "ioValue": 12,
-                    "currentEquation": "12"
+                    "currentEquation": null
                 },
                 {
                     "name": "rectWi",
@@ -2397,13 +3487,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "ff7402a5-0602-4ebd-8f37-bcad9e95f21b",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "f6683301-5366-4097-84d5-0ebee32427d8",
-                            "currentEquation": null
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -2447,11 +3531,323 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": "3ad8caea-a430-45a4-afd8-27b309f89fe1"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-146",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-147",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-148",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-149",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-150",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-151",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-152",
+                                        "dimension": "2D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "tags": [],
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         },
                         {
                             "name": "Shape 2",
-                            "ioValue": "1d142047-f94f-4a4f-a210-e8c5b8a07825"
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "singular-161",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-162",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                10
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-163",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                20
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "singular-164",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                30
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D"
+                            }
                         }
                     ]
                 },
@@ -2486,11 +3882,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "ccb29489-fe45-45eb-a661-8ab891dabf74",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 10,
                             "currentEquation": null
@@ -2514,13 +3905,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "62e5dfd4-a3f6-4def-a278-60b6aa7bd4c0",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "54bc6e2c-1692-4b04-aafa-7ec836b402f1",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -2566,11 +3951,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "54bc6e2c-1692-4b04-aafa-7ec836b402f1",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "ccb29489-fe45-45eb-a661-8ab891dabf74",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 4,
@@ -2700,11 +4080,6 @@
                             "currentEquation": null
                         },
                         {
-                            "name": "Geometry",
-                            "ioValue": "223cec62-f180-47e6-8837-1ee9a3aaec2a",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "distX",
                             "ioValue": 30,
                             "currentEquation": null
@@ -2728,13 +4103,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "4ed35b4f-5e9a-443b-9a27-c8d0eef352d3",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "8b22bb47-118f-4457-9596-aec61fe07507",
-                                    "currentEquation": null
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -2780,11 +4149,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "8b22bb47-118f-4457-9596-aec61fe07507",
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "223cec62-f180-47e6-8837-1ee9a3aaec2a",
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 7,
@@ -2948,6 +4312,22 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.7132043734230447,
+            "y": 0.5909090909090909,
+            "uniqueID": "17a8a6b5-4586-4a81-b041-a96eb4e7eac1",
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 5,
+                    "currentEquation": null
+                }
+            ],
+            "codeVersion": 1,
+            "code": "\n      const Inputs = [\n      {inputName: \"A\", type: \"geometry\", defaultValue: null},\n       {inputName: \"B\", type: \"geometry\", defaultValue: null},\n        {inputName: \"height\", type: \"number\", defaultValue: 5},\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Takes the address and gets the shape from the library\n      let importedShape = library[shape]\n\n      //This makes a new copy of the shape and moves it in the X direction\n      let movedShape = importedShape.geometry[0].clone().translate([dist,0,0])\n\n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n\n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n\n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      //return shape1\n\n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape],\n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n\n      //Then we can return our created shape in just the same way\n      //return shape2\n\n      //If we want to return both shapes at once, we can create an assembly with them\n      let anAssembly = {\n        geometry: [shape1, shape2],\n        tags: [\"aNewTag\"],\n        color: '#A3CF5B',\n        plane: newPlane,\n        bom: []\n      }\n\n      //And we can return that in the same way\n      return anAssembly\n\n      /**\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n      If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0]\n      Use any replicad available methods to modify your geometry. Learn more about all of the available methods at\n      https://replicad.xyz/docs/introapp/UserGuide.html\n      Return a replicad object that includes geometry, color, tags and plane.\n\n      Example Code Atom:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let finalShape = library[shape].geometry[0].clone().translate([x,0,0])\n        return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      */\n      "
         }
     ],
     "allConnectors": [
