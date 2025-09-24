@@ -52,9 +52,124 @@
             "uniqueID": "f6de29dd-c975-43ce-9062-d4837f6a49e9",
             "ioValues": [],
             "type": "number"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.23742277140335394,
+            "y": 0.5124223602484472,
+            "uniqueID": "02d02830-7bbb-4367-8609-b5791aa888ba",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3627537511032657,
+            "y": 0.35093167701863354,
+            "uniqueID": "51868b79-d0f7-4466-b43e-6f9288528000",
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.49867608120035306,
+            "y": 0.2204968944099379,
+            "uniqueID": "057bc9d1-1dcd-43b9-a0cb-e62c65792ab2",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.36363636363636365,
+            "y": 0.6987577639751553,
+            "uniqueID": "1c15984a-d9ee-44bd-91b1-5e1754c4ad19",
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 5,
+                    "currentEquation": "5"
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5075022065313327,
+            "y": 0.7453416149068324,
+            "uniqueID": "d970a8ac-d2d4-41e9-a15e-aa8206aa66d3",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 50,
+                    "currentEquation": "050"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 12,
+                    "currentEquation": "012"
+                }
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "02d02830-7bbb-4367-8609-b5791aa888ba",
+            "ap2ID": "51868b79-d0f7-4466-b43e-6f9288528000"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "02d02830-7bbb-4367-8609-b5791aa888ba",
+            "ap2ID": "1c15984a-d9ee-44bd-91b1-5e1754c4ad19"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "51868b79-d0f7-4466-b43e-6f9288528000",
+            "ap2ID": "057bc9d1-1dcd-43b9-a0cb-e62c65792ab2"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "1c15984a-d9ee-44bd-91b1-5e1754c4ad19",
+            "ap2ID": "d970a8ac-d2d4-41e9-a15e-aa8206aa66d3"
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [],
