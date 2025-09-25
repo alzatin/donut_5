@@ -146,8 +146,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7096204766107679,
-            "y": 0.2236024844720497,
+            "x": 0.706090026478376,
+            "y": 0.24534161490683226,
             "uniqueID": "03d88399-96cb-42fc-a688-554cd14b1c6a",
             "ioValues": [
                 {
@@ -522,12 +522,6 @@
             "ap2Name": "geometry",
             "ap1ID": "3047967a-06ed-4c54-89e2-b8ce67554a9e",
             "ap2ID": "03d88399-96cb-42fc-a688-554cd14b1c6a"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": "03d88399-96cb-42fc-a688-554cd14b1c6a",
-            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
         },
         {
             "ap1Name": "geometry",
