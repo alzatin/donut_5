@@ -8,12 +8,12 @@
         {
             "name": "Input (1)",
             "ioValue": 10,
-            "currentEquation": null
+            "currentEquation": "10"
         },
         {
             "name": "circleW",
             "ioValue": 10,
-            "currentEquation": null
+            "currentEquation": "10"
         }
     ],
     "topLevel": true,
@@ -56,8 +56,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.23742277140335394,
-            "y": 0.5124223602484472,
+            "x": 0.19518900343642612,
+            "y": 0.5590062111801242,
             "uniqueID": "02d02830-7bbb-4367-8609-b5791aa888ba",
             "ioValues": [
                 {
@@ -70,8 +70,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.3627537511032657,
-            "y": 0.35093167701863354,
+            "x": 0.32577319587628867,
+            "y": 0.3322981366459627,
             "uniqueID": "51868b79-d0f7-4466-b43e-6f9288528000",
             "ioValues": [
                 {
@@ -84,8 +84,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.49867608120035306,
-            "y": 0.2204968944099379,
+            "x": 0.4536082474226804,
+            "y": 0.2701863354037267,
             "uniqueID": "057bc9d1-1dcd-43b9-a0cb-e62c65792ab2",
             "ioValues": [
                 {
@@ -108,8 +108,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.36363636363636365,
-            "y": 0.6987577639751553,
+            "x": 0.3731958762886598,
+            "y": 0.6925465838509317,
             "uniqueID": "1c15984a-d9ee-44bd-91b1-5e1754c4ad19",
             "ioValues": [
                 {
@@ -122,8 +122,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5075022065313327,
-            "y": 0.7453416149068324,
+            "x": 0.5051546391752577,
+            "y": 0.7546583850931677,
             "uniqueID": "d970a8ac-d2d4-41e9-a15e-aa8206aa66d3",
             "ioValues": [
                 {
@@ -139,6 +139,54 @@
                 {
                     "name": "zDist",
                     "ioValue": 12,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.6024054982817869,
+            "y": 0.2391304347826087,
+            "uniqueID": "3047967a-06ed-4c54-89e2-b8ce67554a9e",
+            "ioValues": [
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.7024054982817869,
+            "y": 0.2391304347826087,
+            "uniqueID": "03d88399-96cb-42fc-a688-554cd14b1c6a",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
                     "currentEquation": null
                 }
             ]
@@ -166,8 +214,20 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
+            "ap1ID": "057bc9d1-1dcd-43b9-a0cb-e62c65792ab2",
+            "ap2ID": "3047967a-06ed-4c54-89e2-b8ce67554a9e"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
             "ap1ID": "1c15984a-d9ee-44bd-91b1-5e1754c4ad19",
             "ap2ID": "d970a8ac-d2d4-41e9-a15e-aa8206aa66d3"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "3047967a-06ed-4c54-89e2-b8ce67554a9e",
+            "ap2ID": "03d88399-96cb-42fc-a688-554cd14b1c6a"
         }
     ],
     "unitsKey": "Inches",
