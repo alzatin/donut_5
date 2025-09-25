@@ -153,7 +153,7 @@
                 {
                     "name": "xDist",
                     "ioValue": 10,
-                    "currentEquation": "010"
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
@@ -251,7 +251,7 @@
                 {
                     "atomType": "Input",
                     "name": "Number",
-                    "x": 0.028050000000000002,
+                    "x": 0.05775,
                     "y": 0.32869080779944293,
                     "uniqueID": "a70d1627-f2b7-4bd8-8f8e-48f604f64635",
                     "ioValues": [],
@@ -260,7 +260,7 @@
                 {
                     "atomType": "Input",
                     "name": "Geometry",
-                    "x": 0.028050000000000002,
+                    "x": 0.05775,
                     "y": 0.9108635097493036,
                     "uniqueID": "99862c4c-f1b0-4d9a-a7a3-c622552af03a",
                     "ioValues": [],
@@ -300,7 +300,7 @@
                 {
                     "atomType": "Input",
                     "name": "distX",
-                    "x": 0.028050000000000002,
+                    "x": 0.05775,
                     "y": 0.5,
                     "uniqueID": "c67ec34f-a9be-4dd2-ab1a-7a352a8995d1",
                     "ioValues": [],
@@ -309,7 +309,7 @@
                 {
                     "atomType": "Input",
                     "name": "distY",
-                    "x": 0.028050000000000002,
+                    "x": 0.05775,
                     "y": 0.6174698795180722,
                     "uniqueID": "4da93be9-a0c4-4362-8848-76fb3dd6242e",
                     "ioValues": [],
@@ -318,7 +318,7 @@
                 {
                     "atomType": "Input",
                     "name": "distZ",
-                    "x": 0.028050000000000002,
+                    "x": 0.05775,
                     "y": 0.7650602409638555,
                     "uniqueID": "5708745a-4c75-456d-87bb-aa5a6216ba86",
                     "ioValues": [],
@@ -463,6 +463,27 @@
             "unitsKey": "MM",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.7493380406001766,
+            "y": 0.5993788819875777,
+            "uniqueID": "0073deea-3489-4413-b99b-324d1e3eef0e",
+            "ioValues": []
+        },
+        {
+            "atomType": "ShrinkWrap",
+            "name": "Shrink Wrap",
+            "x": 0.8067078552515446,
+            "y": 0.7795031055900621,
+            "uniqueID": "77f49715-edb7-4130-b825-f2d4f1aefdb1",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": null
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -513,6 +534,12 @@
             "ap2Name": "Geometry",
             "ap1ID": "83e976b3-9bbc-4726-9d2b-9a60083a0c5b",
             "ap2ID": "d44ed854-2929-4a67-a356-0da859465e96"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap1ID": "0073deea-3489-4413-b99b-324d1e3eef0e",
+            "ap2ID": "77f49715-edb7-4130-b825-f2d4f1aefdb1"
         }
     ],
     "unitsKey": "Inches",
