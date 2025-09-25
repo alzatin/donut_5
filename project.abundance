@@ -13,7 +13,7 @@
         {
             "name": "circleW",
             "ioValue": 10,
-            "currentEquation": "10"
+            "currentEquation": null
         }
     ],
     "topLevel": true,
@@ -56,8 +56,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.1615180935569285,
-            "y": 0.5869565217391304,
+            "x": 0.1676963812886143,
+            "y": 0.4347826086956522,
             "uniqueID": "02d02830-7bbb-4367-8609-b5791aa888ba",
             "ioValues": [
                 {
@@ -70,8 +70,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.32920962199312714,
-            "y": 0.32608695652173914,
+            "x": 0.33892321270962045,
+            "y": 0.3322981366459627,
             "uniqueID": "51868b79-d0f7-4466-b43e-6f9288528000",
             "ioValues": [
                 {
@@ -108,8 +108,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.3195057369814651,
-            "y": 0.5993788819875777,
+            "x": 0.2762577228596646,
+            "y": 0.6645962732919254,
             "uniqueID": "1c15984a-d9ee-44bd-91b1-5e1754c4ad19",
             "ioValues": [
                 {
@@ -122,8 +122,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.6001765225066196,
-            "y": 0.2608695652173913,
+            "x": 0.5913503971756399,
+            "y": 0.25155279503105593,
             "uniqueID": "3047967a-06ed-4c54-89e2-b8ce67554a9e",
             "ioValues": [
                 {
@@ -170,8 +170,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.45542806707855255,
-            "y": 0.6211180124223602,
+            "x": 0.45719329214474846,
+            "y": 0.6335403726708074,
             "uniqueID": "83e976b3-9bbc-4726-9d2b-9a60083a0c5b",
             "ioValues": [
                 {
@@ -193,162 +193,9 @@
         },
         {
             "atomType": "GitHubMolecule",
-            "name": "Fillet-",
-            "x": 0.5419240953221536,
-            "y": 0.42546583850931674,
-            "uniqueID": "ac6e1718-b4a5-46cd-b90b-479dec018ba9",
-            "ioValues": [
-                {
-                    "name": "Shape",
-                    "ioValue": 10,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Radius",
-                    "ioValue": 2,
-                    "currentEquation": null
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "591295c7-ded2-47db-ba17-01a3297d4528",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Shape",
-                    "x": 0.028050000000000002,
-                    "y": 0.49303621169916434,
-                    "uniqueID": "18c47498-a7bc-4add-af8a-24345a39f5f5",
-                    "ioValues": [],
-                    "type": "geometry"
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 0.15013227513227512,
-                    "y": 0.2562674094707521,
-                    "uniqueID": "57d14647-08ef-4222-813a-b38de2660f5f",
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.3353174603174603,
-                    "y": 0.15598885793871867,
-                    "uniqueID": "bf11380f-0acc-44fb-8903-1c65b3a9a592",
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Radius",
-                    "x": 0.028050000000000002,
-                    "y": 0.7103064066852367,
-                    "uniqueID": "9968de14-686d-4d5b-a321-fb254c3d1a58",
-                    "ioValues": [],
-                    "type": "number"
-                },
-                {
-                    "atomType": "Code",
-                    "name": "Code",
-                    "x": 0.49404761904761907,
-                    "y": 0.5865921787709497,
-                    "uniqueID": "df400519-ec8c-4cf3-8a3e-38bdcd50b70c",
-                    "ioValues": [
-                        {
-                            "name": "inputShape",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "radius",
-                            "ioValue": 2,
-                            "currentEquation": null
-                        }
-                    ],
-                    "codeVersion": 1,
-                    "code": "      //Inputs:[inputShape, radius]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n      \n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let chamferedShape = await Fillet(inputShape, radius);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [chamferedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      return shape1"
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "inputShape",
-                    "ap1ID": "18c47498-a7bc-4add-af8a-24345a39f5f5",
-                    "ap2ID": "df400519-ec8c-4cf3-8a3e-38bdcd50b70c"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": "57d14647-08ef-4222-813a-b38de2660f5f",
-                    "ap2ID": "bf11380f-0acc-44fb-8903-1c65b3a9a592"
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "radius",
-                    "ap1ID": "9968de14-686d-4d5b-a321-fb254c3d1a58",
-                    "ap2ID": "df400519-ec8c-4cf3-8a3e-38bdcd50b70c"
-                },
-                {
-                    "ap1Name": "output",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "df400519-ec8c-4cf3-8a3e-38bdcd50b70c",
-                    "ap2ID": "591295c7-ded2-47db-ba17-01a3297d4528"
-                }
-            ],
-            "parentRepo": {
-                "lastFoundGit": "2025-09-24T15:47:14.730Z",
-                "privateRepo": false,
-                "repoName": "Fillet-",
-                "dateCreated": "2025-03-13T05:08:33Z",
-                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Fillet-/master/README.md?sanitize=true",
-                "yyyy": 2025,
-                "topMoleculeID": 1741842512908,
-                "githubMoleculesUsed": [],
-                "html_url": "https://github.com/BarbourSmith/Fillet-",
-                "topics": [],
-                "parentRepo": null,
-                "forks": 0,
-                "dateModified": "739428",
-                "ranking": 0,
-                "searchField": "fillet- barboursmith fillets every edge of an input shape ",
-                "owner": "BarbourSmith",
-                "description": "Fillets every edge of an input shape",
-                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Fillet-/master/project.abundance?sanitize=true",
-                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Fillet-/master/project.svg?sanitize=true",
-                "isLocal": false
-            },
-            "unitsKey": "MM",
-            "fileTypeVersion": 1,
-            "compiledBom": []
-        },
-        {
-            "atomType": "GitHubMolecule",
             "name": "Linear-Pattern",
-            "x": 0.6707855251544572,
-            "y": 0.6490683229813664,
+            "x": 0.6081200353045013,
+            "y": 0.7670807453416149,
             "uniqueID": "d44ed854-2929-4a67-a356-0da859465e96",
             "ioValues": [
                 {
