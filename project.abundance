@@ -525,12 +525,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": "03d88399-96cb-42fc-a688-554cd14b1c6a",
-            "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Geometry",
             "ap1ID": "83e976b3-9bbc-4726-9d2b-9a60083a0c5b",
             "ap2ID": "d44ed854-2929-4a67-a356-0da859465e96"
