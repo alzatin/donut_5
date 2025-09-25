@@ -38,6 +38,20 @@
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
             "type": "number"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.30280373831775703,
+            "y": 0.5062111801242236,
+            "uniqueID": "230b5dd2-0283-449e-a0bf-1d98c5461a0f",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
         }
     ],
     "allConnectors": [],
