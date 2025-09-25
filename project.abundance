@@ -21,7 +21,7 @@
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.028050000000000002,
+            "x": 0.05775,
             "y": 1.1610738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
@@ -38,7 +38,7 @@
         {
             "atomType": "Input",
             "name": "Input (1)",
-            "x": 0.028050000000000002,
+            "x": 0.05775,
             "y": 1.1950738255033557,
             "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
             "ioValues": [],
@@ -47,7 +47,7 @@
         {
             "atomType": "Input",
             "name": "circleW",
-            "x": 0.028050000000000002,
+            "x": 0.05775,
             "y": 0.632258064516129,
             "uniqueID": "f6de29dd-c975-43ce-9062-d4837f6a49e9",
             "ioValues": [],
@@ -84,8 +84,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4536628420123565,
-            "y": 0.2919254658385093,
+            "x": 0.2980502201960637,
+            "y": 0.2413835751978892,
             "uniqueID": "057bc9d1-1dcd-43b9-a0cb-e62c65792ab2",
             "ioValues": [
                 {
@@ -189,17 +189,6 @@
                     "ioValue": 0,
                     "currentEquation": null
                 }
-            ]
-        },
-        {
-            "atomType": "Tag",
-            "name": "",
-            "x": 0.47043248014121797,
-            "y": 0.4782608695652174,
-            "uniqueID": "cdf74146-2cf3-417c-856b-894eaee687ce",
-            "ioValues": [],
-            "tags": [
-                ""
             ]
         },
         {
@@ -494,12 +483,6 @@
             "ap2Name": "geometry",
             "ap1ID": "51868b79-d0f7-4466-b43e-6f9288528000",
             "ap2ID": "057bc9d1-1dcd-43b9-a0cb-e62c65792ab2"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "51868b79-d0f7-4466-b43e-6f9288528000",
-            "ap2ID": "cdf74146-2cf3-417c-856b-894eaee687ce"
         },
         {
             "ap1Name": "geometry",
