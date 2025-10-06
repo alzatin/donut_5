@@ -7,6 +7,11 @@
   "ioValues": [
     {
       "name": "Input (1)",
+      "ioValue": 5,
+      "currentEquation": "5"
+    },
+    {
+      "name": "Input (2)",
       "ioValue": 10
     }
   ],
@@ -15,7 +20,7 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.033,
+      "x": 0.025384615384615384,
       "y": 1.1610738255033557,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
@@ -32,7 +37,7 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.033,
+      "x": 0.025384615384615384,
       "y": 1.1950738255033557,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
@@ -41,8 +46,8 @@
     {
       "atomType": "Circle",
       "name": "Circle",
-      "x": 0.14687280393534785,
-      "y": 0.42546583850931674,
+      "x": 0.241747572815534,
+      "y": 0.33540372670807456,
       "uniqueID": "230b5dd2-0283-449e-a0bf-1d98c5461a0f",
       "ioValues": [
         {
@@ -73,18 +78,15 @@
       "ioValues": [
         {
           "name": "Sheet Width",
-          "ioValue": 96,
-          "currentEquation": "96"
+          "ioValue": 96
         },
         {
           "name": "Sheet Height",
-          "ioValue": 48,
-          "currentEquation": "48"
+          "ioValue": 48
         },
         {
           "name": "Part Padding",
-          "ioValue": 0.4,
-          "currentEquation": "0.4"
+          "ioValue": 0.4
         }
       ],
       "placements": [
@@ -117,6 +119,37 @@
       ]
     },
     {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.2951510892480675,
+      "y": 0.6521739130434783,
+      "uniqueID": "e7073640-1007-4c0d-ad00-666e7dc305db",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "test_dev_2"
+        }
+      ],
+      "partName": "test_dev_2",
+      "sortDirection": "Left"
+    },
+    {
       "atomType": "GitHubMolecule",
       "name": "Linear-Pattern",
       "x": 0.544624033731553,
@@ -125,23 +158,19 @@
       "ioValues": [
         {
           "name": "Number",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "distX",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         },
         {
           "name": "distY",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "distZ",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ],
       "topLevel": false,
@@ -174,7 +203,7 @@
         {
           "atomType": "Input",
           "name": "Number",
-          "x": 0.033,
+          "x": 0.025384615384615384,
           "y": 0.32869080779944293,
           "uniqueID": "06f38075-c429-4fee-b8d6-41d6ac2a9927",
           "ioValues": [],
@@ -183,7 +212,7 @@
         {
           "atomType": "Input",
           "name": "Geometry",
-          "x": 0.033,
+          "x": 0.025384615384615384,
           "y": 0.9108635097493036,
           "uniqueID": "b4757ab5-499f-4c70-a494-40e398af0c36",
           "ioValues": [],
@@ -219,7 +248,7 @@
         {
           "atomType": "Input",
           "name": "distX",
-          "x": 0.033,
+          "x": 0.025384615384615384,
           "y": 0.5,
           "uniqueID": "31401909-4245-4b7c-9d5c-f07d2f290228",
           "ioValues": [],
@@ -228,7 +257,7 @@
         {
           "atomType": "Input",
           "name": "distY",
-          "x": 0.033,
+          "x": 0.025384615384615384,
           "y": 0.6174698795180722,
           "uniqueID": "e7b233e5-466a-45a6-b60a-3b61b804ad86",
           "ioValues": [],
@@ -237,7 +266,7 @@
         {
           "atomType": "Input",
           "name": "distZ",
-          "x": 0.033,
+          "x": 0.025384615384615384,
           "y": 0.7650602409638555,
           "uniqueID": "c118b886-8a98-475b-9172-5f86e1dd3c83",
           "ioValues": [],
@@ -379,38 +408,13 @@
       "compiledBom": []
     },
     {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.2951510892480675,
-      "y": 0.6521739130434783,
-      "uniqueID": "e7073640-1007-4c0d-ad00-666e7dc305db",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 0.25,
-          "currentEquation": "0.25"
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1,
-          "currentEquation": "1"
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500,
-          "currentEquation": "1500"
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "test_dev_2"
-        }
-      ],
-      "partName": "test_dev_2",
-      "sortDirection": "Left"
+      "atomType": "Input",
+      "name": "Input (2)",
+      "x": 0.025384615384615384,
+      "y": 0.6583850931677019,
+      "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
+      "ioValues": [],
+      "type": "number"
     }
   ],
   "allConnectors": [
@@ -437,6 +441,12 @@
       "ap2Name": "geometry",
       "ap1ID": "bead1fa5-f225-47a0-932c-0fab3b9a7bfb",
       "ap2ID": "d0ebdcae-62da-43f7-824d-0b192c1710f7"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "diameter",
+      "ap1ID": "199cfb91-890f-4576-9d9c-24488e73fd88",
+      "ap2ID": "230b5dd2-0283-449e-a0bf-1d98c5461a0f"
     }
   ],
   "unitsKey": "Inches",
