@@ -60,9 +60,59 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         }
+      ]
+    },
+    {
+      "atomType": "CutLayout",
+      "name": "Cut Layout",
+      "x": 0.7315891472868217,
+      "y": 0.6708074534161491,
+      "uniqueID": "d0ebdcae-62da-43f7-824d-0b192c1710f7",
+      "ioValues": [
+        {
+          "name": "Sheet Width",
+          "ioValue": 96
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 48,
+          "currentEquation": "48"
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 0.4,
+          "currentEquation": "0.4"
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 1,
+            "rotate": 240,
+            "translate": {
+              "x": 3,
+              "y": 5
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 120,
+            "translate": {
+              "x": 5.390369438776278,
+              "y": 16.1711082768935
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 120,
+            "translate": {
+              "x": 5.390369438776278,
+              "y": 26.92871519441398
+            }
+          }
+        ]
       ]
     },
     {
@@ -74,23 +124,19 @@
       "ioValues": [
         {
           "name": "Number",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "distX",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         },
         {
           "name": "distY",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "distZ",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ],
       "topLevel": false,
@@ -326,58 +372,6 @@
       "unitsKey": "MM",
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "CutLayout",
-      "name": "Cut Layout",
-      "x": 0.7286821705426356,
-      "y": 0.6677018633540373,
-      "uniqueID": "d0ebdcae-62da-43f7-824d-0b192c1710f7",
-      "ioValues": [
-        {
-          "name": "Sheet Width",
-          "ioValue": 96,
-          "currentEquation": "96"
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 48,
-          "currentEquation": "48"
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 0.4,
-          "currentEquation": "0.4"
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 1,
-            "rotate": 240,
-            "translate": {
-              "x": 3.39036942563117,
-              "y": 5.390369425631166
-            }
-          },
-          {
-            "id": 0,
-            "rotate": 120,
-            "translate": {
-              "x": 5.390369438776278,
-              "y": 16.1711082768935
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 120,
-            "translate": {
-              "x": 5.390369438776278,
-              "y": 26.92871519441398
-            }
-          }
-        ]
-      ]
     }
   ],
   "allConnectors": [
