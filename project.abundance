@@ -41,8 +41,8 @@
     {
       "atomType": "Circle",
       "name": "Circle",
-      "x": 0.23084112149532712,
-      "y": 0.546583850931677,
+      "x": 0.2393410852713178,
+      "y": 0.5279503105590062,
       "uniqueID": "230b5dd2-0283-449e-a0bf-1d98c5461a0f",
       "ioValues": [
         {
@@ -67,21 +67,24 @@
     {
       "atomType": "CutLayout",
       "name": "Cut Layout",
-      "x": 0.7451550387596899,
-      "y": 0.7267080745341615,
+      "x": 0.7771317829457364,
+      "y": 0.5993788819875777,
       "uniqueID": "d0ebdcae-62da-43f7-824d-0b192c1710f7",
       "ioValues": [
         {
           "name": "Sheet Width",
-          "ioValue": 96
+          "ioValue": 96,
+          "currentEquation": "96"
         },
         {
           "name": "Sheet Height",
-          "ioValue": 48
+          "ioValue": 48,
+          "currentEquation": "48"
         },
         {
           "name": "Part Padding",
-          "ioValue": 0.4
+          "ioValue": 0.4,
+          "currentEquation": "0.4"
         }
       ],
       "placements": [
@@ -116,25 +119,29 @@
     {
       "atomType": "GitHubMolecule",
       "name": "Linear-Pattern",
-      "x": 0.5271317829457365,
-      "y": 0.6118012422360248,
+      "x": 0.562984496124031,
+      "y": 0.6428571428571428,
       "uniqueID": "bead1fa5-f225-47a0-932c-0fab3b9a7bfb",
       "ioValues": [
         {
           "name": "Number",
-          "ioValue": 3
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "distX",
-          "ioValue": 20
+          "ioValue": 20,
+          "currentEquation": "20"
         },
         {
           "name": "distY",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "distZ",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ],
       "topLevel": false,
@@ -370,6 +377,40 @@
       "unitsKey": "MM",
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.35658914728682173,
+      "y": 0.5062111801242236,
+      "uniqueID": "e7073640-1007-4c0d-ad00-666e7dc305db",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25,
+          "currentEquation": "0.25"
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1,
+          "currentEquation": "1"
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500,
+          "currentEquation": "1500"
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "test_dev_2"
+        }
+      ],
+      "partName": "test_dev_2",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
