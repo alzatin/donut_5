@@ -341,11 +341,13 @@
         },
         {
           "name": "Sheet Height",
-          "ioValue": 48
+          "ioValue": 48,
+          "currentEquation": "48"
         },
         {
           "name": "Part Padding",
-          "ioValue": 0.4
+          "ioValue": 0.4,
+          "currentEquation": "0.4"
         }
       ],
       "placements": [
