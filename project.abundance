@@ -336,8 +336,8 @@
       "ioValues": [
         {
           "name": "Sheet Width",
-          "ioValue": 966,
-          "currentEquation": "966"
+          "ioValue": 96,
+          "currentEquation": "96"
         },
         {
           "name": "Sheet Height",
@@ -354,7 +354,7 @@
             "id": 1,
             "rotate": 240,
             "translate": {
-              "x": 5.390369425631166,
+              "x": 3.39036942563117,
               "y": 5.390369425631166
             }
           },
