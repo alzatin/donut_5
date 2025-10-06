@@ -68,12 +68,13 @@
       "atomType": "CutLayout",
       "name": "Cut Layout",
       "x": 0.7374031007751939,
-      "y": 0.6894409937888198,
+      "y": 0.7049689440993789,
       "uniqueID": "d0ebdcae-62da-43f7-824d-0b192c1710f7",
       "ioValues": [
         {
           "name": "Sheet Width",
-          "ioValue": 96
+          "ioValue": 96,
+          "currentEquation": "96"
         },
         {
           "name": "Sheet Height",
@@ -90,25 +91,25 @@
         [
           {
             "id": 1,
-            "rotate": 240,
+            "rotate": 24,
             "translate": {
-              "x": 376,
-              "y": 5
+              "x": 20,
+              "y": 3
             }
           },
           {
             "id": 0,
-            "rotate": 120,
+            "rotate": 12,
             "translate": {
-              "x": 5.390369438776278,
-              "y": 16.1711082768935
+              "x": 1,
+              "y": 16.13711082768935
             }
           },
           {
             "id": 2,
             "rotate": 120,
             "translate": {
-              "x": -25.6096305612237,
+              "x": -1,
               "y": 26.92871519441398
             }
           }
