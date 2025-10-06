@@ -67,24 +67,21 @@
     {
       "atomType": "CutLayout",
       "name": "Cut Layout",
-      "x": 0.7374031007751939,
-      "y": 0.7049689440993789,
+      "x": 0.7451550387596899,
+      "y": 0.7267080745341615,
       "uniqueID": "d0ebdcae-62da-43f7-824d-0b192c1710f7",
       "ioValues": [
         {
           "name": "Sheet Width",
-          "ioValue": 96,
-          "currentEquation": "96"
+          "ioValue": 96
         },
         {
           "name": "Sheet Height",
-          "ioValue": 48,
-          "currentEquation": "48"
+          "ioValue": 48
         },
         {
           "name": "Part Padding",
-          "ioValue": 0.4,
-          "currentEquation": "0.4"
+          "ioValue": 0.4
         }
       ],
       "placements": [
@@ -94,7 +91,7 @@
             "rotate": 24,
             "translate": {
               "x": 20,
-              "y": 3
+              "y": 4
             }
           },
           {
