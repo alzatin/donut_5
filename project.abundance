@@ -10,7 +10,7 @@
       "ioValue": 5
     },
     {
-      "name": "Input (2)",
+      "name": "really long input name ",
       "ioValue": 10
     }
   ],
@@ -45,8 +45,8 @@
     {
       "atomType": "Circle",
       "name": "Circle",
-      "x": 0.241747572815534,
-      "y": 0.33540372670807456,
+      "x": 0.21946308724832214,
+      "y": 0.25155279503105593,
       "uniqueID": "230b5dd2-0283-449e-a0bf-1d98c5461a0f",
       "ioValues": [
         {
@@ -150,9 +150,9 @@
     },
     {
       "atomType": "Input",
-      "name": "Input (2)",
+      "name": "really long input name ",
       "x": 0.033,
-      "y": 0.6583850931677019,
+      "y": 0.4192546583850931,
       "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
       "ioValues": [],
       "type": "number"
@@ -160,8 +160,8 @@
     {
       "atomType": "GitHubMolecule",
       "name": "Linear-Pattern",
-      "x": 0.5368932038834952,
-      "y": 0.7142857142857143,
+      "x": 0.5476510067114094,
+      "y": 0.6304347826086957,
       "uniqueID": "bead1fa5-f225-47a0-932c-0fab3b9a7bfb",
       "ioValues": [
         {
