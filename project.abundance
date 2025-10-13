@@ -20,7 +20,7 @@
       "atomType": "Input",
       "name": "Input (1)",
       "x": 0.033,
-      "y": 0.2236024844720497,
+      "y": 0.2,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -37,7 +37,7 @@
       "atomType": "Input",
       "name": "Input (1)",
       "x": 0.033,
-      "y": 0.36645962732919257,
+      "y": 0.30000000000000004,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -58,8 +58,8 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.3932038834951456,
-      "y": 0.2732919254658385,
+      "x": 0.33825503355704695,
+      "y": 0.3167701863354037,
       "uniqueID": "711f8831-7ccd-440c-84fc-b19e71fee52c",
       "ioValues": [
         {
@@ -118,41 +118,10 @@
       ]
     },
     {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.2951510892480675,
-      "y": 0.6521739130434783,
-      "uniqueID": "e7073640-1007-4c0d-ad00-666e7dc305db",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 0.25
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "test_dev_2"
-        }
-      ],
-      "partName": "test_dev_2",
-      "sortDirection": "Left"
-    },
-    {
       "atomType": "Input",
       "name": "really long input name ",
       "x": 0.033,
-      "y": 0.5062111801242236,
+      "y": 0.40372670807453415,
       "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
       "ioValues": [],
       "type": "number"
