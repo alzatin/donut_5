@@ -20,7 +20,7 @@
       "atomType": "Input",
       "name": "Input (1)",
       "x": 0.033,
-      "y": 1.1610738255033557,
+      "y": 0.2236024844720497,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -37,7 +37,7 @@
       "atomType": "Input",
       "name": "Input (1)",
       "x": 0.033,
-      "y": 1.1950738255033557,
+      "y": 0.36645962732919257,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -152,7 +152,7 @@
       "atomType": "Input",
       "name": "really long input name ",
       "x": 0.033,
-      "y": 0.4192546583850931,
+      "y": 0.5062111801242236,
       "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
       "ioValues": [],
       "type": "number"
@@ -212,7 +212,7 @@
           "atomType": "Input",
           "name": "Number",
           "x": 0.033,
-          "y": 0.32869080779944293,
+          "y": 0.2,
           "uniqueID": "06f38075-c429-4fee-b8d6-41d6ac2a9927",
           "ioValues": [],
           "type": "number"
@@ -221,7 +221,7 @@
           "atomType": "Input",
           "name": "Geometry",
           "x": 0.033,
-          "y": 0.9108635097493036,
+          "y": 0.30000000000000004,
           "uniqueID": "b4757ab5-499f-4c70-a494-40e398af0c36",
           "ioValues": [],
           "type": "geometry"
@@ -257,7 +257,7 @@
           "atomType": "Input",
           "name": "distX",
           "x": 0.033,
-          "y": 0.5,
+          "y": 0.4,
           "uniqueID": "31401909-4245-4b7c-9d5c-f07d2f290228",
           "ioValues": [],
           "type": "number"
@@ -266,7 +266,7 @@
           "atomType": "Input",
           "name": "distY",
           "x": 0.033,
-          "y": 0.6174698795180722,
+          "y": 0.5,
           "uniqueID": "e7b233e5-466a-45a6-b60a-3b61b804ad86",
           "ioValues": [],
           "type": "number"
@@ -275,7 +275,7 @@
           "atomType": "Input",
           "name": "distZ",
           "x": 0.033,
-          "y": 0.7650602409638555,
+          "y": 0.6,
           "uniqueID": "c118b886-8a98-475b-9172-5f86e1dd3c83",
           "ioValues": [],
           "type": "number"
