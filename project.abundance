@@ -121,7 +121,7 @@
       "atomType": "Input",
       "name": "really long input name ",
       "x": 0.033,
-      "y": 0.40372670807453415,
+      "y": 0.4,
       "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
       "ioValues": [],
       "type": "number"
