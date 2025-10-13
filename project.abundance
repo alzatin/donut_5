@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "Input (1)",
-      "ioValue": 5,
-      "currentEquation": "5"
+      "ioValue": 5
     },
     {
       "name": "Input (2)",
@@ -20,7 +19,7 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.025384615384615384,
+      "x": 0.033,
       "y": 1.1610738255033557,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
@@ -37,7 +36,7 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.025384615384615384,
+      "x": 0.033,
       "y": 1.1950738255033557,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
@@ -150,6 +149,15 @@
       "sortDirection": "Left"
     },
     {
+      "atomType": "Input",
+      "name": "Input (2)",
+      "x": 0.033,
+      "y": 0.6583850931677019,
+      "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
       "atomType": "GitHubMolecule",
       "name": "Linear-Pattern",
       "x": 0.5368932038834952,
@@ -203,7 +211,7 @@
         {
           "atomType": "Input",
           "name": "Number",
-          "x": 0.025384615384615384,
+          "x": 0.033,
           "y": 0.32869080779944293,
           "uniqueID": "06f38075-c429-4fee-b8d6-41d6ac2a9927",
           "ioValues": [],
@@ -212,7 +220,7 @@
         {
           "atomType": "Input",
           "name": "Geometry",
-          "x": 0.025384615384615384,
+          "x": 0.033,
           "y": 0.9108635097493036,
           "uniqueID": "b4757ab5-499f-4c70-a494-40e398af0c36",
           "ioValues": [],
@@ -248,7 +256,7 @@
         {
           "atomType": "Input",
           "name": "distX",
-          "x": 0.025384615384615384,
+          "x": 0.033,
           "y": 0.5,
           "uniqueID": "31401909-4245-4b7c-9d5c-f07d2f290228",
           "ioValues": [],
@@ -257,7 +265,7 @@
         {
           "atomType": "Input",
           "name": "distY",
-          "x": 0.025384615384615384,
+          "x": 0.033,
           "y": 0.6174698795180722,
           "uniqueID": "e7b233e5-466a-45a6-b60a-3b61b804ad86",
           "ioValues": [],
@@ -266,7 +274,7 @@
         {
           "atomType": "Input",
           "name": "distZ",
-          "x": 0.025384615384615384,
+          "x": 0.033,
           "y": 0.7650602409638555,
           "uniqueID": "c118b886-8a98-475b-9172-5f86e1dd3c83",
           "ioValues": [],
@@ -406,15 +414,6 @@
       "unitsKey": "MM",
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "Input",
-      "name": "Input (2)",
-      "x": 0.025384615384615384,
-      "y": 0.6583850931677019,
-      "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
-      "ioValues": [],
-      "type": "number"
     }
   ],
   "allConnectors": [
@@ -437,16 +436,16 @@
       "ap2ID": "bead1fa5-f225-47a0-932c-0fab3b9a7bfb"
     },
     {
-      "ap1Name": "geometry or number",
-      "ap2Name": "geometry",
-      "ap1ID": "bead1fa5-f225-47a0-932c-0fab3b9a7bfb",
-      "ap2ID": "d0ebdcae-62da-43f7-824d-0b192c1710f7"
-    },
-    {
       "ap1Name": "number or geometry",
       "ap2Name": "diameter",
       "ap1ID": "199cfb91-890f-4576-9d9c-24488e73fd88",
       "ap2ID": "230b5dd2-0283-449e-a0bf-1d98c5461a0f"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "bead1fa5-f225-47a0-932c-0fab3b9a7bfb",
+      "ap2ID": "d0ebdcae-62da-43f7-824d-0b192c1710f7"
     }
   ],
   "unitsKey": "Inches",
