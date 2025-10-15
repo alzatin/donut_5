@@ -114,7 +114,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-3cbe39e0a2519b6b57c04fb238abf33946b43c05641dc31e3315fac96abaef10",
+            "geometry": "move-9fe74243b418363193d6670eef56d0375590f404ad05dacf78d98f13d0af739c",
             "tags": [],
             "plane": {
               "origin": [
@@ -143,8 +143,8 @@
     {
       "atomType": "Molecule",
       "name": "Molecule",
-      "x": 0.31073825503355706,
-      "y": 0.6956521739130435,
+      "x": 0.3154362416107383,
+      "y": 0.7018633540372671,
       "uniqueID": "bc4e9866-8e10-45d4-b9ac-4a31519b3f3a",
       "ioValues": [],
       "topLevel": false,
