@@ -78,10 +78,73 @@
       "type": "number"
     },
     {
+      "atomType": "Assembly",
+      "name": "Assembly",
+      "x": 0.5731543624161074,
+      "y": 0.577639751552795,
+      "uniqueID": "7e04054d-5866-4ddf-ad37-4d2c23d6141e",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "extrude-3e3717ad50e94e37211d12383de10df37d479075d2804e82a57138daa63690a0",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-3cbe39e0a2519b6b57c04fb238abf33946b43c05641dc31e3315fac96abaef10",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "3D"
+          }
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "name": "Molecule",
-      "x": 0.31409395973154364,
-      "y": 0.6770186335403726,
+      "x": 0.31073825503355706,
+      "y": 0.6956521739130435,
       "uniqueID": "bc4e9866-8e10-45d4-b9ac-4a31519b3f3a",
       "ioValues": [],
       "topLevel": false,
@@ -123,8 +186,8 @@
         {
           "atomType": "Gcode",
           "name": "Gcode",
-          "x": 0.6073825503355704,
-          "y": 0.40993788819875776,
+          "x": 0.6060402684563758,
+          "y": 0.43788819875776397,
           "uniqueID": "5c2d62a6-10d0-45c1-8d0d-c16e1d72d08d",
           "ioValues": [
             {
@@ -133,8 +196,7 @@
             },
             {
               "name": "Passes",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 3
             },
             {
               "name": "Speed",
@@ -202,69 +264,6 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "Assembly",
-      "name": "Assembly",
-      "x": 0.5731543624161074,
-      "y": 0.577639751552795,
-      "uniqueID": "7e04054d-5866-4ddf-ad37-4d2c23d6141e",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "extrude-3e3717ad50e94e37211d12383de10df37d479075d2804e82a57138daa63690a0",
-            "dimension": "3D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": "move-14cff20ded44221517afd059d2ce552ecb067b3861b436881c0a6496f38f233e",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": [],
-            "dimension": "3D"
-          }
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -281,16 +280,16 @@
       "ap2ID": "7e04054d-5866-4ddf-ad37-4d2c23d6141e"
     },
     {
-      "ap1Name": "geometry or number",
-      "ap2Name": "Shape 2",
-      "ap1ID": "bc4e9866-8e10-45d4-b9ac-4a31519b3f3a",
-      "ap2ID": "7e04054d-5866-4ddf-ad37-4d2c23d6141e"
-    },
-    {
       "ap1Name": "geometry",
       "ap2Name": "number or geometry",
       "ap1ID": "7e04054d-5866-4ddf-ad37-4d2c23d6141e",
       "ap2ID": "1ffc5a2f-7e16-43dd-9783-069e836ed32b"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "Shape 2",
+      "ap1ID": "bc4e9866-8e10-45d4-b9ac-4a31519b3f3a",
+      "ap2ID": "7e04054d-5866-4ddf-ad37-4d2c23d6141e"
     }
   ],
   "unitsKey": "Inches",
