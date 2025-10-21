@@ -19,8 +19,8 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.031349999999999996,
-      "y": 0.19,
+      "x": 0.0264,
+      "y": 0.16,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -28,8 +28,8 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.031349999999999996,
-      "y": 0.28500000000000003,
+      "x": 0.0264,
+      "y": 0.24,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -37,8 +37,8 @@
     {
       "atomType": "Input",
       "name": "really long input name ",
-      "x": 0.031349999999999996,
-      "y": 0.38,
+      "x": 0.0264,
+      "y": 0.32,
       "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
       "ioValues": [],
       "type": "number"
@@ -46,8 +46,8 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.031349999999999996,
-      "y": 0.475,
+      "x": 0.0264,
+      "y": 0.4,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -63,8 +63,8 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.031349999999999996,
-      "y": 0.57,
+      "x": 0.0264,
+      "y": 0.48000000000000004,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -72,8 +72,8 @@
     {
       "atomType": "Input",
       "name": "really long input name ",
-      "x": 0.031349999999999996,
-      "y": 0.6649999999999999,
+      "x": 0.0264,
+      "y": 0.56,
       "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
       "ioValues": [],
       "type": "number"
@@ -100,8 +100,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         }
       ]
     },
@@ -125,7 +124,18 @@
           "ioValue": 0.4
         }
       ],
-      "placements": []
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 5.4019354,
+              "y": 5.4019354
+            }
+          }
+        ]
+      ]
     }
   ],
   "allConnectors": [
