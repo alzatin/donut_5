@@ -19,8 +19,8 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.033,
-      "y": 0.2,
+      "x": 0.031349999999999996,
+      "y": 0.19,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -28,8 +28,8 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.033,
-      "y": 0.30000000000000004,
+      "x": 0.031349999999999996,
+      "y": 0.28500000000000003,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -37,8 +37,8 @@
     {
       "atomType": "Input",
       "name": "really long input name ",
-      "x": 0.033,
-      "y": 0.4,
+      "x": 0.031349999999999996,
+      "y": 0.38,
       "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
       "ioValues": [],
       "type": "number"
@@ -46,8 +46,8 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.033,
-      "y": 0.5,
+      "x": 0.031349999999999996,
+      "y": 0.475,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -63,8 +63,8 @@
     {
       "atomType": "Input",
       "name": "Input (1)",
-      "x": 0.033,
-      "y": 0.6,
+      "x": 0.031349999999999996,
+      "y": 0.57,
       "uniqueID": "f2f9c959-601c-40e5-b7d2-da766aff3e89",
       "ioValues": [],
       "type": "number"
@@ -72,8 +72,8 @@
     {
       "atomType": "Input",
       "name": "really long input name ",
-      "x": 0.033,
-      "y": 0.7,
+      "x": 0.031349999999999996,
+      "y": 0.6649999999999999,
       "uniqueID": "199cfb91-890f-4576-9d9c-24488e73fd88",
       "ioValues": [],
       "type": "number"
@@ -81,8 +81,8 @@
     {
       "atomType": "Circle",
       "name": "Circle",
-      "x": 0.4,
-      "y": 0.49689440993788814,
+      "x": 0.2865771812080537,
+      "y": 0.48757763975155277,
       "uniqueID": "fb647ad6-17e4-44da-9789-61e6c042f5c9",
       "ioValues": [
         {
@@ -90,9 +90,58 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.4248322147651007,
+      "y": 0.35403726708074534,
+      "uniqueID": "241c09e5-d981-4752-af63-ffa6d920526a",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 1,
+          "currentEquation": "1"
+        }
+      ]
+    },
+    {
+      "atomType": "CutLayout",
+      "name": "Cut Layout",
+      "x": 0.5771812080536913,
+      "y": 0.562111801242236,
+      "uniqueID": "00ffff8c-ff67-4167-b4b0-fe0762efe098",
+      "ioValues": [
+        {
+          "name": "Sheet Width",
+          "ioValue": 96
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 48
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 0.4
+        }
+      ],
+      "placements": []
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "fb647ad6-17e4-44da-9789-61e6c042f5c9",
+      "ap2ID": "241c09e5-d981-4752-af63-ffa6d920526a"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "241c09e5-d981-4752-af63-ffa6d920526a",
+      "ap2ID": "00ffff8c-ff67-4167-b4b0-fe0762efe098"
+    }
+  ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "compiledBom": [],
