@@ -31,9 +31,9 @@
     {
       "atomType": "GitHubMolecule",
       "name": "Github Molecule",
-      "x": 0.5585149313962874,
-      "y": 0.7391304347826086,
-      "uniqueID": "e8069ead-459e-46ee-98fb-7eb6c890fc63",
+      "x": 0.4803220035778175,
+      "y": 0.6242236024844721,
+      "uniqueID": "790983c4-a58e-4e6c-ad52-486feaf972aa",
       "ioValues": [],
       "topLevel": false,
       "allAtoms": [
@@ -42,7 +42,7 @@
           "name": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "1f05ff95-ac38-4939-8634-cf3c6d9d021c",
+          "uniqueID": "581188c3-0b32-42ec-96ac-3a11c89c4dd0",
           "ioValues": []
         }
       ],
