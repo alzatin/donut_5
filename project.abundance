@@ -6,7 +6,51 @@
   "uniqueID": "31bec8f3-cd54-4cfa-a6f9-63551633565c",
   "ioValues": [],
   "topLevel": true,
-  "allAtoms": [],
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "5049205c-76f3-4469-893d-63f00cbf63c0",
+      "ioValues": []
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.33252623083131555,
+      "y": 0.5279503105590062,
+      "uniqueID": "ae38e9af-3821-4f38-9546-4431a60cadc1",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "name": "Github Molecule",
+      "x": 0.5585149313962874,
+      "y": 0.7391304347826086,
+      "uniqueID": "e8069ead-459e-46ee-98fb-7eb6c890fc63",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "1f05ff95-ac38-4939-8634-cf3c6d9d021c",
+          "ioValues": []
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
+    }
+  ],
   "allConnectors": [],
   "fileTypeVersion": 1,
   "compiledBom": {},
