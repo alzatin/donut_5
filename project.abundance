@@ -44,12 +44,29 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.6919140225179119,
-      "y": 0.5093167701863354,
+      "x": 0.7011258955987717,
+      "y": 0.4192546583850931,
       "uniqueID": "5963993f-3e05-4592-b3ac-dfe6a2728e8d",
       "ioValues": [
         {
           "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.5731832139201638,
+      "y": 0.717391304347826,
+      "uniqueID": "a62721a9-8bcc-4c05-8e14-90b694d3886f",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
           "ioValue": 10
         }
       ]
@@ -58,15 +75,15 @@
   "allConnectors": [
     {
       "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "ae38e9af-3821-4f38-9546-4431a60cadc1",
-      "ap2ID": "5963993f-3e05-4592-b3ac-dfe6a2728e8d"
-    },
-    {
-      "ap1Name": "geometry",
       "ap2Name": "number or geometry",
       "ap1ID": "5963993f-3e05-4592-b3ac-dfe6a2728e8d",
       "ap2ID": "5049205c-76f3-4469-893d-63f00cbf63c0"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "a62721a9-8bcc-4c05-8e14-90b694d3886f",
+      "ap2ID": "5963993f-3e05-4592-b3ac-dfe6a2728e8d"
     }
   ],
   "fileTypeVersion": 1,
