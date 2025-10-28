@@ -27,28 +27,6 @@
           "ioValue": 10
         }
       ]
-    },
-    {
-      "atomType": "GitHubMolecule",
-      "name": "Github Molecule",
-      "x": 0.4803220035778175,
-      "y": 0.6242236024844721,
-      "uniqueID": "790983c4-a58e-4e6c-ad52-486feaf972aa",
-      "ioValues": [],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "name": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "581188c3-0b32-42ec-96ac-3a11c89c4dd0",
-          "ioValues": []
-        }
-      ],
-      "allConnectors": [],
-      "fileTypeVersion": 1,
-      "compiledBom": {}
     }
   ],
   "allConnectors": [],
