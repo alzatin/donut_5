@@ -18,21 +18,8 @@
     {
       "atomType": "Circle",
       "name": "Circle",
-      "x": 0.47287615148413514,
-      "y": 0.5527950310559007,
-      "uniqueID": "ae38e9af-3821-4f38-9546-4431a60cadc1",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Circle",
-      "name": "Circle",
-      "x": 0.348993288590604,
-      "y": 0.5559006211180124,
+      "x": 0.3469805527123848,
+      "y": 0.5248447204968945,
       "uniqueID": "06dbce45-77f4-4993-bc92-ee9facdc3e86",
       "ioValues": [
         {
@@ -42,45 +29,48 @@
       ]
     },
     {
-      "atomType": "Extrude",
-      "name": "Extrude",
-      "x": 0.7011258955987717,
-      "y": 0.4192546583850931,
-      "uniqueID": "5963993f-3e05-4592-b3ac-dfe6a2728e8d",
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.526100307062436,
+      "y": 0.6024844720496894,
+      "uniqueID": "d23294ce-71b3-45a0-8d9c-10450975b72a",
       "ioValues": [
         {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Rectangle",
-      "name": "Rectangle",
-      "x": 0.5731832139201638,
-      "y": 0.717391304347826,
-      "uniqueID": "a62721a9-8bcc-4c05-8e14-90b694d3886f",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 10
+          "name": "x-axis degrees",
+          "ioValue": 30,
+          "currentEquation": "30"
         },
         {
-          "name": "y length",
-          "ioValue": 10
+          "name": "y-axis degrees",
+          "ioValue": 20,
+          "currentEquation": "20"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 20,
+          "currentEquation": "20"
         }
       ]
     },
     {
-      "atomType": "Circle",
-      "name": "Circle",
-      "x": 0.7154554759467759,
-      "y": 0.7795031055900621,
-      "uniqueID": "441be159-3f43-425d-bdf8-c7f98ac72952",
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.6775844421699079,
+      "y": 0.577639751552795,
+      "uniqueID": "064e8526-8842-4235-a7bb-efa1cba9c490",
       "ioValues": [
         {
-          "name": "diameter",
-          "ioValue": 10
+          "name": "x-axis degrees",
+          "ioValue": 30,
+          "currentEquation": "30"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
         }
       ]
     }
@@ -88,15 +78,15 @@
   "allConnectors": [
     {
       "ap1Name": "geometry",
-      "ap2Name": "number or geometry",
-      "ap1ID": "5963993f-3e05-4592-b3ac-dfe6a2728e8d",
-      "ap2ID": "5049205c-76f3-4469-893d-63f00cbf63c0"
+      "ap2Name": "geometry",
+      "ap1ID": "06dbce45-77f4-4993-bc92-ee9facdc3e86",
+      "ap2ID": "d23294ce-71b3-45a0-8d9c-10450975b72a"
     },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
-      "ap1ID": "a62721a9-8bcc-4c05-8e14-90b694d3886f",
-      "ap2ID": "5963993f-3e05-4592-b3ac-dfe6a2728e8d"
+      "ap1ID": "d23294ce-71b3-45a0-8d9c-10450975b72a",
+      "ap2ID": "064e8526-8842-4235-a7bb-efa1cba9c490"
     }
   ],
   "fileTypeVersion": 1,
