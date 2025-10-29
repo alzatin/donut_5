@@ -37,32 +37,28 @@
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ]
     },
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.6693961105424769,
-      "y": 0.3726708074534162,
+      "x": 0.646878198567042,
+      "y": 0.36024844720496896,
       "uniqueID": "064e8526-8842-4235-a7bb-efa1cba9c490",
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         },
         {
           "name": "y-axis degrees",
