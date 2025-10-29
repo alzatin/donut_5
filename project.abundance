@@ -18,8 +18,8 @@
     {
       "atomType": "Circle",
       "name": "Circle",
-      "x": 0.24462640736949848,
-      "y": 0.5341614906832298,
+      "x": 0.240532241555783,
+      "y": 0.5217391304347826,
       "uniqueID": "06dbce45-77f4-4993-bc92-ee9facdc3e86",
       "ioValues": [
         {
@@ -41,8 +41,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         },
         {
           "name": "z-axis degrees",
@@ -59,18 +58,15 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         },
         {
           "name": "yDist",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "zDist",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
