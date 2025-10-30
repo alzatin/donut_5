@@ -6,7 +6,29 @@
   "uniqueID": "01e278b0-4910-484c-bdc0-8458b001eb66",
   "ioValues": [],
   "topLevel": true,
-  "allAtoms": [],
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "d3e25771-0f7c-4215-a122-f7c1045f96fc",
+      "ioValues": []
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.460387323943662,
+      "y": 0.5931677018633541,
+      "uniqueID": "c5262882-98ae-4ee5-b9e4-495e8480c4b5",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    }
+  ],
   "allConnectors": [],
   "fileTypeVersion": 1,
   "compiledBom": {},
