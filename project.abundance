@@ -41,8 +41,8 @@
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 45,
+          "currentEquation": "45"
         },
         {
           "name": "y-axis degrees",
@@ -57,24 +57,56 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.5742222222222223,
-      "y": 0.6335403726708074,
+      "x": 0.6337777777777778,
+      "y": 0.38509316770186336,
       "uniqueID": "ddb57797-d5bf-4c10-b99e-a2d5a756be67",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "yDist",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "zDist",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.6942222222222222,
+      "y": 0.7795031055900621,
+      "uniqueID": "dd76baf2-8245-4d96-b2ca-c3e606bfe235",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.8097777777777778,
+      "y": 0.5403726708074534,
+      "uniqueID": "3112c1d8-7e2c-4c09-b41e-6ab2e3445b82",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     }
@@ -91,6 +123,18 @@
       "ap2Name": "geometry",
       "ap1ID": "40e2daef-645e-45e3-987d-9e1d324e61cf",
       "ap2ID": "ddb57797-d5bf-4c10-b99e-a2d5a756be67"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "ddb57797-d5bf-4c10-b99e-a2d5a756be67",
+      "ap2ID": "dd76baf2-8245-4d96-b2ca-c3e606bfe235"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "dd76baf2-8245-4d96-b2ca-c3e606bfe235",
+      "ap2ID": "3112c1d8-7e2c-4c09-b41e-6ab2e3445b82"
     }
   ],
   "fileTypeVersion": 1,
