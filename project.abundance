@@ -86,8 +86,8 @@
     {
       "atomType": "Loft",
       "name": "Loft",
-      "x": 0.7914055505819159,
-      "y": 0.5900621118012422,
+      "x": 0.6899328859060403,
+      "y": 0.2546583850931677,
       "uniqueID": "67dac602-8279-43bf-bad6-8af4863b6800",
       "ioValues": [
         {
@@ -216,6 +216,12 @@
       "ap2Name": "Shape 2",
       "ap1ID": "ec8b15e0-2544-4b7f-bb10-930fcc1413b4",
       "ap2ID": "67dac602-8279-43bf-bad6-8af4863b6800"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
+      "ap1ID": "67dac602-8279-43bf-bad6-8af4863b6800",
+      "ap2ID": "5049205c-76f3-4469-893d-63f00cbf63c0"
     },
     {
       "ap1Name": "geometry",
