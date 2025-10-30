@@ -173,8 +173,7 @@
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         },
         {
           "name": "y-axis degrees",
