@@ -16,20 +16,83 @@
       "ioValues": []
     },
     {
-      "atomType": "Circle",
-      "name": "Circle",
-      "x": 0.460387323943662,
-      "y": 0.5931677018633541,
-      "uniqueID": "c5262882-98ae-4ee5-b9e4-495e8480c4b5",
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.33155555555555555,
+      "y": 0.7639751552795032,
+      "uniqueID": "1b9e4495-2958-490f-b191-17e032057477",
       "ioValues": [
         {
-          "name": "diameter",
+          "name": "x length",
           "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.4791111111111111,
+      "y": 0.5496894409937888,
+      "uniqueID": "40e2daef-645e-45e3-987d-9e1d324e61cf",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.5742222222222223,
+      "y": 0.6335403726708074,
+      "uniqueID": "ddb57797-d5bf-4c10-b99e-a2d5a756be67",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 5,
+          "currentEquation": "5"
         }
       ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "1b9e4495-2958-490f-b191-17e032057477",
+      "ap2ID": "40e2daef-645e-45e3-987d-9e1d324e61cf"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "40e2daef-645e-45e3-987d-9e1d324e61cf",
+      "ap2ID": "ddb57797-d5bf-4c10-b99e-a2d5a756be67"
+    }
+  ],
   "fileTypeVersion": 1,
   "compiledBom": {},
   "filetypeVersion": 1
