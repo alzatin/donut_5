@@ -18,8 +18,8 @@
     {
       "atomType": "Rectangle",
       "name": "Rectangle",
-      "x": 0.33066666666666666,
-      "y": 0.7670807453416149,
+      "x": 0.24711111111111111,
+      "y": 0.4472049689440994,
       "uniqueID": "1b9e4495-2958-490f-b191-17e032057477",
       "ioValues": [
         {
@@ -33,54 +33,11 @@
       ]
     },
     {
-      "atomType": "Rotate",
-      "name": "Rotate",
-      "x": 0.4808888888888889,
-      "y": 0.5403726708074534,
-      "uniqueID": "40e2daef-645e-45e3-987d-9e1d324e61cf",
-      "ioValues": [
-        {
-          "name": "x-axis degrees",
-          "ioValue": 45
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.6471111111111111,
-      "y": 0.39751552795031053,
-      "uniqueID": "ddb57797-d5bf-4c10-b99e-a2d5a756be67",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 10
-        },
-        {
-          "name": "yDist",
-          "ioValue": 10
-        },
-        {
-          "name": "zDist",
-          "ioValue": 5,
-          "currentEquation": "5"
-        }
-      ]
-    },
-    {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.7075555555555556,
-      "y": 0.7981366459627329,
-      "uniqueID": "dd76baf2-8245-4d96-b2ca-c3e606bfe235",
+      "x": 0.41333333333333333,
+      "y": 0.6863354037267081,
+      "uniqueID": "89f5ea0e-101f-45dc-98f6-3d8e4cb8af95",
       "ioValues": [
         {
           "name": "height",
@@ -89,25 +46,37 @@
       ]
     },
     {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.7973333333333333,
-      "y": 0.5527950310559007,
-      "uniqueID": "3112c1d8-7e2c-4c09-b41e-6ab2e3445b82",
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.6195555555555555,
+      "y": 0.5372670807453416,
+      "uniqueID": "d7bd044f-9afc-4440-9b3b-d7eb3488d3b6",
       "ioValues": [
         {
-          "name": "xDist",
+          "name": "Tool Size",
+          "ioValue": 0.5,
+          "currentEquation": ".5"
+        },
+        {
+          "name": "Passes",
+          "ioValue": 6,
+          "currentEquation": "6"
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
           "ioValue": 0
         },
         {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 10
+          "name": "Part Name",
+          "ioValue": "Molecule"
         }
-      ]
+      ],
+      "partName": "Molecule",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -115,25 +84,13 @@
       "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "1b9e4495-2958-490f-b191-17e032057477",
-      "ap2ID": "40e2daef-645e-45e3-987d-9e1d324e61cf"
+      "ap2ID": "89f5ea0e-101f-45dc-98f6-3d8e4cb8af95"
     },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
-      "ap1ID": "40e2daef-645e-45e3-987d-9e1d324e61cf",
-      "ap2ID": "ddb57797-d5bf-4c10-b99e-a2d5a756be67"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "ddb57797-d5bf-4c10-b99e-a2d5a756be67",
-      "ap2ID": "dd76baf2-8245-4d96-b2ca-c3e606bfe235"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "dd76baf2-8245-4d96-b2ca-c3e606bfe235",
-      "ap2ID": "3112c1d8-7e2c-4c09-b41e-6ab2e3445b82"
+      "ap1ID": "89f5ea0e-101f-45dc-98f6-3d8e4cb8af95",
+      "ap2ID": "d7bd044f-9afc-4440-9b3b-d7eb3488d3b6"
     }
   ],
   "fileTypeVersion": 1,
