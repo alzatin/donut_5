@@ -56,8 +56,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.6391111111111112,
-      "y": 0.40062111801242234,
+      "x": 0.6471111111111111,
+      "y": 0.39751552795031053,
       "uniqueID": "ddb57797-d5bf-4c10-b99e-a2d5a756be67",
       "ioValues": [
         {
@@ -70,15 +70,16 @@
         },
         {
           "name": "zDist",
-          "ioValue": 5
+          "ioValue": 5,
+          "currentEquation": "5"
         }
       ]
     },
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.7013333333333333,
-      "y": 0.7732919254658385,
+      "x": 0.7075555555555556,
+      "y": 0.7981366459627329,
       "uniqueID": "dd76baf2-8245-4d96-b2ca-c3e606bfe235",
       "ioValues": [
         {
