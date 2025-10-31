@@ -35,8 +35,8 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.41333333333333333,
-      "y": 0.6863354037267081,
+      "x": 0.4275555555555556,
+      "y": 0.3012422360248447,
       "uniqueID": "89f5ea0e-101f-45dc-98f6-3d8e4cb8af95",
       "ioValues": [
         {
@@ -48,19 +48,17 @@
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.6195555555555555,
-      "y": 0.5372670807453416,
+      "x": 0.6222222222222222,
+      "y": 0.28260869565217395,
       "uniqueID": "d7bd044f-9afc-4440-9b3b-d7eb3488d3b6",
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 0.5,
-          "currentEquation": ".5"
+          "ioValue": 0.5
         },
         {
           "name": "Passes",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": 6
         },
         {
           "name": "Speed",
